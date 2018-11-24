@@ -1,0 +1,190 @@
+﻿/*
+SLIDE and SCROLL - FFW
+https://www.slide-and-scroll.org/
+
+Copyright 2018 SLIDE and SCROLL by Daniel Friedrich
+Released under the MIT license
+
+@author: Daniel Friedrich
+Date: 01.08.2018
+*/
+
+
+/*
+TABLE OF CONTENTS
+    I.   "large" screen and projection (min-width: 1280px)
+    II.  "medium" screen and (min-width: 768px and max-width: 1279px)
+    III. "small" screen and (max-width: 767px)
+    IV.  print
+    V.   common
+*/
+
+/*
+_________________________________________________________________
+
+I. "large" screen and projection (min-width: 1280px)
+_________________________________________________________________
+*/
+
+
+
+
+/*
+_________________________________________________________________
+
+II. "medium" screen and (min-width: 768px and max-width: 1279px)
+_________________________________________________________________
+*/
+@media only screen and (max-width: 1279px)
+{
+
+}
+
+
+
+/*
+_________________________________________________________________
+
+III. "small" screen and (max-width: 767px)
+_________________________________________________________________
+*/
+@media only screen and (max-width: 767px)
+{
+
+}
+
+
+
+/*
+_________________________________________________________________
+
+IV. print
+_________________________________________________________________
+*/
+@media only print
+{
+
+}
+
+
+
+/*
+_________________________________________________________________
+
+V. common
+_________________________________________________________________
+*/
+.SNSFFW-Flex__Item {
+    -ms-flex-positive: 0;
+    -ms-flex-negative: 1;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.SNSFFW-Flex__Item1of3 {
+    -ms-flex-positive: 0;
+    -ms-flex-negative: 1;
+    -ms-flex-preferred-size: calc(100% / 3);
+    flex-basis: calc(100% / 3);
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.SNSFFW-Flex__Item2of3 {
+    -ms-flex-positive: 0;
+    -ms-flex-negative: 1;
+    -ms-flex-preferred-size: calc(100% / 3 * 2);
+    flex-basis: calc(100% / 3 * 2);
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.SNSFFW-Flex__Item1of4 {
+    -ms-flex-positive: 0;
+    -ms-flex-negative: 1;
+    -ms-flex-preferred-size: calc(100% / 4);
+    flex-basis: calc(100% / 4);
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.SNSFFW-Flex__Item2of4 {
+    -ms-flex-positive: 0;
+    -ms-flex-negative: 1;
+    -ms-flex-preferred-size: calc(100% / 4 * 2);
+    flex-basis: calc(100% / 4 * 2);
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.SNSFFW-Flex__Item3of4 {
+    -ms-flex-positive: 0;
+    -ms-flex-negative: 1;
+    -ms-flex-preferred-size: calc(100% / 4 * 3);
+    flex-basis: calc(100% / 4 * 3);
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.SNSFFW-Flex__Item1of5 {
+    -ms-flex-positive: 0;
+    -ms-flex-negative: 1;
+    -ms-flex-preferred-size: calc(100% / 5);
+    flex-basis: calc(100% / 5);
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.SNSFFW-Flex__Item2of5 {
+    -ms-flex-positive: 0;
+    -ms-flex-negative: 1;
+    -ms-flex-preferred-size: calc(100% / 5 * 2);
+    flex-basis: calc(100% / 5 * 2);
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.SNSFFW-Flex__Item3of5 {
+    -ms-flex-positive: 0;
+    -ms-flex-negative: 1;
+    -ms-flex-preferred-size: calc(100% / 5 * 3);
+    flex-basis: calc(100% / 5 * 3);
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.SNSFFW-Flex__Item4of5 {
+    -ms-flex-positive: 0;
+    -ms-flex-negative: 1;
+    -ms-flex-preferred-size: calc(100% / 5 * 4);
+    flex-basis: calc(100% / 5 * 4);
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+.SNSFFW-Flex__HorizontalAlignment--Start {
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.SNSFFW-Flex__HorizontalAlignment--Center {
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.SNSFFW-Flex__HorizontalAlignment--End {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.SNSFFW-Flex__HorizontalAlignment--SpaceBetween {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.SNSFFW-Flex__HorizontalAlignment--SpaceAround {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+.SNSFFW-Flex__VerticalAlignment--Start {
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.SNSFFW-Flex__VerticalAlignment--Center {
+    -ms-flex-align: center;
+    align-items: center;
+}
+.SNSFFW-Flex__VerticalAlignment--End {
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+

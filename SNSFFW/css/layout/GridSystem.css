@@ -1,0 +1,276 @@
+﻿/*
+SLIDE and SCROLL - FFW
+https://www.slide-and-scroll.org/
+
+Copyright 2018 SLIDE and SCROLL by Daniel Friedrich
+Released under the MIT license
+
+@author: Daniel Friedrich
+Date: 01.08.2018
+*/
+
+
+/*
+TABLE OF CONTENTS
+    I.   "large" screen and projection (min-width: 1280px)
+    II.  "medium" screen and (min-width: 768px and max-width: 1279px)
+    III. "small" screen and (max-width: 767px)
+    IV.  print
+    V.   common
+*/
+
+/*
+_________________________________________________________________
+
+I. "large" screen and projection (min-width: 1280px)
+_________________________________________________________________
+*/
+
+
+
+
+/*
+_________________________________________________________________
+
+II. "medium" screen and (min-width: 768px and max-width: 1279px)
+_________________________________________________________________
+*/
+@media only screen and (max-width: 1279px)
+{
+
+}
+
+
+
+/*
+_________________________________________________________________
+
+III. "small" screen and (max-width: 767px)
+_________________________________________________________________
+*/
+@media only screen and (max-width: 767px)
+{
+
+}
+
+
+
+/*
+_________________________________________________________________
+
+IV. print
+_________________________________________________________________
+*/
+@media only print
+{
+
+}
+
+
+
+/*
+_________________________________________________________________
+
+V. common
+_________________________________________________________________
+*/
+.SNSFFW-Grid__3Columns
+{
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+}
+.SNSFFW-Grid__3Rows
+{
+    -ms-grid-rows: (1fr)[3];
+    grid-template-rows: repeat(3, 1fr);
+}
+.SNSFFW-Grid__4Columns
+{
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+}
+.SNSFFW-Grid__4Rows
+{
+    -ms-grid-rows: (1fr)[4];
+    grid-template-rows: repeat(4, 1fr);
+}
+.SNSFFW-Grid__5Columns
+{
+    -ms-grid-columns: (1fr)[5];
+    grid-template-columns: repeat(5, 1fr);
+}
+.SNSFFW-Grid__5Rows
+{
+    -ms-grid-rows: (1fr)[5];
+    grid-template-rows: repeat(5, 1fr);
+}
+.SNSFFW-Grid__Column1
+{
+    -ms-grid-column: 1;
+    grid-column: 1;
+}
+.SNSFFW-Grid__Column2
+{
+    -ms-grid-column: 2;
+    grid-column: 2;
+}
+.SNSFFW-Grid__Column3
+{
+    -ms-grid-column: 3;
+    grid-column: 3;
+}
+.SNSFFW-Grid__Column4
+{
+    -ms-grid-column: 4;
+    grid-column: 4;
+}
+.SNSFFW-Grid__Column5
+{
+    -ms-grid-column: 5;
+    grid-column: 5;
+}
+.SNSFFW-Grid__Column1to2
+{
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+}
+.SNSFFW-Grid__Column1to3
+{
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1 / span 3;
+}
+.SNSFFW-Grid__Column1to4
+{
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 4;
+    grid-column: 1 / span 4;
+}
+.SNSFFW-Grid__Column1to5
+{
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-column: 1 / span 5;
+}
+.SNSFFW-Grid__Column2to3
+{
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2 / span 2;
+}
+.SNSFFW-Grid__Column2to4
+{
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-column: 2 / span 3;
+}
+.SNSFFW-Grid__Column2to5
+{
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-column: 2 / span 4;
+}
+.SNSFFW-Grid__Column3to4
+{
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3 / span 2;
+}
+.SNSFFW-Grid__Column3to5
+{
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 3;
+    grid-column: 3 / span 3;
+}
+.SNSFFW-Grid__Column4to5
+{
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4 / span 2;
+}
+.SNSFFW-Grid__Row1
+{
+    -ms-grid-row: 1;
+    grid-row: 1;
+}
+.SNSFFW-Grid__Row2
+{
+    -ms-grid-row: 2;
+    grid-row: 2;
+}
+.SNSFFW-Grid__Row3
+{
+    -ms-grid-row: 3;
+    grid-row: 3;
+}
+.SNSFFW-Grid__Row4
+{
+    -ms-grid-row: 4;
+    grid-row: 4;
+}
+.SNSFFW-Grid__Row5
+{
+    -ms-grid-row: 5;
+    grid-row: 5;
+}
+.SNSFFW-Grid__Row1to2
+{
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1 / span 2;
+}
+.SNSFFW-Grid__Row1to3
+{
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1 / span 3;
+}
+.SNSFFW-Grid__Row1to4
+{
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 4;
+    grid-row: 1 / span 4;
+}
+.SNSFFW-Grid__Row1to5
+{
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 5;
+    grid-row: 1 / span 5;
+}
+.SNSFFW-Grid__Row2to3
+{
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2 / span 2;
+}
+.SNSFFW-Grid__Row2to4
+{
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 3;
+    grid-row: 2 / span 3;
+}
+.SNSFFW-Grid__Row2to5
+{
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 4;
+    grid-row: 2 / span 4;
+}
+.SNSFFW-Grid__Row3to4
+{
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 2;
+    grid-row: 3 / span 2;
+}
+.SNSFFW-Grid__Row3to5
+{
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 3;
+    grid-row: 3 / span 3;
+}
+.SNSFFW-Grid__Row4to5
+{
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    grid-row: 4 / span 2;
+}

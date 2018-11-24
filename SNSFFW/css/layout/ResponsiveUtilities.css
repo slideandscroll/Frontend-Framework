@@ -1,0 +1,190 @@
+﻿/*
+SLIDE and SCROLL - FFW
+https://www.slide-and-scroll.org/
+
+Copyright 2018 SLIDE and SCROLL by Daniel Friedrich
+Released under the MIT license
+
+@author: Daniel Friedrich
+Date: 01.08.2018
+*/
+
+
+/*
+TABLE OF CONTENTS
+    I.   "large" screen and projection (min-width: 1280px)
+    II.  "medium" screen and (min-width: 768px and max-width: 1279px)
+    III. "small" screen and (max-width: 767px)
+    IV.  print
+    V.   common
+*/
+
+/*
+_________________________________________________________________
+
+I. "large" screen and projection (min-width: 1280px)
+_________________________________________________________________
+*/
+.SNSFFW-Visible__Large--Block{display: block;}
+.SNSFFW-Visible__Medium--Block{display: none;}
+.SNSFFW-Visible__Small--Block{display: none;}
+.SNSFFW-Visible__Large--Inline{display: inline;}
+.SNSFFW-Visible__Medium--Inline{display: none;}
+.SNSFFW-Visible__Small--Inline{display: none;}
+.SNSFFW-Visible__Large--InlineBlock{display: inline-block;}
+.SNSFFW-Visible__Medium--InlineBlock{display: none;}
+.SNSFFW-Visible__Small--InlineBlock{display: none;}
+.SNSFFW-Visible__Large--Grid{display: grid;display: -ms-grid;}
+.SNSFFW-Visible__Medium--Grid{display: inherit;}
+.SNSFFW-Visible__Small--Grid{display: inherit;}
+.SNSFFW-Visible__Large--Flex{display: flex;display: -ms-flexbox;}
+.SNSFFW-Visible__Medium--Flex{display: inherit;}
+.SNSFFW-Visible__Small--Flex{display: inherit;}
+.SNSFFW-Hidden__Large--Block{display: none;}
+.SNSFFW-Hidden__Medium--Block{display: block;}
+.SNSFFW-Hidden__Small--Block{display: block;}
+.SNSFFW-Hidden__Large--Inline{display: none;}
+.SNSFFW-Hidden__Medium--Inline{display: inline;}
+.SNSFFW-Hidden__Small--Inline{display: inline;}
+.SNSFFW-Hidden__Large--InlineBlock{display: none;}
+.SNSFFW-Hidden__Medium--InlineBlock{display: inline-block;}
+.SNSFFW-Hidden__Small--InlineBlock{display: inline-block;}
+.SNSFFW-Hidden__Large--Grid{display: inherit;}
+.SNSFFW-Hidden__Medium--Grid{display: grid;display: -ms-grid;}
+.SNSFFW-Hidden__Small--Grid{display: grid;display: -ms-grid;}
+.SNSFFW-Hidden__Large--Flex{display: inherit;}
+.SNSFFW-Hidden__Medium--Flex{display: flex;display: -ms-flexbox;}
+.SNSFFW-Hidden__Small--Flex{display: flex;display: -ms-flexbox;}
+
+.SNSFFW-Visible__Print--Block{display: none;}
+.SNSFFW-Visible__Print--Inline{display: none;}
+.SNSFFW-Visible__Print--InlineBlock{display: none;}
+.SNSFFW-Visible__Print--Grid{display: inherit;}
+.SNSFFW-Visible__Print--Flex{display: inherit;}
+.SNSFFW-Hidden__Print--Block{display: block;}
+.SNSFFW-Hidden__Print--Inline{display: inline;}
+.SNSFFW-Hidden__Print--InlineBlock{display: inline-block;}
+.SNSFFW-Hidden__Print--Grid{display: grid;display: -ms-grid;}
+.SNSFFW-Hidden__Print--Flex{display: flex;display: -ms-flexbox;}
+
+
+
+/*
+_________________________________________________________________
+
+II. "medium" screen and (min-width: 768px and max-width: 1279px)
+_________________________________________________________________
+*/
+@media only screen and (max-width: 1279px)
+{
+.SNSFFW-Visible__Large--Block{display: none;}
+.SNSFFW-Visible__Medium--Block{display: block;}
+.SNSFFW-Visible__Small--Block{display: none;}
+.SNSFFW-Visible__Large--Inline{display: none;}
+.SNSFFW-Visible__Medium--Inline{display: inline;}
+.SNSFFW-Visible__Small--Inline{display: none;}
+.SNSFFW-Visible__Large--InlineBlock{display: none;}
+.SNSFFW-Visible__Medium--InlineBlock{display: inline-block;}
+.SNSFFW-Visible__Small--InlineBlock{display: none;}
+.SNSFFW-Visible__Large--Grid{display: inherit;}
+.SNSFFW-Visible__Medium--Grid{display: grid;display: -ms-grid;}
+.SNSFFW-Visible__Small--Grid{display: inherit;}
+.SNSFFW-Visible__Large--Flex{display: inherit;}
+.SNSFFW-Visible__Medium--Flex{display: flex;display: -ms-flexbox;}
+.SNSFFW-Visible__Small--Flex{display: inherit;}
+.SNSFFW-Hidden__Large--Block{display: block;}
+.SNSFFW-Hidden__Medium--Block{display: none;}
+.SNSFFW-Hidden__Small--Block{display: block;}
+.SNSFFW-Hidden__Large--Inline{display: inline;}
+.SNSFFW-Hidden__Medium--Inline{display: none;}
+.SNSFFW-Hidden__Small--Inline{display: inline;}
+.SNSFFW-Hidden__Large--InlineBlock{display: inline-block;}
+.SNSFFW-Hidden__Medium--InlineBlock{display: none;}
+.SNSFFW-Hidden__Small--InlineBlock{display: inline-block;}
+.SNSFFW-Hidden__Large--Grid{display: grid;display: -ms-grid;}
+.SNSFFW-Hidden__Medium--Grid{display: inherit;}
+.SNSFFW-Hidden__Small--Grid{display: grid;display: -ms-grid;}
+.SNSFFW-Hidden__Large--Flex{display: flex;display: -ms-flexbox;}
+.SNSFFW-Hidden__Medium--Flex{display: inherit;}
+.SNSFFW-Hidden__Small--Flex{display: flex;display: -ms-flexbox;}
+}
+
+
+
+/*
+_________________________________________________________________
+
+III. "small" screen and (max-width: 767px)
+_________________________________________________________________
+*/
+@media only screen and (max-width: 767px)
+{
+.SNSFFW-Visible__Large--Block{display: none;}
+.SNSFFW-Visible__Medium--Block{display: none;}
+.SNSFFW-Visible__Small--Block{display: block;}
+.SNSFFW-Visible__Large--Inline{display: none;}
+.SNSFFW-Visible__Medium--Inline{display: none;}
+.SNSFFW-Visible__Small--Inline{display: inline;}
+.SNSFFW-Visible__Large--InlineBlock{display: none;}
+.SNSFFW-Visible__Medium--InlineBlock{display: none;}
+.SNSFFW-Visible__Small--InlineBlock{display: inline-block;}
+.SNSFFW-Visible__Large--Grid{display: inherit;}
+.SNSFFW-Visible__Medium--Grid{display: inherit;}
+.SNSFFW-Visible__Small--Grid{display: grid;display: -ms-grid;}
+.SNSFFW-Visible__Large--Flex{display: inherit;}
+.SNSFFW-Visible__Medium--Flex{display: inherit;}
+.SNSFFW-Visible__Small--Flex{display: flex;display: -ms-flexbox;}
+.SNSFFW-Hidden__Large--Block{display: block;}
+.SNSFFW-Hidden__Medium--Block{display: block;}
+.SNSFFW-Hidden__Small--Block{display: none;}
+.SNSFFW-Hidden__Large--Inline{display: inline;}
+.SNSFFW-Hidden__Medium--Inline{display: inline;}
+.SNSFFW-Hidden__Small--Inline{display: none;}
+.SNSFFW-Hidden__Large--InlineBlock{display: inline-block;}
+.SNSFFW-Hidden__Medium--InlineBlock{display: inline-block;}
+.SNSFFW-Hidden__Small--InlineBlock{display: none;}
+.SNSFFW-Hidden__Large--Grid{display: grid;display: -ms-grid;}
+.SNSFFW-Hidden__Medium--Grid{display: grid;display: -ms-grid;}
+.SNSFFW-Hidden__Small--Grid{display: inherit;}
+.SNSFFW-Hidden__Large--Flex{display: flex;display: -ms-flexbox;}
+.SNSFFW-Hidden__Medium--Flex{display: flex;display: -ms-flexbox;}
+.SNSFFW-Hidden__Small--Flex{display: inherit;}
+}
+
+
+
+/*
+_________________________________________________________________
+
+IV. print
+_________________________________________________________________
+*/
+@media only print
+{
+.SNSFFW-Visible__Print--Block{display: block;}
+.SNSFFW-Visible__Print--Inline{display: inline;}
+.SNSFFW-Visible__Print--InlineBlock{display: inline-block;}
+.SNSFFW-Visible__Print--Grid{display: grid;display: -ms-grid;}
+.SNSFFW-Visible__Print--Flex{display: flex;display: -ms-flexbox;}
+.SNSFFW-Hidden__Print--Block{display: none;}
+.SNSFFW-Hidden__Print--Inline{display: none;}
+.SNSFFW-Hidden__Print--InlineBlock{display: none;}
+.SNSFFW-Hidden__Print--Grid{display: inherit;}
+.SNSFFW-Hidden__Print--Flex{display: inherit;}
+}
+
+
+
+/*
+_________________________________________________________________
+
+V. common
+_________________________________________________________________
+*/
+.SNSFFW-Visible__All--Block{display: block;}
+.SNSFFW-Visible__All--Inline{display: inline;}
+.SNSFFW-Visible__All--InlineBlock{display: inline-block;}
+.SNSFFW-Visible__All--Grid{display: grid;display: -ms-grid;}
+.SNSFFW-Visible__All--Flex{display: flex;display: -ms-flexbox;}
+
+

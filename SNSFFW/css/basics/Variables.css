@@ -1,0 +1,112 @@
+﻿/*
+SLIDE and SCROLL - FFW
+https://www.slide-and-scroll.org/
+
+Copyright 2018 SLIDE and SCROLL by Daniel Friedrich
+Released under the MIT license
+
+@author: Daniel Friedrich
+Date: 01.08.2018
+*/
+
+
+/*
+TABLE OF CONTENTS
+    I.   "large" screen and projection (min-width: 1280px)
+    II.  "medium" screen and (min-width: 768px and max-width: 1279px)
+    III. "small" screen and (max-width: 767px)
+    IV.  print
+    V.   common
+*/
+
+/* START ROOT */
+:root {
+/*
+_________________________________________________________________
+
+I. "large" screen and projection (min-width: 1280px)
+_________________________________________________________________
+*/
+
+
+
+
+/*
+_________________________________________________________________
+
+II. "medium" screen and (min-width: 768px and max-width: 1279px)
+_________________________________________________________________
+*/
+
+
+
+/*
+_________________________________________________________________
+
+III. "small" screen and (max-width: 767px)
+_________________________________________________________________
+*/
+
+
+
+/*
+_________________________________________________________________
+
+IV. print
+_________________________________________________________________
+*/
+
+
+
+/*
+_________________________________________________________________
+
+V. common
+_________________________________________________________________
+*/
+/* padding & margin */
+--SNSFFW_PaddingMargin_Spacing_Smaller: .25rem;
+--SNSFFW_PaddingMargin_Spacing_Small: .5rem;
+--SNSFFW_PaddingMargin_Spacing_Standard: 1rem;
+--SNSFFW_PaddingMargin_Spacing_Big: 1.5rem;
+--SNSFFW_PaddingMargin_Spacing_Bigger: 2rem;
+
+/* border width */
+--SNSFFW_Border_Width_Smaller: .0625rem;
+--SNSFFW_Border_Width_Small: .125rem;
+--SNSFFW_Border_Width_Standard: .1875rem;
+--SNSFFW_Border_Width_Big: .25rem;
+--SNSFFW_Border_Width_Bigger: .3125rem;
+
+/* border radius */
+--SNSFFW_Border_Radius_Smaller: .125rem;
+--SNSFFW_Border_Radius_Small: .25rem;
+--SNSFFW_Border_Radius_Standard: .375rem;
+--SNSFFW_Border_Radius_Big: .5rem;
+--SNSFFW_Border_Radius_Bigger: .625rem;
+
+/* letter spacing */
+--SNSFFW_LetterSpacing_Narrower: -0.08em;
+--SNSFFW_LetterSpacing_Narrow: -0.04em;
+--SNSFFW_LetterSpacing_Standard: normal;
+--SNSFFW_LetterSpacing_Wide: 0.2em;
+--SNSFFW_LetterSpacing_Wider: 0.4em;
+
+/* line height */
+--SNSFFW_LineHeight_Lower: .86em;
+--SNSFFW_LineHeight_Low: .93em;
+--SNSFFW_LineHeight_Standard: 1em;
+--SNSFFW_LineHeight_High: 1.5em;
+--SNSFFW_LineHeight_Higher: 2em;
+
+/* font weight */
+--SNSFFW_Font_Weight_Lighter: 200;
+--SNSFFW_Font_Weight_Light: 300;
+--SNSFFW_Font_Weight_Standard: 400;
+--SNSFFW_Font_Weight_Bold: 500;
+--SNSFFW_Font_Weight_Bolder: 600;
+
+/* END ROOT */
+}
+
+

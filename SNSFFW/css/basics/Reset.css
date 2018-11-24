@@ -1,0 +1,145 @@
+﻿/*
+SLIDE and SCROLL - FFW
+https://www.slide-and-scroll.org/
+
+Copyright 2018 SLIDE and SCROLL by Daniel Friedrich
+Released under the MIT license
+
+@author: Daniel Friedrich
+Date: 01.08.2018
+*/
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    line-height: 1em;
+    vertical-align: baseline;
+}
+
+[hidden], area, base, basefont, command, datalist, head, input[type=hidden], link, menu[type=context], meta, noembed, noframes, param, rp, script, source, style, track, title {
+    display: none;
+}
+
+address, article, aside, blockquote, body, center, dd, dir, div, dl, dt, figure, figcaption, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, img, legend, listing, menu, nav, ol, p, plaintext, pre, section, summary, ul, xmp {
+    display: block;
+    unicode-bidi: embed;
+}
+
+table {
+    display: table;
+    unicode-bidi: embed;
+}
+
+caption {
+    display: table-caption;
+    unicode-bidi: embed;
+}
+
+colgroup, colgroup[hidden] {
+    display: table-column-group;
+    unicode-bidi: embed;
+}
+
+col, col[hidden] {
+    display: table-column;
+    unicode-bidi: embed;
+}
+
+thead, thead[hidden] {
+    display: table-header-group;
+    unicode-bidi: embed;
+}
+
+tbody, tbody[hidden] {
+    display: table-row-group;
+    unicode-bidi: embed;
+}
+
+tfoot, tfoot[hidden] {
+    display: table-footer-group;
+    unicode-bidi: embed;
+}
+
+tr, tr[hidden] {
+    display: table-row;
+    unicode-bidi: embed;
+}
+
+td, th, td[hidden], th[hidden] {
+    display: table-cell;
+    unicode-bidi: embed;
+}
+
+colgroup[hidden], col[hidden], thead[hidden], tbody[hidden], tfoot[hidden], tr[hidden], td[hidden], th[hidden] {
+    visibility: collapse;
+}
+
+li {
+    display: list-item;
+    unicode-bidi: embed;
+}
+
+ruby {
+    display: ruby;
+}
+
+rt {
+    display: ruby-text;
+}
+
+body {
+    line-height: 1;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a, button, input, input[type="file"]::-webkit-file-upload-button, textarea, select {
+    outline: none;
+}
+
+a:-moz-focusring, button:-moz-focusring, input:-moz-focusring, textarea:-moz-focusring, select:-moz-focusring {
+    outline: none;
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
+a::-moz-focus-inner, button::-moz-focus-inner, input::-moz-focus-inner, textarea::-moz-focus-inner, select::-moz-focus-inner,
+a::-moz-focus-outer, button::-moz-focus-outer, input::-moz-focus-outer, textarea::-moz-focus-outer, select::-moz-focus-outer {
+    border: 0px;
+}
+
+button, input, input[type="file"]::-webkit-file-upload-button, textarea, select {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font: inherit;
+}
+input, input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+

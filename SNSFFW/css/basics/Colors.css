@@ -1,0 +1,1882 @@
+﻿/*
+SLIDE and SCROLL - FFW
+https://www.slide-and-scroll.org/
+
+Copyright 2018 SLIDE and SCROLL by Daniel Friedrich
+Released under the MIT license
+
+@author: Daniel Friedrich
+Date: 01.08.2018
+*/
+
+
+/*
+TABLE OF CONTENTS
+    I.   Theme "Accra"
+        a.  "Light"
+        b.  "Dark"
+    II.  Theme "Kumasi"
+        a.  "Light"
+        b.  "Dark"
+    III. Theme "Cape Coast"
+        a.  "Light"
+        b.  "Dark"
+    IV.  Theme "Tamale"
+        a.  "Light"
+        b.  "Dark"
+    V.   Theme "Ho"
+        a.  "Light"
+        b.  "Dark"
+    VI.  Theme "Sunyani"
+        a.  "Light"
+        b.  "Dark"
+    VII. Standard Website Colors
+*/
+
+
+/*
+_________________________________________________________________
+
+I. Theme "Accra"
+    a.  "Light"
+_________________________________________________________________
+*/
+.SNSFFW-ThemeAccra--Light
+{
+    --SNSFFW_FirstColor_1: rgb(204,225,235);
+    --SNSFFW_FirstColor_2: rgb(110,168,196);
+    --SNSFFW_FirstColor_3: rgb(28,113,154);
+    --SNSFFW_FirstColor_4: rgb(4,65,95);
+    --SNSFFW_FirstColor_5: rgb(1,37,55);
+    --SNSFFW_SecondColor_1: rgb(255,245,219);
+    --SNSFFW_SecondColor_2: rgb(255,222,137);
+    --SNSFFW_SecondColor_3: rgb(244,186,34);
+    --SNSFFW_SecondColor_4: rgb(150,108,0);
+    --SNSFFW_SecondColor_5: rgb(86,62,0);
+    --SNSFFW_ThirdColor_1: rgb(255,227,219);
+    --SNSFFW_ThirdColor_2: rgb(255,162,137);
+    --SNSFFW_ThirdColor_3: rgb(244,78,34);
+    --SNSFFW_ThirdColor_4: rgb(150,31,0);
+    --SNSFFW_ThirdColor_5: rgb(86,18,0);
+    --SNSFFW_Grey_1: rgb(218,220,221);
+    --SNSFFW_Grey_2: rgb(149,155,158);
+    --SNSFFW_Grey_3: rgb(85,94,98);
+    --SNSFFW_Grey_4: rgb(45,51,54);
+    --SNSFFW_Grey_5: rgb(25,28,30);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__FirstColor--1 {
+    background-color: rgb(204,225,235);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__FirstColor--2 {
+    background-color: rgb(110,168,196);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__FirstColor--3 {
+    background-color: rgb(28,113,154);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__FirstColor--4 {
+    background-color: rgb(4,65,95);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__FirstColor--5 {
+    background-color: rgb(1,37,55);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__SecondColor--1 {
+    background-color: rgb(255,245,219);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__SecondColor--2 {
+    background-color: rgb(255,222,137);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__SecondColor--3 {
+    background-color: rgb(244,186,34);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__SecondColor--4 {
+    background-color: rgb(150,108,0);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__SecondColor--5 {
+    background-color: rgb(86,62,0);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__ThirdColor--1 {
+    background-color: rgb(255,227,219);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__ThirdColor--2 {
+    background-color: rgb(255,162,137);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__ThirdColor--3 {
+    background-color: rgb(244,78,34);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__ThirdColor--4 {
+    background-color: rgb(150,31,0);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__ThirdColor--5 {
+    background-color: rgb(86,18,0);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__Grey--1 {
+    background-color: rgb(218,220,221);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__Grey--2 {
+    background-color: rgb(149,155,158);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__Grey--3 {
+    background-color: rgb(85,94,98);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__Grey--4 {
+    background-color: rgb(45,51,54);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__Grey--5 {
+    background-color: rgb(25,28,30);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__FirstColor--1 {
+    color: rgb(204,225,235);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__FirstColor--2 {
+    color: rgb(110,168,196);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__FirstColor--3 {
+    color: rgb(28,113,154);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__FirstColor--4 {
+    color: rgb(4,65,95);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__FirstColor--5 {
+    color: rgb(1,37,55);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__SecondColor--1 {
+    color: rgb(255,245,219);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__SecondColor--2 {
+    color: rgb(255,222,137);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__SecondColor--3 {
+    color: rgb(244,186,34);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__SecondColor--4 {
+    color: rgb(150,108,0);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__SecondColor--5 {
+    color: rgb(86,62,0);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__ThirdColor--1 {
+    color: rgb(255,227,219);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__ThirdColor--2 {
+    color: rgb(255,162,137);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__ThirdColor--3 {
+    color: rgb(244,78,34);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__ThirdColor--4 {
+    color: rgb(150,31,0);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__ThirdColor--5 {
+    color: rgb(86,18,0);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__Grey--1 {
+    color: rgb(218,220,221);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__Grey--2 {
+    color: rgb(149,155,158);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__Grey--3 {
+    color: rgb(85,94,98);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__Grey--4 {
+    color: rgb(45,51,54);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__Grey--5 {
+    color: rgb(25,28,30);
+}
+
+
+
+/*
+_________________________________________________________________
+
+I. Theme "Accra"
+    b.  "Dark"
+_________________________________________________________________
+*/
+.SNSFFW-ThemeAccra--Dark
+{
+    --SNSFFW_FirstColor_1: rgb(1,37,55);
+    --SNSFFW_FirstColor_2: rgb(4,65,95);
+    --SNSFFW_FirstColor_3: rgb(28,113,154);
+    --SNSFFW_FirstColor_4: rgb(110,168,196);
+    --SNSFFW_FirstColor_5: rgb(204,225,235);
+    --SNSFFW_SecondColor_1: rgb(86,62,0);
+    --SNSFFW_SecondColor_2: rgb(150,108,0);
+    --SNSFFW_SecondColor_3: rgb(244,186,34);
+    --SNSFFW_SecondColor_4: rgb(255,222,137);
+    --SNSFFW_SecondColor_5: rgb(255,245,219);
+    --SNSFFW_ThirdColor_1: rgb(86,18,0);
+    --SNSFFW_ThirdColor_2: rgb(150,31,0);
+    --SNSFFW_ThirdColor_3: rgb(244,78,34);
+    --SNSFFW_ThirdColor_4: rgb(255,162,137);
+    --SNSFFW_ThirdColor_5: rgb(255,227,219);
+    --SNSFFW_Grey_1: rgb(25,28,30);
+    --SNSFFW_Grey_2: rgb(45,51,54);
+    --SNSFFW_Grey_3: rgb(85,94,98);
+    --SNSFFW_Grey_4: rgb(149,155,158);
+    --SNSFFW_Grey_5: rgb(218,220,221);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__FirstColor--1 {
+    background-color: rgb(1,37,55);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__FirstColor--2 {
+    background-color: rgb(4,65,95);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__FirstColor--3 {
+    background-color: rgb(28,113,154);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__FirstColor--4 {
+    background-color: rgb(110,168,196);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__FirstColor--5 {
+    background-color: rgb(204,225,235);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__SecondColor--1 {
+    background-color: rgb(86,62,0);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__SecondColor--2 {
+    background-color: rgb(150,108,0);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__SecondColor--3 {
+    background-color: rgb(244,186,34);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__SecondColor--4 {
+    background-color: rgb(255,222,137);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__SecondColor--5 {
+    background-color: rgb(255,245,219);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__ThirdColor--1 {
+    background-color: rgb(86,18,0);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__ThirdColor--2 {
+    background-color: rgb(150,31,0);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__ThirdColor--3 {
+    background-color: rgb(244,78,34);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__ThirdColor--4 {
+    background-color: rgb(255,162,137);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__ThirdColor--5 {
+    background-color: rgb(255,227,219);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__Grey--1 {
+    background-color: rgb(25,28,30);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__Grey--2 {
+    background-color: rgb(45,51,54);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__Grey--3 {
+    background-color: rgb(85,94,98);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__Grey--4 {
+    background-color: rgb(149,155,158);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__Grey--5 {
+    background-color: rgb(218,220,221);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__FirstColor--1 {
+    color: rgb(1,37,55);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__FirstColor--2 {
+    color: rgb(4,65,95);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__FirstColor--3 {
+    color: rgb(28,113,154);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__FirstColor--4 {
+    color: rgb(110,168,196);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__FirstColor--5 {
+    color: rgb(204,225,235);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__SecondColor--1 {
+    color: rgb(86,62,0);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__SecondColor--2 {
+    color: rgb(150,108,0);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__SecondColor--3 {
+    color: rgb(244,186,34);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__SecondColor--4 {
+    color: rgb(255,222,137);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__SecondColor--5 {
+    color: rgb(255,245,219);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__ThirdColor--1 {
+    color: rgb(86,18,0);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__ThirdColor--2 {
+    color: rgb(150,31,0);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__ThirdColor--3 {
+    color: rgb(244,78,34);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__ThirdColor--4 {
+    color: rgb(255,162,137);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__ThirdColor--5 {
+    color: rgb(255,227,219);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__Grey--1 {
+    color: rgb(25,28,30);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__Grey--2 {
+    color: rgb(45,51,54);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__Grey--3 {
+    color: rgb(85,94,98);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__Grey--4 {
+    color: rgb(149,155,158);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__Grey--5 {
+    color: rgb(218,220,221);
+}
+
+
+
+/*
+_________________________________________________________________
+
+II. Theme "Kumasi"
+    a.  "Light"
+_________________________________________________________________
+*/
+.SNSFFW-ThemeKumasi--Light
+{
+    --SNSFFW_FirstColor_1: rgb(241,252,216);
+    --SNSFFW_FirstColor_2: rgb(212,245,132);
+    --SNSFFW_FirstColor_3: rgb(170,229,32);
+    --SNSFFW_FirstColor_4: rgb(99,141,0);
+    --SNSFFW_FirstColor_5: rgb(57,81,0);
+    --SNSFFW_SecondColor_1: rgb(254,218,221);
+    --SNSFFW_SecondColor_2: rgb(251,135,144);
+    --SNSFFW_SecondColor_3: rgb(237,33,48);
+    --SNSFFW_SecondColor_4: rgb(146,0,11);
+    --SNSFFW_SecondColor_5: rgb(84,0,6);
+    --SNSFFW_ThirdColor_1: rgb(224,206,237);
+    --SNSFFW_ThirdColor_2: rgb(167,114,202);
+    --SNSFFW_ThirdColor_3: rgb(110,32,163);
+    --SNSFFW_ThirdColor_4: rgb(62,5,100);
+    --SNSFFW_ThirdColor_5: rgb(35,1,58);
+    --SNSFFW_Grey_1: rgb(244,245,242);
+    --SNSFFW_Grey_2: rgb(220,224,213);
+    --SNSFFW_Grey_3: rgb(187,193,173);
+    --SNSFFW_Grey_4: rgb(110,114,100);
+    --SNSFFW_Grey_5: rgb(64,66,58);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__FirstColor--1 {
+    background-color: rgb(241,252,216);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__FirstColor--2 {
+    background-color: rgb(212,245,132);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__FirstColor--3 {
+    background-color: rgb(170,229,32);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__FirstColor--4 {
+    background-color: rgb(99,141,0);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__FirstColor--5 {
+    background-color: rgb(57,81,0);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__SecondColor--1 {
+    background-color: rgb(254,218,221);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__SecondColor--2 {
+    background-color: rgb(251,135,144);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__SecondColor--3 {
+    background-color: rgb(237,33,48);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__SecondColor--4 {
+    background-color: rgb(146,0,11);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__SecondColor--5 {
+    background-color: rgb(84,0,6);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__ThirdColor--1 {
+    background-color: rgb(224,206,237);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__ThirdColor--2 {
+    background-color: rgb(167,114,202);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__ThirdColor--3 {
+    background-color: rgb(110,32,163);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__ThirdColor--4 {
+    background-color: rgb(62,5,100);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__ThirdColor--5 {
+    background-color: rgb(35,1,58);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__Grey--1 {
+    background-color: rgb(244,245,242);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__Grey--2 {
+    background-color: rgb(220,224,213);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__Grey--3 {
+    background-color: rgb(187,193,173);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__Grey--4 {
+    background-color: rgb(110,114,100);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__Grey--5 {
+    background-color: rgb(64,66,58);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__FirstColor--1 {
+    color: rgb(241,252,216);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__FirstColor--2 {
+    color: rgb(212,245,132);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__FirstColor--3 {
+    color: rgb(170,229,32);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__FirstColor--4 {
+    color: rgb(99,141,0);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__FirstColor--5 {
+    color: rgb(57,81,0);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__SecondColor--1 {
+    color: rgb(254,218,221);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__SecondColor--2 {
+    color: rgb(251,135,144);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__SecondColor--3 {
+    color: rgb(237,33,48);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__SecondColor--4 {
+    color: rgb(146,0,11);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__SecondColor--5 {
+    color: rgb(84,0,6);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__ThirdColor--1 {
+    color: rgb(224,206,237);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__ThirdColor--2 {
+    color: rgb(167,114,202);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__ThirdColor--3 {
+    color: rgb(110,32,163);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__ThirdColor--4 {
+    color: rgb(62,5,100);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__ThirdColor--5 {
+    color: rgb(35,1,58);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__Grey--1 {
+    color: rgb(244,245,242);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__Grey--2 {
+    color: rgb(220,224,213);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__Grey--3 {
+    color: rgb(187,193,173);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__Grey--4 {
+    color: rgb(110,114,100);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__Grey--5 {
+    color: rgb(64,66,58);
+}
+
+
+
+/*
+_________________________________________________________________
+
+II. Theme "Kumasi"
+    b.  "Dark"
+_________________________________________________________________
+*/
+.SNSFFW-ThemeKumasi--Dark
+{
+    --SNSFFW_FirstColor_1: rgb(57,81,0);
+    --SNSFFW_FirstColor_2: rgb(99,141,0);
+    --SNSFFW_FirstColor_3: rgb(170,229,32);
+    --SNSFFW_FirstColor_4: rgb(212,245,132);
+    --SNSFFW_FirstColor_5: rgb(241,252,216);
+    --SNSFFW_SecondColor_1: rgb(84,0,6);
+    --SNSFFW_SecondColor_2: rgb(146,0,11);
+    --SNSFFW_SecondColor_3: rgb(237,33,48);
+    --SNSFFW_SecondColor_4: rgb(251,135,144);
+    --SNSFFW_SecondColor_5: rgb(254,218,221);
+    --SNSFFW_ThirdColor_1: rgb(35,1,58);
+    --SNSFFW_ThirdColor_2: rgb(62,5,100);
+    --SNSFFW_ThirdColor_3: rgb(110,32,163);
+    --SNSFFW_ThirdColor_4: rgb(167,114,202);
+    --SNSFFW_ThirdColor_5: rgb(224,206,237);
+    --SNSFFW_Grey_1: rgb(64,66,58);
+    --SNSFFW_Grey_2: rgb(110,114,100);
+    --SNSFFW_Grey_3: rgb(187,193,173);
+    --SNSFFW_Grey_4: rgb(220,224,213);
+    --SNSFFW_Grey_5: rgb(244,245,242);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__FirstColor--1 {
+    background-color: rgb(57,81,0);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__FirstColor--2 {
+    background-color: rgb(99,141,0);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__FirstColor--3 {
+    background-color: rgb(170,229,32);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__FirstColor--4 {
+    background-color: rgb(212,245,132);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__FirstColor--5 {
+    background-color: rgb(241,252,216);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__SecondColor--1 {
+    background-color: rgb(84,0,6);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__SecondColor--2 {
+    background-color: rgb(146,0,11);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__SecondColor--3 {
+    background-color: rgb(237,33,48);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__SecondColor--4 {
+    background-color: rgb(251,135,144);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__SecondColor--5 {
+    background-color: rgb(254,218,221);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__ThirdColor--1 {
+    background-color: rgb(35,1,58);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__ThirdColor--2 {
+    background-color: rgb(62,5,100);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__ThirdColor--3 {
+    background-color: rgb(110,32,163);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__ThirdColor--4 {
+    background-color: rgb(167,114,202);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__ThirdColor--5 {
+    background-color: rgb(224,206,237);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__Grey--1 {
+    background-color: rgb(64,66,58);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__Grey--2 {
+    background-color: rgb(110,114,100);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__Grey--3 {
+    background-color: rgb(187,193,173);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__Grey--4 {
+    background-color: rgb(220,224,213);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__Grey--5 {
+    background-color: rgb(244,245,242);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__FirstColor--1 {
+    color: rgb(57,81,0);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__FirstColor--2 {
+    color: rgb(99,141,0);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__FirstColor--3 {
+    color: rgb(170,229,32);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__FirstColor--4 {
+    color: rgb(212,245,132);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__FirstColor--5 {
+    color: rgb(241,252,216);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__SecondColor--1 {
+    color: rgb(84,0,6);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__SecondColor--2 {
+    color: rgb(146,0,11);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__SecondColor--3 {
+    color: rgb(237,33,48);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__SecondColor--4 {
+    color: rgb(251,135,144);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__SecondColor--5 {
+    color: rgb(254,218,221);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__ThirdColor--1 {
+    color: rgb(35,1,58);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__ThirdColor--2 {
+    color: rgb(62,5,100);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__ThirdColor--3 {
+    color: rgb(110,32,163);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__ThirdColor--4 {
+    color: rgb(167,114,202);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__ThirdColor--5 {
+    color: rgb(224,206,237);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__Grey--1 {
+    color: rgb(64,66,58);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__Grey--2 {
+    color: rgb(110,114,100);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__Grey--3 {
+    color: rgb(187,193,173);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__Grey--4 {
+    color: rgb(220,224,213);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__Grey--5 {
+    color: rgb(244,245,242);
+}
+
+
+
+/*
+_________________________________________________________________
+
+III. Theme "Cape Coast"
+    a.  "Light"
+_________________________________________________________________
+*/
+.SNSFFW-ThemeCapeCoast--Light
+{
+    --SNSFFW_FirstColor_1: rgb(229,204,236);
+    --SNSFFW_FirstColor_2: rgb(181,111,201);
+    --SNSFFW_FirstColor_3: rgb(131,27,161);
+    --SNSFFW_FirstColor_4: rgb(78,3,99);
+    --SNSFFW_FirstColor_5: rgb(45,1,57);
+    --SNSFFW_SecondColor_1: rgb(236,250,215);
+    --SNSFFW_SecondColor_2: rgb(194,241,130);
+    --SNSFFW_SecondColor_3: rgb(142,223,31);
+    --SNSFFW_SecondColor_4: rgb(79,137,0);
+    --SNSFFW_SecondColor_5: rgb(46,79,0);
+    --SNSFFW_ThirdColor_1: rgb(255,250,219);
+    --SNSFFW_ThirdColor_2: rgb(255,239,137);
+    --SNSFFW_ThirdColor_3: rgb(244,215,34);
+    --SNSFFW_ThirdColor_4: rgb(150,130,0);
+    --SNSFFW_ThirdColor_5: rgb(86,75,0);
+    --SNSFFW_Grey_1: rgb(216,213,217);
+    --SNSFFW_Grey_2: rgb(145,138,147);
+    --SNSFFW_Grey_3: rgb(79,69,82);
+    --SNSFFW_Grey_4: rgb(40,32,42);
+    --SNSFFW_Grey_5: rgb(23,19,24);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__FirstColor--1 {
+    background-color: rgb(229,204,236);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__FirstColor--2 {
+    background-color: rgb(181,111,201);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__FirstColor--3 {
+    background-color: rgb(131,27,161);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__FirstColor--4 {
+    background-color: rgb(78,3,99);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__FirstColor--5 {
+    background-color: rgb(45,1,57);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__SecondColor--1 {
+    background-color: rgb(236,250,215);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__SecondColor--2 {
+    background-color: rgb(194,241,130);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__SecondColor--3 {
+    background-color: rgb(142,223,31);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__SecondColor--4 {
+    background-color: rgb(79,137,0);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__SecondColor--5 {
+    background-color: rgb(46,79,0);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__ThirdColor--1 {
+    background-color: rgb(255,250,219);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__ThirdColor--2 {
+    background-color: rgb(255,239,137);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__ThirdColor--3 {
+    background-color: rgb(244,215,34);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__ThirdColor--4 {
+    background-color: rgb(150,130,0);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__ThirdColor--5 {
+    background-color: rgb(86,75,0);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__Grey--1 {
+    background-color: rgb(216,213,217);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__Grey--2 {
+    background-color: rgb(145,138,147);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__Grey--3 {
+    background-color: rgb(79,69,82);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__Grey--4 {
+    background-color: rgb(40,32,42);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__Grey--5 {
+    background-color: rgb(23,19,24);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__FirstColor--1 {
+    color: rgb(229,204,236);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__FirstColor--2 {
+    color: rgb(181,111,201);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__FirstColor--3 {
+    color: rgb(131,27,161);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__FirstColor--4 {
+    color: rgb(78,3,99);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__FirstColor--5 {
+    color: rgb(45,1,57);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__SecondColor--1 {
+    color: rgb(236,250,215);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__SecondColor--2 {
+    color: rgb(194,241,130);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__SecondColor--3 {
+    color: rgb(142,223,31);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__SecondColor--4 {
+    color: rgb(79,137,0);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__SecondColor--5 {
+    color: rgb(46,79,0);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__ThirdColor--1 {
+    color: rgb(255,250,219);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__ThirdColor--2 {
+    color: rgb(255,239,137);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__ThirdColor--3 {
+    color: rgb(244,215,34);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__ThirdColor--4 {
+    color: rgb(150,130,0);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__ThirdColor--5 {
+    color: rgb(86,75,0);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__Grey--1 {
+    color: rgb(216,213,217);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__Grey--2 {
+    color: rgb(145,138,147);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__Grey--3 {
+    color: rgb(79,69,82);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__Grey--4 {
+    color: rgb(40,32,42);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__Grey--5 {
+    color: rgb(23,19,24);
+}
+
+
+
+/*
+_________________________________________________________________
+
+III. Theme "Cape Coast"
+    b.  "Dark"
+_________________________________________________________________
+*/
+.SNSFFW-ThemeCapeCoast--Dark
+{
+    --SNSFFW_FirstColor_1: rgb(45,1,57);
+    --SNSFFW_FirstColor_2: rgb(78,3,99);
+    --SNSFFW_FirstColor_3: rgb(131,27,161);
+    --SNSFFW_FirstColor_4: rgb(181,111,201);
+    --SNSFFW_FirstColor_5: rgb(229,204,236);
+    --SNSFFW_SecondColor_1: rgb(46,79,0);
+    --SNSFFW_SecondColor_2: rgb(79,137,0);
+    --SNSFFW_SecondColor_3: rgb(142,223,31);
+    --SNSFFW_SecondColor_4: rgb(194,241,130);
+    --SNSFFW_SecondColor_5: rgb(236,250,215);
+    --SNSFFW_ThirdColor_1: rgb(86,75,0);
+    --SNSFFW_ThirdColor_2: rgb(150,130,0);
+    --SNSFFW_ThirdColor_3: rgb(244,215,34);
+    --SNSFFW_ThirdColor_4: rgb(255,239,137);
+    --SNSFFW_ThirdColor_5: rgb(255,250,219);
+    --SNSFFW_Grey_1: rgb(23,19,24);
+    --SNSFFW_Grey_2: rgb(40,32,42);
+    --SNSFFW_Grey_3: rgb(79,69,82);
+    --SNSFFW_Grey_4: rgb(145,138,147);
+    --SNSFFW_Grey_5: rgb(216,213,217);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__FirstColor--1 {
+    background-color: rgb(45,1,57);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__FirstColor--2 {
+    background-color: rgb(78,3,99);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__FirstColor--3 {
+    background-color: rgb(131,27,161);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__FirstColor--4 {
+    background-color: rgb(181,111,201);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__FirstColor--5 {
+    background-color: rgb(229,204,236);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__SecondColor--1 {
+    background-color: rgb(46,79,0);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__SecondColor--2 {
+    background-color: rgb(79,137,0);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__SecondColor--3 {
+    background-color: rgb(142,223,31);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__SecondColor--4 {
+    background-color: rgb(194,241,130);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__SecondColor--5 {
+    background-color: rgb(236,250,215);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__ThirdColor--1 {
+    background-color: rgb(86,75,0);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__ThirdColor--2 {
+    background-color: rgb(150,130,0);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__ThirdColor--3 {
+    background-color: rgb(244,215,34);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__ThirdColor--4 {
+    background-color: rgb(255,239,137);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__ThirdColor--5 {
+    background-color: rgb(255,250,219);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__Grey--1 {
+    background-color: rgb(23,19,24);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__Grey--2 {
+    background-color: rgb(40,32,42);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__Grey--3 {
+    background-color: rgb(79,69,82);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__Grey--4 {
+    background-color: rgb(145,138,147);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__Grey--5 {
+    background-color: rgb(216,213,217);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__FirstColor--1 {
+    color: rgb(45,1,57);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__FirstColor--2 {
+    color: rgb(78,3,99);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__FirstColor--3 {
+    color: rgb(131,27,161);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__FirstColor--4 {
+    color: rgb(181,111,201);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__FirstColor--5 {
+    color: rgb(229,204,236);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__SecondColor--1 {
+    color: rgb(46,79,0);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__SecondColor--2 {
+    color: rgb(79,137,0);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__SecondColor--3 {
+    color: rgb(142,223,31);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__SecondColor--4 {
+    color: rgb(194,241,130);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__SecondColor--5 {
+    color: rgb(236,250,215);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__ThirdColor--1 {
+    color: rgb(86,75,0);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__ThirdColor--2 {
+    color: rgb(150,130,0);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__ThirdColor--3 {
+    color: rgb(244,215,34);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__ThirdColor--4 {
+    color: rgb(255,239,137);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__ThirdColor--5 {
+    color: rgb(255,250,219);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__Grey--1 {
+    color: rgb(23,19,24);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__Grey--2 {
+    color: rgb(40,32,42);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__Grey--3 {
+    color: rgb(79,69,82);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__Grey--4 {
+    color: rgb(145,138,147);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__Grey--5 {
+    color: rgb(216,213,217);
+}
+
+
+
+/*
+_________________________________________________________________
+
+IV. Theme "Tamale"
+    a.  "Light"
+_________________________________________________________________
+*/
+.SNSFFW-ThemeTamale--Light
+{
+    --SNSFFW_FirstColor_1: rgb(255,252,219);
+    --SNSFFW_FirstColor_2: rgb(255,246,137);
+    --SNSFFW_FirstColor_3: rgb(244,229,34);
+    --SNSFFW_FirstColor_4: rgb(150,139,0);
+    --SNSFFW_FirstColor_5: rgb(86,80,0);
+    --SNSFFW_SecondColor_1: rgb(238,205,234);
+    --SNSFFW_SecondColor_2: rgb(206,111,194);
+    --SNSFFW_SecondColor_3: rgb(169,24,151);
+    --SNSFFW_SecondColor_4: rgb(104,0,91);
+    --SNSFFW_SecondColor_5: rgb(60,0,53);
+    --SNSFFW_ThirdColor_1: rgb(211,210,238);
+    --SNSFFW_ThirdColor_2: rgb(130,125,206);
+    --SNSFFW_ThirdColor_3: rgb(52,45,170);
+    --SNSFFW_ThirdColor_4: rgb(17,12,104);
+    --SNSFFW_ThirdColor_5: rgb(6,3,60);
+    --SNSFFW_Grey_1: rgb(249,249,246);
+    --SNSFFW_Grey_2: rgb(237,237,226);
+    --SNSFFW_Grey_3: rgb(214,212,193);
+    --SNSFFW_Grey_4: rgb(128,127,113);
+    --SNSFFW_Grey_5: rgb(74,73,65);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__FirstColor--1 {
+    background-color: rgb(255,252,219);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__FirstColor--2 {
+    background-color: rgb(255,246,137);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__FirstColor--3 {
+    background-color: rgb(244,229,34);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__FirstColor--4 {
+    background-color: rgb(150,139,0);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__FirstColor--5 {
+    background-color: rgb(86,80,0);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__SecondColor--1 {
+    background-color: rgb(238,205,234);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__SecondColor--2 {
+    background-color: rgb(206,111,194);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__SecondColor--3 {
+    background-color: rgb(169,24,151);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__SecondColor--4 {
+    background-color: rgb(104,0,91);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__SecondColor--5 {
+    background-color: rgb(60,0,53);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__ThirdColor--1 {
+    background-color: rgb(211,210,238);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__ThirdColor--2 {
+    background-color: rgb(130,125,206);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__ThirdColor--3 {
+    background-color: rgb(52,45,170);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__ThirdColor--4 {
+    background-color: rgb(17,12,104);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__ThirdColor--5 {
+    background-color: rgb(6,3,60);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__Grey--1 {
+    background-color: rgb(249,249,246);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__Grey--2 {
+    background-color: rgb(237,237,226);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__Grey--3 {
+    background-color: rgb(214,212,193);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__Grey--4 {
+    background-color: rgb(128,127,113);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__Grey--5 {
+    background-color: rgb(74,73,65);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__FirstColor--1 {
+    color: rgb(255,252,219);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__FirstColor--2 {
+    color: rgb(255,246,137);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__FirstColor--3 {
+    color: rgb(244,229,34);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__FirstColor--4 {
+    color: rgb(150,139,0);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__FirstColor--5 {
+    color: rgb(86,80,0);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__SecondColor--1 {
+    color: rgb(238,205,234);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__SecondColor--2 {
+    color: rgb(206,111,194);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__SecondColor--3 {
+    color: rgb(169,24,151);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__SecondColor--4 {
+    color: rgb(104,0,91);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__SecondColor--5 {
+    color: rgb(60,0,53);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__ThirdColor--1 {
+    color: rgb(211,210,238);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__ThirdColor--2 {
+    color: rgb(130,125,206);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__ThirdColor--3 {
+    color: rgb(52,45,170);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__ThirdColor--4 {
+    color: rgb(17,12,104);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__ThirdColor--5 {
+    color: rgb(6,3,60);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__Grey--1 {
+    color: rgb(249,249,246);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__Grey--2 {
+    color: rgb(237,237,226);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__Grey--3 {
+    color: rgb(214,212,193);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__Grey--4 {
+    color: rgb(128,127,113);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__Grey--5 {
+    color: rgb(74,73,65);
+}
+
+
+
+/*
+_________________________________________________________________
+
+IV. Theme "Tamale"
+    b.  "Dark"
+_________________________________________________________________
+*/
+.SNSFFW-ThemeTamale--Dark
+{
+    --SNSFFW_FirstColor_1: rgb(86,80,0);
+    --SNSFFW_FirstColor_2: rgb(150,139,0);
+    --SNSFFW_FirstColor_3: rgb(244,229,34);
+    --SNSFFW_FirstColor_4: rgb(255,246,137);
+    --SNSFFW_FirstColor_5: rgb(255,252,219);
+    --SNSFFW_SecondColor_1: rgb(60,0,53);
+    --SNSFFW_SecondColor_2: rgb(104,0,91);
+    --SNSFFW_SecondColor_3: rgb(169,24,151);
+    --SNSFFW_SecondColor_4: rgb(206,111,194);
+    --SNSFFW_SecondColor_5: rgb(238,205,234);
+    --SNSFFW_ThirdColor_1: rgb(6,3,60);
+    --SNSFFW_ThirdColor_2: rgb(17,12,104);
+    --SNSFFW_ThirdColor_3: rgb(52,45,170);
+    --SNSFFW_ThirdColor_4: rgb(130,125,206);
+    --SNSFFW_ThirdColor_5: rgb(211,210,238);
+    --SNSFFW_Grey_1: rgb(74,73,65);
+    --SNSFFW_Grey_2: rgb(128,127,113);
+    --SNSFFW_Grey_3: rgb(214,212,193);
+    --SNSFFW_Grey_4: rgb(237,237,226);
+    --SNSFFW_Grey_5: rgb(249,249,246);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__FirstColor--1 {
+    background-color: rgb(86,80,0);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__FirstColor--2 {
+    background-color: rgb(150,139,0);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__FirstColor--3 {
+    background-color: rgb(244,229,34);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__FirstColor--4 {
+    background-color: rgb(255,246,137);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__FirstColor--5 {
+    background-color: rgb(255,252,219);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__SecondColor--1 {
+    background-color: rgb(60,0,53);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__SecondColor--2 {
+    background-color: rgb(104,0,91);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__SecondColor--3 {
+    background-color: rgb(169,24,151);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__SecondColor--4 {
+    background-color: rgb(206,111,194);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__SecondColor--5 {
+    background-color: rgb(238,205,234);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__ThirdColor--1 {
+    background-color: rgb(6,3,60);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__ThirdColor--2 {
+    background-color: rgb(17,12,104);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__ThirdColor--3 {
+    background-color: rgb(52,45,170);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__ThirdColor--4 {
+    background-color: rgb(130,125,206);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__ThirdColor--5 {
+    background-color: rgb(211,210,238);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__Grey--1 {
+    background-color: rgb(74,73,65);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__Grey--2 {
+    background-color: rgb(128,127,113);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__Grey--3 {
+    background-color: rgb(214,212,193);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__Grey--4 {
+    background-color: rgb(237,237,226);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__Grey--5 {
+    background-color: rgb(249,249,246);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__FirstColor--1 {
+    color: rgb(86,80,0);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__FirstColor--2 {
+    color: rgb(150,139,0);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__FirstColor--3 {
+    color: rgb(244,229,34);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__FirstColor--4 {
+    color: rgb(255,246,137);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__FirstColor--5 {
+    color: rgb(255,252,219);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__SecondColor--1 {
+    color: rgb(60,0,53);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__SecondColor--2 {
+    color: rgb(104,0,91);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__SecondColor--3 {
+    color: rgb(169,24,151);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__SecondColor--4 {
+    color: rgb(206,111,194);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__SecondColor--5 {
+    color: rgb(238,205,234);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__ThirdColor--1 {
+    color: rgb(6,3,60);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__ThirdColor--2 {
+    color: rgb(17,12,104);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__ThirdColor--3 {
+    color: rgb(52,45,170);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__ThirdColor--4 {
+    color: rgb(130,125,206);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__ThirdColor--5 {
+    color: rgb(211,210,238);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__Grey--1 {
+    color: rgb(74,73,65);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__Grey--2 {
+    color: rgb(128,127,113);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__Grey--3 {
+    color: rgb(214,212,193);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__Grey--4 {
+    color: rgb(237,237,226);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__Grey--5 {
+    color: rgb(249,249,246);
+}
+
+
+
+/*
+_________________________________________________________________
+
+V. Theme "Ho"
+    a.  "Light"
+_________________________________________________________________
+*/
+.SNSFFW-ThemeHo--Light
+{
+    --SNSFFW_FirstColor_1: rgb(206,239,220);
+    --SNSFFW_FirstColor_2: rgb(112,209,154);
+    --SNSFFW_FirstColor_3: rgb(24,174,89);
+    --SNSFFW_FirstColor_4: rgb(0,107,47);
+    --SNSFFW_FirstColor_5: rgb(0,62,27);
+    --SNSFFW_SecondColor_1: rgb(255,238,219);
+    --SNSFFW_SecondColor_2: rgb(255,200,137);
+    --SNSFFW_SecondColor_3: rgb(244,147,34);
+    --SNSFFW_SecondColor_4: rgb(150,80,0);
+    --SNSFFW_SecondColor_5: rgb(86,46,0);
+    --SNSFFW_ThirdColor_1: rgb(248,213,226);
+    --SNSFFW_ThirdColor_2: rgb(233,126,167);
+    --SNSFFW_ThirdColor_3: rgb(211,30,100);
+    --SNSFFW_ThirdColor_4: rgb(130,0,50);
+    --SNSFFW_ThirdColor_5: rgb(75,0,29);
+    --SNSFFW_Grey_1: rgb(224,228,226);
+    --SNSFFW_Grey_2: rgb(167,177,172);
+    --SNSFFW_Grey_3: rgb(109,124,116);
+    --SNSFFW_Grey_4: rgb(61,71,65);
+    --SNSFFW_Grey_5: rgb(35,41,37);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__FirstColor--1 {
+    background-color: rgb(206,239,220);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__FirstColor--2 {
+    background-color: rgb(112,209,154);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__FirstColor--3 {
+    background-color: rgb(24,174,89);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__FirstColor--4 {
+    background-color: rgb(0,107,47);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__FirstColor--5 {
+    background-color: rgb(0,62,27);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__SecondColor--1 {
+    background-color: rgb(255,238,219);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__SecondColor--2 {
+    background-color: rgb(255,200,137);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__SecondColor--3 {
+    background-color: rgb(244,147,34);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__SecondColor--4 {
+    background-color: rgb(150,80,0);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__SecondColor--5 {
+    background-color: rgb(86,46,0);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__ThirdColor--1 {
+    background-color: rgb(248,213,226);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__ThirdColor--2 {
+    background-color: rgb(233,126,167);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__ThirdColor--3 {
+    background-color: rgb(211,30,100);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__ThirdColor--4 {
+    background-color: rgb(130,0,50);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__ThirdColor--5 {
+    background-color: rgb(75,0,29);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__Grey--1 {
+    background-color: rgb(224,228,226);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__Grey--2 {
+    background-color: rgb(167,177,172);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__Grey--3 {
+    background-color: rgb(109,124,116);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__Grey--4 {
+    background-color: rgb(61,71,65);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__Grey--5 {
+    background-color: rgb(35,41,37);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__FirstColor--1 {
+    color: rgb(206,239,220);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__FirstColor--2 {
+    color: rgb(112,209,154);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__FirstColor--3 {
+    color: rgb(24,174,89);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__FirstColor--4 {
+    color: rgb(0,107,47);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__FirstColor--5 {
+    color: rgb(0,62,27);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__SecondColor--1 {
+    color: rgb(255,238,219);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__SecondColor--2 {
+    color: rgb(255,200,137);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__SecondColor--3 {
+    color: rgb(244,147,34);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__SecondColor--4 {
+    color: rgb(150,80,0);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__SecondColor--5 {
+    color: rgb(86,46,0);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__ThirdColor--1 {
+    color: rgb(248,213,226);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__ThirdColor--2 {
+    color: rgb(233,126,167);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__ThirdColor--3 {
+    color: rgb(211,30,100);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__ThirdColor--4 {
+    color: rgb(130,0,50);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__ThirdColor--5 {
+    color: rgb(75,0,29);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__Grey--1 {
+    color: rgb(224,228,226);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__Grey--2 {
+    color: rgb(167,177,172);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__Grey--3 {
+    color: rgb(109,124,116);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__Grey--4 {
+    color: rgb(61,71,65);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__Grey--5 {
+    color: rgb(35,41,37);
+}
+
+
+
+/*
+_________________________________________________________________
+
+V. Theme "Ho"
+    b.  "Dark"
+_________________________________________________________________
+*/
+.SNSFFW-ThemeHo--Dark
+{
+    --SNSFFW_FirstColor_1: rgb(0,62,27);
+    --SNSFFW_FirstColor_2: rgb(0,107,47);
+    --SNSFFW_FirstColor_3: rgb(24,174,89);
+    --SNSFFW_FirstColor_4: rgb(112,209,154);
+    --SNSFFW_FirstColor_5: rgb(206,239,220);
+    --SNSFFW_SecondColor_1: rgb(86,46,0);
+    --SNSFFW_SecondColor_2: rgb(150,80,0);
+    --SNSFFW_SecondColor_3: rgb(244,147,34);
+    --SNSFFW_SecondColor_4: rgb(255,200,137);
+    --SNSFFW_SecondColor_5: rgb(255,238,219);
+    --SNSFFW_ThirdColor_1: rgb(75,0,29);
+    --SNSFFW_ThirdColor_2: rgb(130,0,50);
+    --SNSFFW_ThirdColor_3: rgb(211,30,100);
+    --SNSFFW_ThirdColor_4: rgb(233,126,167);
+    --SNSFFW_ThirdColor_5: rgb(248,213,226);
+    --SNSFFW_Grey_1: rgb(35,41,37);
+    --SNSFFW_Grey_2: rgb(61,71,65);
+    --SNSFFW_Grey_3: rgb(109,124,116);
+    --SNSFFW_Grey_4: rgb(167,177,172);
+    --SNSFFW_Grey_5: rgb(224,228,226);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__FirstColor--1 {
+    background-color: rgb(0,62,27);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__FirstColor--2 {
+    background-color: rgb(0,107,47);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__FirstColor--3 {
+    background-color: rgb(24,174,89);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__FirstColor--4 {
+    background-color: rgb(112,209,154);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__FirstColor--5 {
+    background-color: rgb(206,239,220);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__SecondColor--1 {
+    background-color: rgb(86,46,0);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__SecondColor--2 {
+    background-color: rgb(150,80,0);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__SecondColor--3 {
+    background-color: rgb(244,147,34);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__SecondColor--4 {
+    background-color: rgb(255,200,137);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__SecondColor--5 {
+    background-color: rgb(255,238,219);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__ThirdColor--1 {
+    background-color: rgb(75,0,29);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__ThirdColor--2 {
+    background-color: rgb(130,0,50);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__ThirdColor--3 {
+    background-color: rgb(211,30,100);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__ThirdColor--4 {
+    background-color: rgb(233,126,167);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__ThirdColor--5 {
+    background-color: rgb(248,213,226);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__Grey--1 {
+    background-color: rgb(35,41,37);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__Grey--2 {
+    background-color: rgb(61,71,65);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__Grey--3 {
+    background-color: rgb(109,124,116);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__Grey--4 {
+    background-color: rgb(167,177,172);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__Grey--5 {
+    background-color: rgb(224,228,226);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__FirstColor--1 {
+    color: rgb(0,62,27);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__FirstColor--2 {
+    color: rgb(0,107,47);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__FirstColor--3 {
+    color: rgb(24,174,89);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__FirstColor--4 {
+    color: rgb(112,209,154);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__FirstColor--5 {
+    color: rgb(206,239,220);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__SecondColor--1 {
+    color: rgb(86,46,0);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__SecondColor--2 {
+    color: rgb(150,80,0);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__SecondColor--3 {
+    color: rgb(244,147,34);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__SecondColor--4 {
+    color: rgb(255,200,137);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__SecondColor--5 {
+    color: rgb(255,238,219);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__ThirdColor--1 {
+    color: rgb(75,0,29);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__ThirdColor--2 {
+    color: rgb(130,0,50);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__ThirdColor--3 {
+    color: rgb(211,30,100);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__ThirdColor--4 {
+    color: rgb(233,126,167);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__ThirdColor--5 {
+    color: rgb(248,213,226);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__Grey--1 {
+    color: rgb(35,41,37);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__Grey--2 {
+    color: rgb(61,71,65);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__Grey--3 {
+    color: rgb(109,124,116);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__Grey--4 {
+    color: rgb(167,177,172);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__Grey--5 {
+    color: rgb(224,228,226);
+}
+
+
+
+/*
+_________________________________________________________________
+
+VI. Theme "Sunyani"
+    a.  "Light"
+_________________________________________________________________
+*/
+.SNSFFW-ThemeSunyani--Light
+{
+    --SNSFFW_FirstColor_1: rgb(208,214,237);
+    --SNSFFW_FirstColor_2: rgb(121,137,204);
+    --SNSFFW_FirstColor_3: rgb(41,66,166);
+    --SNSFFW_FirstColor_4: rgb(10,28,102);
+    --SNSFFW_FirstColor_5: rgb(2,14,59);
+    --SNSFFW_SecondColor_1: rgb(255,250,219);
+    --SNSFFW_SecondColor_2: rgb(255,239,137);
+    --SNSFFW_SecondColor_3: rgb(244,214,34);
+    --SNSFFW_SecondColor_4: rgb(150,129,0);
+    --SNSFFW_SecondColor_5: rgb(86,74,0);
+    --SNSFFW_ThirdColor_1: rgb(255,237,219);
+    --SNSFFW_ThirdColor_2: rgb(255,197,137);
+    --SNSFFW_ThirdColor_3: rgb(244,140,34);
+    --SNSFFW_ThirdColor_4: rgb(150,76,0);
+    --SNSFFW_ThirdColor_5: rgb(86,44,0);
+    --SNSFFW_Grey_1: rgb(214,214,217);
+    --SNSFFW_Grey_2: rgb(138,139,146);
+    --SNSFFW_Grey_3: rgb(66,68,78);
+    --SNSFFW_Grey_4: rgb(28,30,38);
+    --SNSFFW_Grey_5: rgb(14,15,20);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__FirstColor--1 {
+    background-color: rgb(208,214,237);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__FirstColor--2 {
+    background-color: rgb(121,137,204);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__FirstColor--3 {
+    background-color: rgb(41,66,166);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__FirstColor--4 {
+    background-color: rgb(10,28,102);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__FirstColor--5 {
+    background-color: rgb(2,14,59);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__SecondColor--1 {
+    background-color: rgb(255,250,219);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__SecondColor--2 {
+    background-color: rgb(255,239,137);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__SecondColor--3 {
+    background-color: rgb(244,214,34);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__SecondColor--4 {
+    background-color: rgb(150,129,0);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__SecondColor--5 {
+    background-color: rgb(86,74,0);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__ThirdColor--1 {
+    background-color: rgb(255,237,219);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__ThirdColor--2 {
+    background-color: rgb(255,197,137);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__ThirdColor--3 {
+    background-color: rgb(244,140,34);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__ThirdColor--4 {
+    background-color: rgb(150,76,0);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__ThirdColor--5 {
+    background-color: rgb(86,44,0);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__Grey--1 {
+    background-color: rgb(214,214,217);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__Grey--2 {
+    background-color: rgb(138,139,146);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__Grey--3 {
+    background-color: rgb(66,68,78);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__Grey--4 {
+    background-color: rgb(28,30,38);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__Grey--5 {
+    background-color: rgb(14,15,20);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__FirstColor--1 {
+    color: rgb(208,214,237);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__FirstColor--2 {
+    color: rgb(121,137,204);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__FirstColor--3 {
+    color: rgb(41,66,166);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__FirstColor--4 {
+    color: rgb(10,28,102);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__FirstColor--5 {
+    color: rgb(2,14,59);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__SecondColor--1 {
+    color: rgb(255,250,219);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__SecondColor--2 {
+    color: rgb(255,239,137);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__SecondColor--3 {
+    color: rgb(244,214,34);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__SecondColor--4 {
+    color: rgb(150,129,0);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__SecondColor--5 {
+    color: rgb(86,74,0);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__ThirdColor--1 {
+    color: rgb(255,237,219);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__ThirdColor--2 {
+    color: rgb(255,197,137);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__ThirdColor--3 {
+    color: rgb(244,140,34);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__ThirdColor--4 {
+    color: rgb(150,76,0);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__ThirdColor--5 {
+    color: rgb(86,44,0);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__Grey--1 {
+    color: rgb(214,214,217);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__Grey--2 {
+    color: rgb(138,139,146);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__Grey--3 {
+    color: rgb(66,68,78);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__Grey--4 {
+    color: rgb(28,30,38);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__Grey--5 {
+    color: rgb(14,15,20);
+}
+
+
+
+/*
+_________________________________________________________________
+
+VI. Theme "Sunyani"
+    b.  "Dark"
+_________________________________________________________________
+*/
+.SNSFFW-ThemeSunyani--Dark
+{
+    --SNSFFW_FirstColor_1: rgb(2,14,59);
+    --SNSFFW_FirstColor_2: rgb(10,28,102);
+    --SNSFFW_FirstColor_3: rgb(41,66,166);
+    --SNSFFW_FirstColor_4: rgb(121,137,204);
+    --SNSFFW_FirstColor_5: rgb(208,214,237);
+    --SNSFFW_SecondColor_1: rgb(86,74,0);
+    --SNSFFW_SecondColor_2: rgb(150,129,0);
+    --SNSFFW_SecondColor_3: rgb(244,214,34);
+    --SNSFFW_SecondColor_4: rgb(255,239,137);
+    --SNSFFW_SecondColor_5: rgb(255,250,219);
+    --SNSFFW_ThirdColor_1: rgb(86,44,0);
+    --SNSFFW_ThirdColor_2: rgb(150,76,0);
+    --SNSFFW_ThirdColor_3: rgb(244,140,34);
+    --SNSFFW_ThirdColor_4: rgb(255,197,137);
+    --SNSFFW_ThirdColor_5: rgb(255,237,219);
+    --SNSFFW_Grey_1: rgb(14,15,20);
+    --SNSFFW_Grey_2: rgb(28,30,38);
+    --SNSFFW_Grey_3: rgb(66,68,78);
+    --SNSFFW_Grey_4: rgb(138,139,146);
+    --SNSFFW_Grey_5: rgb(214,214,217);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__FirstColor--1 {
+    background-color: rgb(2,14,59);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__FirstColor--2 {
+    background-color: rgb(10,28,102);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__FirstColor--3 {
+    background-color: rgb(41,66,166);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__FirstColor--4 {
+    background-color: rgb(121,137,204);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__FirstColor--5 {
+    background-color: rgb(208,214,237);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__SecondColor--1 {
+    background-color: rgb(86,74,0);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__SecondColor--2 {
+    background-color: rgb(150,129,0);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__SecondColor--3 {
+    background-color: rgb(244,214,34);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__SecondColor--4 {
+    background-color: rgb(255,239,137);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__SecondColor--5 {
+    background-color: rgb(255,250,219);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__ThirdColor--1 {
+    background-color: rgb(86,44,0);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__ThirdColor--2 {
+    background-color: rgb(150,76,0);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__ThirdColor--3 {
+    background-color: rgb(244,140,34);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__ThirdColor--4 {
+    background-color: rgb(255,197,137);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__ThirdColor--5 {
+    background-color: rgb(255,237,219);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__Grey--1 {
+    background-color: rgb(14,15,20);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__Grey--2 {
+    background-color: rgb(28,30,38);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__Grey--3 {
+    background-color: rgb(66,68,78);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__Grey--4 {
+    background-color: rgb(138,139,146);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__Grey--5 {
+    background-color: rgb(214,214,217);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__FirstColor--1 {
+    color: rgb(2,14,59);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__FirstColor--2 {
+    color: rgb(10,28,102);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__FirstColor--3 {
+    color: rgb(41,66,166);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__FirstColor--4 {
+    color: rgb(121,137,204);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__FirstColor--5 {
+    color: rgb(208,214,237);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__SecondColor--1 {
+    color: rgb(86,74,0);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__SecondColor--2 {
+    color: rgb(150,129,0);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__SecondColor--3 {
+    color: rgb(244,214,34);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__SecondColor--4 {
+    color: rgb(255,239,137);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__SecondColor--5 {
+    color: rgb(255,250,219);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__ThirdColor--1 {
+    color: rgb(86,44,0);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__ThirdColor--2 {
+    color: rgb(150,76,0);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__ThirdColor--3 {
+    color: rgb(244,140,34);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__ThirdColor--4 {
+    color: rgb(255,197,137);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__ThirdColor--5 {
+    color: rgb(255,237,219);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__Grey--1 {
+    color: rgb(14,15,20);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__Grey--2 {
+    color: rgb(28,30,38);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__Grey--3 {
+    color: rgb(66,68,78);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__Grey--4 {
+    color: rgb(138,139,146);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__Grey--5 {
+    color: rgb(214,214,217);
+}
+
+
+
+/*
+_________________________________________________________________
+
+VII. Standard Website Colors
+_________________________________________________________________
+*/
+body {
+    background-color: var(--SNSFFW_Grey_1);
+    color: var(--SNSFFW_Grey_3);
+}

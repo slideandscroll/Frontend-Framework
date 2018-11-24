@@ -1,0 +1,269 @@
+﻿/*
+SLIDE and SCROLL - FFW
+https://www.slide-and-scroll.org/
+
+Copyright 2018 SLIDE and SCROLL by Daniel Friedrich
+Released under the MIT license
+
+@author: Daniel Friedrich
+Date: 01.08.2018
+*/
+
+
+/*
+TABLE OF CONTENTS
+    I.   "large" screen and projection (min-width: 1280px)
+    II.  "medium" screen and (min-width: 768px and max-width: 1279px)
+    III. "small" screen and (max-width: 767px)
+    IV.  print
+    V.   common
+*/
+
+/*
+_________________________________________________________________
+
+I. "large" screen and projection (min-width: 1280px)
+_________________________________________________________________
+*/
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2.25rem;
+}
+h3 {
+    font-size: 1.875rem;
+}
+h4 {
+    font-size: 1.625rem;
+}
+h5 {
+    font-size: 1.375rem;
+}
+h6 {
+    font-size: 1.125rem;
+}
+p, strong, b, em, i, cite, var, s, del, samp, abbr, code, blockquote, ul, ol, dl, table, figcaption, form, legend, label, input, textarea, select, button {
+    font-size: 1rem;
+}
+figcaption {
+    font-size: .8rem;
+}
+
+
+
+/*
+_________________________________________________________________
+
+II. "medium" screen and (min-width: 768px and max-width: 1279px)
+_________________________________________________________________
+*/
+@media only screen and (max-width: 1279px)
+{
+h1 {
+    font-size: 2.25rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.625rem;
+}
+h4 {
+    font-size: 1.375rem;
+}
+h5 {
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1rem;
+}
+p, strong, b, em, i, cite, var, s, del, samp, abbr, code, blockquote, ul, ol, dl, table, figcaption, form, legend, label, input, textarea, select, button {
+    font-size: .875rem;
+}
+figcaption {
+    font-size: .7rem;
+}
+}
+
+
+
+/*
+_________________________________________________________________
+
+III. "small" screen and (max-width: 767px)
+_________________________________________________________________
+*/
+@media only screen and (max-width: 767px)
+{
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.625rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.25rem;
+}
+h5 {
+    font-size: 1.125rem;
+}
+h6 {
+    font-size: .875rem;
+}
+p, strong, b, em, i, cite, var, s, del, samp, abbr, code, blockquote, ul, ol, dl, table, figcaption, form, legend, label, input, textarea, select, button {
+    font-size: .75rem;
+}
+figcaption {
+    font-size: .6rem;
+}
+}
+
+
+
+/*
+_________________________________________________________________
+
+IV. print
+_________________________________________________________________
+*/
+@media only print
+{
+
+}
+
+
+
+/*
+_________________________________________________________________
+
+V. common
+_________________________________________________________________
+*/
+.SNSFFW-FontSerif__LetterSpacing--Narrower {
+    font-family: 'Taviraj', serif;
+    letter-spacing: -0.06em;
+}
+.SNSFFW-FontSerif__LetterSpacing--Narrow {
+    font-family: 'Taviraj', serif;
+    letter-spacing: -0.03em;
+}
+.SNSFFW-FontSerif__LetterSpacing--Normal {
+    font-family: 'Taviraj', serif;
+    letter-spacing: normal;
+}
+.SNSFFW-FontSerif__LetterSpacing--Wide {
+    font-family: 'Taviraj', serif;
+    letter-spacing: 0.1em;
+}
+.SNSFFW-FontSerif__LetterSpacing--Wider {
+    font-family: 'Taviraj', serif;
+    letter-spacing: 0.2em;
+}
+.SNSFFW-FontSansSerif__LetterSpacing--Narrower {
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: -0.08em;
+}
+.SNSFFW-FontSansSerif__LetterSpacing--Narrow {
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: -0.04em;
+}
+.SNSFFW-FontSansSerif__LetterSpacing--Normal {
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: normal;
+}
+.SNSFFW-FontSansSerif__LetterSpacing--Wide {
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 0.2em;
+}
+.SNSFFW-FontSansSerif__LetterSpacing--Wider {
+    font-family: 'Libre Franklin', sans-serif;
+    letter-spacing: 0.4em;
+}
+.SNSFFW-Font__LineHeight--Lower {
+    line-height: 0.86em;
+}
+.SNSFFW-Font__LineHeight--Low {
+    line-height: 0.93em;
+}
+.SNSFFW-Font__LineHeight--Normal {
+    line-height: inherit;
+}
+.SNSFFW-Font__LineHeight--High {
+    line-height: 1.5em;
+}
+.SNSFFW-Font__LineHeight--Higher {
+    line-height: 2em;
+}
+.SNSFFW-Heading__FontWeight--Light {
+    font-weight: 400;
+}
+.SNSFFW-Heading__FontWeight--Lighter {
+    font-weight: 300;
+}
+.SNSFFW-Heading__FontWeight--Thin {
+    font-weight: 200;
+}
+.SNSFFW-Paragraph__FontWeight--Bolder {
+    font-weight: 600;
+}
+.SNSFFW-Paragraph__FontWeight--Bold {
+    font-weight: 500;
+}
+.SNSFFW-Paragraph__FontWeight--Light {
+    font-weight: 300;
+}
+.SNSFFW-Paragraph__FontWeight--Lighter {
+    font-weight: 200;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: var(--SNSFFW_PaddingMargin_Spacing_Small);
+    font-weight: 500;
+    line-height: 1.5em;
+}
+p, blockquote, ul, ol, dl, table, form, fieldset {
+    margin-bottom: var(--SNSFFW_PaddingMargin_Spacing_Big);
+}
+strong, b {
+    font-weight: bolder;
+}
+em, i {
+    font-style: italic;
+}
+cite, var {
+    font-family: 'Taviraj', serif;
+    font-style: italic;
+}
+u, ins {
+    text-decoration: underline;
+}
+sup, sub {
+    font-size: .65em;
+    line-height: 0;
+}
+sup {
+    vertical-align: super;
+}
+sub {
+    vertical-align:sub;
+}
+s, del {
+    text-decoration: line-through;
+}
+samp {
+    font-family: 'Anonymous Pro', monospace;
+    font-style: italic;
+    line-height: 0;
+}
+abbr {
+    cursor: help;
+}
+code {
+    font-family: 'Anonymous Pro', monospace;
+    line-height: 1.5em;
+}
+
+
