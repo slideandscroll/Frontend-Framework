@@ -843,7 +843,7 @@ button.SNSFFW-Button__Design--KwamisaFour:disabled, input.SNSFFW-Button__Design-
     flex-direction: column;
 }
 
-legend, label, input[type="text"], input[type="date"], input[type="number"], input[type="tel"], input[type="email"], input[type="password"], input[type="url"], input[type="color"], div.SNSFFW-InputOutput__Range, select, textarea {
+legend, label, input[type="text"], input[type="date"], input[type="number"], input[type="tel"], input[type="email"], input[type="password"], input[type="url"], input[type="color"], div.SNSFFW-InputOutput__Range, progress, select, textarea {
     margin-bottom: var(--SNSFFW_PaddingMargin_Spacing_Small);
 }
 
@@ -871,7 +871,7 @@ label {
     align-items: center;
 }
 
-input[type="text"], input[type="date"], input[type="number"], input[type="tel"], input[type="email"], input[type="password"], input[type="url"], input[type="color"], div.SNSFFW-InputOutput__Range, select, textarea {
+input[type="text"], input[type="date"], input[type="number"], input[type="tel"], input[type="email"], input[type="password"], input[type="url"], input[type="color"], div.SNSFFW-InputOutput__Range, progress, select, textarea {
     width: 100%;
     height: calc(var(--SNSFFW_LineHeight_High) + 2 * var(--SNSFFW_PaddingMargin_Spacing_Small) + 2 * var(--SNSFFW_Border_Width_Smaller));
     display: flex;
@@ -982,6 +982,24 @@ output {
     overflow: hidden;
     text-overflow: ellipsis;
     padding-top: var(--SNSFFW_PaddingMargin_Spacing_Small);
+}
+
+progress {
+    padding: 0;
+    border-color: currentColor;
+    height: calc((var(--SNSFFW_LineHeight_High) + 2 * var(--SNSFFW_PaddingMargin_Spacing_Small) + 2 * var(--SNSFFW_Border_Width_Smaller)) / 2);
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: white;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+progress::-moz-progress-bar {
+    background-color: var(--SNSFFW_Grey_2);
 }
 
 input[type="color"] {

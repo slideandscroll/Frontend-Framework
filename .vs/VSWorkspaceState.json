@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\SNSFFW",
-    "\\SNSFFW\\css",
     "\\SNSFFW\\css\\basics",
-    "\\SNSFFW\\css\\content",
-    "\\SNSFFW\\preview"
+    "\\SNSFFW\\css\\content"
   ],
-  "SelectedNode": "\\.gitattributes",
+  "SelectedNode": "\\SNSFFW\\index.html",
   "PreviewInSolutionExplorer": false
 }

@@ -1343,9 +1343,11 @@ Date: 01.08.2018
                             <label class="SNSFFW-Grid__Column2to4"><input type="checkbox" name="extra" />Extra 3</label>
                             <label class="SNSFFW-Grid__Column1">Range:</label>
                             <div class="SNSFFW-Grid__Column2to4 SNSFFW-InputOutput__Range">
-                                <input id="InputRange" type="range" min="0" max="1000000" value="500000" step="5" oninput="OutputRange.value=parseInt(InputRange.value)" />
-                                <output name="OutputRange" for="InputRange">500000</output>
+                                <input id="InputRange1" type="range" min="0" max="1000000" value="500000" step="5" oninput="OutputRange1.value = parseInt(InputRange1.value); ProgressBar1.value = parseInt(InputRange1.value);" />
+                                <output name="OutputRange1" for="InputRange1">500000</output>
                             </div>
+                            <label class="SNSFFW-Grid__Column1">Progress:</label>
+                            <progress class="SNSFFW-Grid__Column2to4" id="ProgressBar1" max="1000000" value="500000"></progress>
                             <label class="SNSFFW-Grid__Column1">Color:</label>
                             <input class="SNSFFW-Grid__Column2to4" type="color" value="#555E62" />
                             <label class="SNSFFW-Grid__Column1">Chat:</label>
@@ -1437,9 +1439,11 @@ Date: 01.08.2018
                             <div class="SNSFFW-Visible__All--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Small);">
                                 <label class="SNSFFW-Grid__Column1">Range:</label>
                                 <div class="SNSFFW-Grid__Column2to4 SNSFFW-InputOutput__Range">
-                                    <input id="InputRangeFieldset" type="range" min="0" max="1000000" value="500000" step="5" oninput="OutputRangeFieldset.value=parseInt(InputRangeFieldset.value)" />
-                                    <output name="OutputRangeFieldset" for="InputRangeFieldset">500000</output>
+                                    <input id="InputRange2" type="range" min="0" max="1000000" value="500000" step="5" oninput="OutputRange2.value = parseInt(InputRange2.value); ProgressBar2.value = parseInt(InputRange2.value);" />
+                                    <output name="OutputRange2" for="InputRangeFieldset">500000</output>
                                 </div>
+                                <label class="SNSFFW-Grid__Column1">Progress:</label>
+                                <progress class="SNSFFW-Grid__Column2to4" id="ProgressBar2" max="1000000" value="500000"></progress>
                                 <label class="SNSFFW-Grid__Column1">Color:</label>
                                 <input class="SNSFFW-Grid__Column2to4" type="color" value="#555E62" />
                             </div>
@@ -1567,9 +1571,13 @@ Date: 01.08.2018
                         <div class="SNSFFW-Visible__All--Flex" style="margin-bottom:var(--SNSFFW_PaddingMargin_Spacing_Small);">
                             <label class="SNSFFW-Flex__Item1of4">Range:</label>
                             <div class="SNSFFW-Flex__Item3of4 SNSFFW-InputOutput__Range">
-                                <input id="InputRange" type="range" min="0" max="1000000" value="500000" step="5" oninput="OutputRange.value=parseInt(InputRange.value)" />
-                                <output name="OutputRange" for="InputRange">500000</output>
+                                <input id="InputRange3" type="range" min="0" max="1000000" value="500000" step="5" oninput="OutputRange3.value = parseInt(InputRange3.value); ProgressBar3.value=parseInt(InputRange3.value)" />
+                                <output name="OutputRange3" for="InputRange">500000</output>
                             </div>
+                        </div>
+                        <div class="SNSFFW-Visible__All--Flex" style="margin-bottom:var(--SNSFFW_PaddingMargin_Spacing_Small);">
+                            <label class="SNSFFW-Flex__Item1of4">Progress:</label>
+                            <progress class="SNSFFW-Flex__Item3of4" id="ProgressBar3" max="1000000" value="500000"></progress>
                         </div>
                         <div class="SNSFFW-Visible__All--Flex" style="margin-bottom:var(--SNSFFW_PaddingMargin_Spacing_Small);">
                             <label class="SNSFFW-Flex__Item1of4">Color:</label>
@@ -1697,9 +1705,13 @@ Date: 01.08.2018
                             <div class="SNSFFW-Visible__All--Flex" style="margin-bottom:var(--SNSFFW_PaddingMargin_Spacing_Small);">
                                 <label class="SNSFFW-Flex__Item1of4">Range:</label>
                                 <div class="SNSFFW-Flex__Item3of4 SNSFFW-InputOutput__Range">
-                                    <input id="InputRangeFieldset" type="range" min="0" max="1000000" value="500000" step="5" oninput="OutputRangeFieldset.value=parseInt(InputRangeFieldset.value)" />
-                                    <output name="OutputRangeFieldset" for="InputRangeFieldset">500000</output>
+                                    <input id="InputRange4" type="range" min="0" max="1000000" value="500000" step="5" oninput="OutputRange4.value = parseInt(InputRange4.value); ProgressBar4.value=parseInt(InputRange4.value)" />
+                                    <output name="OutputRange4" for="InputRangeFieldset">500000</output>
                                 </div>
+                            </div>
+                            <div class="SNSFFW-Visible__All--Flex" style="margin-bottom:var(--SNSFFW_PaddingMargin_Spacing_Small);">
+                                <label class="SNSFFW-Flex__Item1of4">Progress:</label>
+                                <progress class="SNSFFW-Flex__Item3of4" id="ProgressBar4" max="1000000" value="500000"></progress>
                             </div>
                             <div class="SNSFFW-Visible__All--Flex" style="margin-bottom:var(--SNSFFW_PaddingMargin_Spacing_Small);">
                                 <label class="SNSFFW-Flex__Item1of4">Color:</label>
