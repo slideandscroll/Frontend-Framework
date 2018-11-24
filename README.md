@@ -1,1 +1,1 @@
-# Frontend-Framework
+# SLIDE and SCROLL - Frontend-FrameWork
