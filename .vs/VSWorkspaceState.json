@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\SNSFFW",
+    "\\SNSFFW\\css",
     "\\SNSFFW\\css\\basics",
-    "\\SNSFFW\\css\\content"
+    "\\SNSFFW\\css\\content",
+    "\\SNSFFW\\preview"
   ],
-  "SelectedNode": "\\SNSFFW\\index.html",
+  "SelectedNode": "\\SNSFFW\\preview\\Elements.html",
   "PreviewInSolutionExplorer": false
 }

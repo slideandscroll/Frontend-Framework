@@ -41,8 +41,7 @@ I. Theme "Accra"
     a.  "Light"
 _________________________________________________________________
 */
-.SNSFFW-ThemeAccra--Light
-{
+.SNSFFW-ThemeAccra--Light {
     --SNSFFW_FirstColor_1: rgb(204,225,235);
     --SNSFFW_FirstColor_2: rgb(110,168,196);
     --SNSFFW_FirstColor_3: rgb(28,113,154);
@@ -63,6 +62,7 @@ _________________________________________________________________
     --SNSFFW_Grey_3: rgb(85,94,98);
     --SNSFFW_Grey_4: rgb(45,51,54);
     --SNSFFW_Grey_5: rgb(25,28,30);
+    --SNSFFW_Default: white;
 }
 .SNSFFW-ThemeAccra--Light .SNSFFW-Background__FirstColor--1 {
     background-color: rgb(204,225,235);
@@ -194,8 +194,7 @@ I. Theme "Accra"
     b.  "Dark"
 _________________________________________________________________
 */
-.SNSFFW-ThemeAccra--Dark
-{
+.SNSFFW-ThemeAccra--Dark {
     --SNSFFW_FirstColor_1: rgb(1,37,55);
     --SNSFFW_FirstColor_2: rgb(4,65,95);
     --SNSFFW_FirstColor_3: rgb(28,113,154);
@@ -216,6 +215,7 @@ _________________________________________________________________
     --SNSFFW_Grey_3: rgb(85,94,98);
     --SNSFFW_Grey_4: rgb(149,155,158);
     --SNSFFW_Grey_5: rgb(218,220,221);
+    --SNSFFW_Default: black;
 }
 .SNSFFW-ThemeAccra--Dark .SNSFFW-Background__FirstColor--1 {
     background-color: rgb(1,37,55);
@@ -347,8 +347,7 @@ II. Theme "Kumasi"
     a.  "Light"
 _________________________________________________________________
 */
-.SNSFFW-ThemeKumasi--Light
-{
+.SNSFFW-ThemeKumasi--Light {
     --SNSFFW_FirstColor_1: rgb(241,252,216);
     --SNSFFW_FirstColor_2: rgb(212,245,132);
     --SNSFFW_FirstColor_3: rgb(170,229,32);
@@ -369,6 +368,7 @@ _________________________________________________________________
     --SNSFFW_Grey_3: rgb(187,193,173);
     --SNSFFW_Grey_4: rgb(110,114,100);
     --SNSFFW_Grey_5: rgb(64,66,58);
+    --SNSFFW_Default: white;
 }
 .SNSFFW-ThemeKumasi--Light .SNSFFW-Background__FirstColor--1 {
     background-color: rgb(241,252,216);
@@ -500,8 +500,7 @@ II. Theme "Kumasi"
     b.  "Dark"
 _________________________________________________________________
 */
-.SNSFFW-ThemeKumasi--Dark
-{
+.SNSFFW-ThemeKumasi--Dark {
     --SNSFFW_FirstColor_1: rgb(57,81,0);
     --SNSFFW_FirstColor_2: rgb(99,141,0);
     --SNSFFW_FirstColor_3: rgb(170,229,32);
@@ -522,6 +521,7 @@ _________________________________________________________________
     --SNSFFW_Grey_3: rgb(187,193,173);
     --SNSFFW_Grey_4: rgb(220,224,213);
     --SNSFFW_Grey_5: rgb(244,245,242);
+    --SNSFFW_Default: black;
 }
 .SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__FirstColor--1 {
     background-color: rgb(57,81,0);
@@ -653,8 +653,7 @@ III. Theme "Cape Coast"
     a.  "Light"
 _________________________________________________________________
 */
-.SNSFFW-ThemeCapeCoast--Light
-{
+.SNSFFW-ThemeCapeCoast--Light {
     --SNSFFW_FirstColor_1: rgb(229,204,236);
     --SNSFFW_FirstColor_2: rgb(181,111,201);
     --SNSFFW_FirstColor_3: rgb(131,27,161);
@@ -675,6 +674,7 @@ _________________________________________________________________
     --SNSFFW_Grey_3: rgb(79,69,82);
     --SNSFFW_Grey_4: rgb(40,32,42);
     --SNSFFW_Grey_5: rgb(23,19,24);
+    --SNSFFW_Default: white;
 }
 .SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__FirstColor--1 {
     background-color: rgb(229,204,236);
@@ -806,8 +806,7 @@ III. Theme "Cape Coast"
     b.  "Dark"
 _________________________________________________________________
 */
-.SNSFFW-ThemeCapeCoast--Dark
-{
+.SNSFFW-ThemeCapeCoast--Dark {
     --SNSFFW_FirstColor_1: rgb(45,1,57);
     --SNSFFW_FirstColor_2: rgb(78,3,99);
     --SNSFFW_FirstColor_3: rgb(131,27,161);
@@ -828,6 +827,7 @@ _________________________________________________________________
     --SNSFFW_Grey_3: rgb(79,69,82);
     --SNSFFW_Grey_4: rgb(145,138,147);
     --SNSFFW_Grey_5: rgb(216,213,217);
+    --SNSFFW_Default: black;
 }
 .SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__FirstColor--1 {
     background-color: rgb(45,1,57);
@@ -959,8 +959,7 @@ IV. Theme "Tamale"
     a.  "Light"
 _________________________________________________________________
 */
-.SNSFFW-ThemeTamale--Light
-{
+.SNSFFW-ThemeTamale--Light {
     --SNSFFW_FirstColor_1: rgb(255,252,219);
     --SNSFFW_FirstColor_2: rgb(255,246,137);
     --SNSFFW_FirstColor_3: rgb(244,229,34);
@@ -981,6 +980,7 @@ _________________________________________________________________
     --SNSFFW_Grey_3: rgb(214,212,193);
     --SNSFFW_Grey_4: rgb(128,127,113);
     --SNSFFW_Grey_5: rgb(74,73,65);
+    --SNSFFW_Default: white;
 }
 .SNSFFW-ThemeTamale--Light .SNSFFW-Background__FirstColor--1 {
     background-color: rgb(255,252,219);
@@ -1112,8 +1112,7 @@ IV. Theme "Tamale"
     b.  "Dark"
 _________________________________________________________________
 */
-.SNSFFW-ThemeTamale--Dark
-{
+.SNSFFW-ThemeTamale--Dark {
     --SNSFFW_FirstColor_1: rgb(86,80,0);
     --SNSFFW_FirstColor_2: rgb(150,139,0);
     --SNSFFW_FirstColor_3: rgb(244,229,34);
@@ -1134,6 +1133,7 @@ _________________________________________________________________
     --SNSFFW_Grey_3: rgb(214,212,193);
     --SNSFFW_Grey_4: rgb(237,237,226);
     --SNSFFW_Grey_5: rgb(249,249,246);
+    --SNSFFW_Default: black;
 }
 .SNSFFW-ThemeTamale--Dark .SNSFFW-Background__FirstColor--1 {
     background-color: rgb(86,80,0);
@@ -1265,8 +1265,7 @@ V. Theme "Ho"
     a.  "Light"
 _________________________________________________________________
 */
-.SNSFFW-ThemeHo--Light
-{
+.SNSFFW-ThemeHo--Light {
     --SNSFFW_FirstColor_1: rgb(206,239,220);
     --SNSFFW_FirstColor_2: rgb(112,209,154);
     --SNSFFW_FirstColor_3: rgb(24,174,89);
@@ -1287,6 +1286,7 @@ _________________________________________________________________
     --SNSFFW_Grey_3: rgb(109,124,116);
     --SNSFFW_Grey_4: rgb(61,71,65);
     --SNSFFW_Grey_5: rgb(35,41,37);
+    --SNSFFW_Default: white;
 }
 .SNSFFW-ThemeHo--Light .SNSFFW-Background__FirstColor--1 {
     background-color: rgb(206,239,220);
@@ -1418,8 +1418,7 @@ V. Theme "Ho"
     b.  "Dark"
 _________________________________________________________________
 */
-.SNSFFW-ThemeHo--Dark
-{
+.SNSFFW-ThemeHo--Dark {
     --SNSFFW_FirstColor_1: rgb(0,62,27);
     --SNSFFW_FirstColor_2: rgb(0,107,47);
     --SNSFFW_FirstColor_3: rgb(24,174,89);
@@ -1440,6 +1439,7 @@ _________________________________________________________________
     --SNSFFW_Grey_3: rgb(109,124,116);
     --SNSFFW_Grey_4: rgb(167,177,172);
     --SNSFFW_Grey_5: rgb(224,228,226);
+    --SNSFFW_Default: black;
 }
 .SNSFFW-ThemeHo--Dark .SNSFFW-Background__FirstColor--1 {
     background-color: rgb(0,62,27);
@@ -1571,8 +1571,7 @@ VI. Theme "Sunyani"
     a.  "Light"
 _________________________________________________________________
 */
-.SNSFFW-ThemeSunyani--Light
-{
+.SNSFFW-ThemeSunyani--Light {
     --SNSFFW_FirstColor_1: rgb(208,214,237);
     --SNSFFW_FirstColor_2: rgb(121,137,204);
     --SNSFFW_FirstColor_3: rgb(41,66,166);
@@ -1593,6 +1592,7 @@ _________________________________________________________________
     --SNSFFW_Grey_3: rgb(66,68,78);
     --SNSFFW_Grey_4: rgb(28,30,38);
     --SNSFFW_Grey_5: rgb(14,15,20);
+    --SNSFFW_Default: white;
 }
 .SNSFFW-ThemeSunyani--Light .SNSFFW-Background__FirstColor--1 {
     background-color: rgb(208,214,237);
@@ -1724,8 +1724,7 @@ VI. Theme "Sunyani"
     b.  "Dark"
 _________________________________________________________________
 */
-.SNSFFW-ThemeSunyani--Dark
-{
+.SNSFFW-ThemeSunyani--Dark {
     --SNSFFW_FirstColor_1: rgb(2,14,59);
     --SNSFFW_FirstColor_2: rgb(10,28,102);
     --SNSFFW_FirstColor_3: rgb(41,66,166);
@@ -1746,6 +1745,7 @@ _________________________________________________________________
     --SNSFFW_Grey_3: rgb(66,68,78);
     --SNSFFW_Grey_4: rgb(138,139,146);
     --SNSFFW_Grey_5: rgb(214,214,217);
+    --SNSFFW_Default: black;
 }
 .SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__FirstColor--1 {
     background-color: rgb(2,14,59);

@@ -843,6 +843,24 @@ button.SNSFFW-Button__Design--KwamisaFour:disabled, input.SNSFFW-Button__Design-
     flex-direction: column;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 legend, label, input[type="text"], input[type="date"], input[type="number"], input[type="tel"], input[type="email"], input[type="password"], input[type="url"], input[type="color"], div.SNSFFW-InputOutput__Range, progress, select, textarea {
     margin-bottom: var(--SNSFFW_PaddingMargin_Spacing_Small);
 }
@@ -880,7 +898,7 @@ input[type="text"], input[type="date"], input[type="number"], input[type="tel"],
     border-width: var(--SNSFFW_Border_Width_Smaller);
     border-style: solid;
     border-color: transparent;
-    background-color: white;
+    background-color: var(--SNSFFW_Default);
     align-self: flex-end;
     position: relative;
 }
@@ -893,7 +911,7 @@ input[type="radio"], input[type="checkbox"] {
     width: .75em;
     height: .75em;
     margin-right: 1em;
-    background-color: white;
+    background-color: var(--SNSFFW_Default);
     position: relative;
     cursor: pointer;
 }
@@ -911,15 +929,15 @@ input[type="radio"]:before, input[type="checkbox"]:before {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     content: "\00A0";
-    background-color: white;
+    background-color: var(--SNSFFW_Default);
 }
 
-input[type="radio"]:not(:checked):hover:before, input[type="checkbox"]:not(:checked):hover:before {
-    background-color: var(--SNSFFW_Grey_2);
+input[type="radio"]:not(:checked):not(:disabled):before, input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+    background-color: var(--SNSFFW_Grey_3);
 }
 
 input[type="radio"]:checked:before, input[type="checkbox"]:checked:before {
-    background-color: var(--SNSFFW_Grey_3);
+    background-color: var(--SNSFFW_Grey_4);
 }
 
 div.SNSFFW-InputOutput__Range {
@@ -956,10 +974,10 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: .25em;
     margin-top: -.4em;
     -webkit-appearance: none;
-    background-color: var(--SNSFFW_Grey_2);
+    background-color: var(--SNSFFW_Grey_4);
     border-width: var(--SNSFFW_Border_Width_Small);
     border-style: solid;
-    border-color: white;
+    border-color: var(--SNSFFW_Default);
 }
 
 input[type="range"]::-moz-range-thumb {
@@ -967,10 +985,10 @@ input[type="range"]::-moz-range-thumb {
     height: calc(1em - 2 * var(--SNSFFW_Border_Width_Small));
     margin-top: -.4em;
     -webkit-appearance: none;
-    background-color: var(--SNSFFW_Grey_2);
+    background-color: var(--SNSFFW_Grey_4);
     border-width: var(--SNSFFW_Border_Width_Small);
     border-style: solid;
-    border-color: white;
+    border-color: var(--SNSFFW_Default);
     border-radius: .25em;
 }
 
@@ -986,27 +1004,27 @@ output {
 
 progress {
     padding: 0;
-    border-color: currentColor;
+    border-width: 0;
     height: calc((var(--SNSFFW_LineHeight_High) + 2 * var(--SNSFFW_PaddingMargin_Spacing_Small) + 2 * var(--SNSFFW_Border_Width_Smaller)) / 2);
 }
 
 progress[value]::-webkit-progress-bar {
-    background-color: white;
+    background-color: var(--SNSFFW_Default);
 }
 
 progress[value]::-webkit-progress-value {
-    background-color: var(--SNSFFW_Grey_2);
+    background-color: var(--SNSFFW_Grey_4);
 }
 
 progress::-moz-progress-bar {
-    background-color: var(--SNSFFW_Grey_2);
+    background-color: var(--SNSFFW_Grey_4);
 }
 
 input[type="color"] {
     padding: 0;
     -webkit-appearance: none;
     border-width: var(--SNSFFW_Border_Width_Small);
-    border-color: white;
+    border-color: var(--SNSFFW_Default);
     cursor: pointer;
 }
 
@@ -1035,6 +1053,125 @@ textarea {
     max-width: 100%;
     resize: vertical;
     height: auto;
+}
+
+input[type="text"]:disabled, input[type="date"]:disabled, input[type="number"]:disabled, input[type="tel"]:disabled, input[type="email"]:disabled, input[type="password"]:disabled, input[type="url"]:disabled, input[type="radio"]:disabled, input[type="checkbox"]:disabled, input[type="range"]:disabled, input[type="color"]:disabled, select:disabled, textarea:disabled {
+    background-color: var(--SNSFFW_Grey_2);
+    cursor: not-allowed;
+}
+
+input[type="radio"]:disabled:before, input[type="checkbox"]:disabled:before {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+input[type="range"]:disabled::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+input[type="range"]:disabled::-moz-range-track {
+    background-color: var(--SNSFFW_Grey_2);
+}
+input[type="range"]:disabled::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+input[type="range"]:disabled::-moz-range-thumb {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+
+
+
+
+
+
+
+
+
+.SNSFFW-Form__Design--KrokosuaOne fieldset {
+    border-top-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne legend, .SNSFFW-Form__Design--KrokosuaOne label {
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="radio"], .SNSFFW-Form__Design--KrokosuaOne input[type="checkbox"] {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="radio"]:before, .SNSFFW-Form__Design--KrokosuaOne input[type="checkbox"]:before {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="radio"]:not(:checked):not(:disabled):before, .SNSFFW-Form__Design--KrokosuaOne input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+    background-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="radio"]:checked:before, .SNSFFW-Form__Design--KrokosuaOne input[type="checkbox"]:checked:before {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="range"]::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="range"]::-moz-range-track {
+    background-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_FirstColor_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="range"]::-moz-range-thumb {
+    background-color: var(--SNSFFW_FirstColor_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne output {
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne progress[value]::-webkit-progress-bar {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne progress[value]::-webkit-progress-value {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne progress::-moz-progress-bar {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="color"] {
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="text"]:disabled, .SNSFFW-Form__Design--KrokosuaOne input[type="date"]:disabled, .SNSFFW-Form__Design--KrokosuaOne input[type="number"]:disabled, .SNSFFW-Form__Design--KrokosuaOne input[type="tel"]:disabled, .SNSFFW-Form__Design--KrokosuaOne input[type="email"]:disabled, .SNSFFW-Form__Design--KrokosuaOne input[type="password"]:disabled, .SNSFFW-Form__Design--KrokosuaOne input[type="url"]:disabled, .SNSFFW-Form__Design--KrokosuaOne input[type="radio"]:disabled, .SNSFFW-Form__Design--KrokosuaOne input[type="checkbox"]:disabled, .SNSFFW-Form__Design--KrokosuaOne input[type="range"]:disabled, .SNSFFW-Form__Design--KrokosuaOne input[type="color"]:disabled, .SNSFFW-Form__Design--KrokosuaOne select:disabled, .SNSFFW-Form__Design--KrokosuaOne textarea:disabled {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="radio"]:disabled:before, .SNSFFW-Form__Design--KrokosuaOne input[type="checkbox"]:disabled:before {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="range"]:disabled::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="range"]:disabled::-moz-range-track {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="range"]:disabled::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="range"]:disabled::-moz-range-thumb {
+    background-color: var(--SNSFFW_FirstColor_2);
 }
 
 
