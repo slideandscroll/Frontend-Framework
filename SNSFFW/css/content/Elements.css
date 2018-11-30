@@ -1056,27 +1056,7 @@ textarea {
 }
 
 input[type="text"]:disabled, input[type="date"]:disabled, input[type="number"]:disabled, input[type="tel"]:disabled, input[type="email"]:disabled, input[type="password"]:disabled, input[type="url"]:disabled, input[type="radio"]:disabled, input[type="checkbox"]:disabled, input[type="range"]:disabled, input[type="color"]:disabled, select:disabled, textarea:disabled {
-    background-color: var(--SNSFFW_Grey_2);
     cursor: not-allowed;
-}
-
-input[type="radio"]:disabled:before, input[type="checkbox"]:disabled:before {
-    background-color: var(--SNSFFW_Grey_2);
-}
-
-input[type="range"]:disabled::-webkit-slider-runnable-track {
-    background-color: var(--SNSFFW_Grey_2);
-}
-
-input[type="range"]:disabled::-moz-range-track {
-    background-color: var(--SNSFFW_Grey_2);
-}
-input[type="range"]:disabled::-webkit-slider-thumb {
-    background-color: var(--SNSFFW_Grey_2);
-}
-
-input[type="range"]:disabled::-moz-range-thumb {
-    background-color: var(--SNSFFW_Grey_2);
 }
 
 
@@ -1094,6 +1074,10 @@ input[type="range"]:disabled::-moz-range-thumb {
 
 .SNSFFW-Form__Design--KrokosuaOne legend, .SNSFFW-Form__Design--KrokosuaOne label {
     color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaOne input[type="text"], .SNSFFW-Form__Design--KrokosuaOne input[type="date"], .SNSFFW-Form__Design--KrokosuaOne input[type="number"], .SNSFFW-Form__Design--KrokosuaOne input[type="tel"], .SNSFFW-Form__Design--KrokosuaOne input[type="email"], .SNSFFW-Form__Design--KrokosuaOne input[type="password"], .SNSFFW-Form__Design--KrokosuaOne input[type="url"], .SNSFFW-Form__Design--KrokosuaOne select, .SNSFFW-Form__Design--KrokosuaOne textarea {
+    color: var(--SNSFFW_FirstColor_4);
 }
 
 .SNSFFW-Form__Design--KrokosuaOne input[type="radio"], .SNSFFW-Form__Design--KrokosuaOne input[type="checkbox"] {
@@ -1172,6 +1156,303 @@ input[type="range"]:disabled::-moz-range-thumb {
 
 .SNSFFW-Form__Design--KrokosuaOne input[type="range"]:disabled::-moz-range-thumb {
     background-color: var(--SNSFFW_FirstColor_2);
+}
+
+
+
+
+
+
+
+
+
+
+.SNSFFW-Form__Design--KrokosuaTwo fieldset {
+    border-top-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo legend, .SNSFFW-Form__Design--KrokosuaTwo label {
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="text"], .SNSFFW-Form__Design--KrokosuaTwo input[type="date"], .SNSFFW-Form__Design--KrokosuaTwo input[type="number"], .SNSFFW-Form__Design--KrokosuaTwo input[type="tel"], .SNSFFW-Form__Design--KrokosuaTwo input[type="email"], .SNSFFW-Form__Design--KrokosuaTwo input[type="password"], .SNSFFW-Form__Design--KrokosuaTwo input[type="url"], .SNSFFW-Form__Design--KrokosuaTwo select, .SNSFFW-Form__Design--KrokosuaTwo textarea {
+    color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="radio"], .SNSFFW-Form__Design--KrokosuaTwo input[type="checkbox"] {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="radio"]:before, .SNSFFW-Form__Design--KrokosuaTwo input[type="checkbox"]:before {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="radio"]:not(:checked):not(:disabled):before, .SNSFFW-Form__Design--KrokosuaTwo input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+    background-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="radio"]:checked:before, .SNSFFW-Form__Design--KrokosuaTwo input[type="checkbox"]:checked:before {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="range"]::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="range"]::-moz-range-track {
+    background-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_SecondColor_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="range"]::-moz-range-thumb {
+    background-color: var(--SNSFFW_SecondColor_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo output {
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo progress[value]::-webkit-progress-bar {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo progress[value]::-webkit-progress-value {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo progress::-moz-progress-bar {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="color"] {
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="text"]:disabled, .SNSFFW-Form__Design--KrokosuaTwo input[type="date"]:disabled, .SNSFFW-Form__Design--KrokosuaTwo input[type="number"]:disabled, .SNSFFW-Form__Design--KrokosuaTwo input[type="tel"]:disabled, .SNSFFW-Form__Design--KrokosuaTwo input[type="email"]:disabled, .SNSFFW-Form__Design--KrokosuaTwo input[type="password"]:disabled, .SNSFFW-Form__Design--KrokosuaTwo input[type="url"]:disabled, .SNSFFW-Form__Design--KrokosuaTwo input[type="radio"]:disabled, .SNSFFW-Form__Design--KrokosuaTwo input[type="checkbox"]:disabled, .SNSFFW-Form__Design--KrokosuaTwo input[type="range"]:disabled, .SNSFFW-Form__Design--KrokosuaTwo input[type="color"]:disabled, .SNSFFW-Form__Design--KrokosuaTwo select:disabled, .SNSFFW-Form__Design--KrokosuaTwo textarea:disabled {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="radio"]:disabled:before, .SNSFFW-Form__Design--KrokosuaTwo input[type="checkbox"]:disabled:before {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="range"]:disabled::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="range"]:disabled::-moz-range-track {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="range"]:disabled::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaTwo input[type="range"]:disabled::-moz-range-thumb {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+
+
+
+
+
+
+
+
+
+.SNSFFW-Form__Design--KrokosuaThree fieldset {
+    border-top-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree legend, .SNSFFW-Form__Design--KrokosuaThree label {
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="text"], .SNSFFW-Form__Design--KrokosuaThree input[type="date"], .SNSFFW-Form__Design--KrokosuaThree input[type="number"], .SNSFFW-Form__Design--KrokosuaThree input[type="tel"], .SNSFFW-Form__Design--KrokosuaThree input[type="email"], .SNSFFW-Form__Design--KrokosuaThree input[type="password"], .SNSFFW-Form__Design--KrokosuaThree input[type="url"], .SNSFFW-Form__Design--KrokosuaThree select, .SNSFFW-Form__Design--KrokosuaThree textarea {
+    color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="radio"], .SNSFFW-Form__Design--KrokosuaThree input[type="checkbox"] {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="radio"]:before, .SNSFFW-Form__Design--KrokosuaThree input[type="checkbox"]:before {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="radio"]:not(:checked):not(:disabled):before, .SNSFFW-Form__Design--KrokosuaThree input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+    background-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="radio"]:checked:before, .SNSFFW-Form__Design--KrokosuaThree input[type="checkbox"]:checked:before {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="range"]::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="range"]::-moz-range-track {
+    background-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_ThirdColor_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="range"]::-moz-range-thumb {
+    background-color: var(--SNSFFW_ThirdColor_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree output {
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree progress[value]::-webkit-progress-bar {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree progress[value]::-webkit-progress-value {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree progress::-moz-progress-bar {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="color"] {
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="text"]:disabled, .SNSFFW-Form__Design--KrokosuaThree input[type="date"]:disabled, .SNSFFW-Form__Design--KrokosuaThree input[type="number"]:disabled, .SNSFFW-Form__Design--KrokosuaThree input[type="tel"]:disabled, .SNSFFW-Form__Design--KrokosuaThree input[type="email"]:disabled, .SNSFFW-Form__Design--KrokosuaThree input[type="password"]:disabled, .SNSFFW-Form__Design--KrokosuaThree input[type="url"]:disabled, .SNSFFW-Form__Design--KrokosuaThree input[type="radio"]:disabled, .SNSFFW-Form__Design--KrokosuaThree input[type="checkbox"]:disabled, .SNSFFW-Form__Design--KrokosuaThree input[type="range"]:disabled, .SNSFFW-Form__Design--KrokosuaThree input[type="color"]:disabled, .SNSFFW-Form__Design--KrokosuaThree select:disabled, .SNSFFW-Form__Design--KrokosuaThree textarea:disabled {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="radio"]:disabled:before, .SNSFFW-Form__Design--KrokosuaThree input[type="checkbox"]:disabled:before {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="range"]:disabled::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="range"]:disabled::-moz-range-track {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="range"]:disabled::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaThree input[type="range"]:disabled::-moz-range-thumb {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+
+
+
+
+
+
+
+
+
+.SNSFFW-Form__Design--KrokosuaFour fieldset {
+    border-top-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour legend, .SNSFFW-Form__Design--KrokosuaFour label {
+    color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="text"], .SNSFFW-Form__Design--KrokosuaFour input[type="date"], .SNSFFW-Form__Design--KrokosuaFour input[type="number"], .SNSFFW-Form__Design--KrokosuaFour input[type="tel"], .SNSFFW-Form__Design--KrokosuaFour input[type="email"], .SNSFFW-Form__Design--KrokosuaFour input[type="password"], .SNSFFW-Form__Design--KrokosuaFour input[type="url"], .SNSFFW-Form__Design--KrokosuaFour select, .SNSFFW-Form__Design--KrokosuaFour textarea {
+    color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="radio"], .SNSFFW-Form__Design--KrokosuaFour input[type="checkbox"] {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="radio"]:before, .SNSFFW-Form__Design--KrokosuaFour input[type="checkbox"]:before {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="radio"]:not(:checked):not(:disabled):before, .SNSFFW-Form__Design--KrokosuaFour input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="radio"]:checked:before, .SNSFFW-Form__Design--KrokosuaFour input[type="checkbox"]:checked:before {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="range"]::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="range"]::-moz-range-track {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_Grey_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="range"]::-moz-range-thumb {
+    background-color: var(--SNSFFW_Grey_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour output {
+    color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour progress[value]::-webkit-progress-bar {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour progress[value]::-webkit-progress-value {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour progress::-moz-progress-bar {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="color"] {
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="text"]:disabled, .SNSFFW-Form__Design--KrokosuaFour input[type="date"]:disabled, .SNSFFW-Form__Design--KrokosuaFour input[type="number"]:disabled, .SNSFFW-Form__Design--KrokosuaFour input[type="tel"]:disabled, .SNSFFW-Form__Design--KrokosuaFour input[type="email"]:disabled, .SNSFFW-Form__Design--KrokosuaFour input[type="password"]:disabled, .SNSFFW-Form__Design--KrokosuaFour input[type="url"]:disabled, .SNSFFW-Form__Design--KrokosuaFour input[type="radio"]:disabled, .SNSFFW-Form__Design--KrokosuaFour input[type="checkbox"]:disabled, .SNSFFW-Form__Design--KrokosuaFour input[type="range"]:disabled, .SNSFFW-Form__Design--KrokosuaFour input[type="color"]:disabled, .SNSFFW-Form__Design--KrokosuaFour select:disabled, .SNSFFW-Form__Design--KrokosuaFour textarea:disabled {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="radio"]:disabled:before, .SNSFFW-Form__Design--KrokosuaFour input[type="checkbox"]:disabled:before {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="range"]:disabled::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="range"]:disabled::-moz-range-track {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="range"]:disabled::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--KrokosuaFour input[type="range"]:disabled::-moz-range-thumb {
+    background-color: var(--SNSFFW_Grey_2);
 }
 
 
