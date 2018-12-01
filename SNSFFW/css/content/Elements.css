@@ -843,24 +843,6 @@ button.SNSFFW-Button__Design--KwamisaFour:disabled, input.SNSFFW-Button__Design-
     flex-direction: column;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 legend, label, input[type="text"], input[type="date"], input[type="number"], input[type="tel"], input[type="email"], input[type="password"], input[type="url"], input[type="color"], div.SNSFFW-InputOutput__Range, progress, select, textarea {
     margin-bottom: var(--SNSFFW_PaddingMargin_Spacing_Small);
 }
@@ -932,7 +914,7 @@ input[type="radio"]:before, input[type="checkbox"]:before {
     background-color: var(--SNSFFW_Default);
 }
 
-input[type="radio"]:not(:checked):not(:disabled):before, input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+input[type="radio"]:not(:checked):not(:disabled):hover:before, input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
     background-color: var(--SNSFFW_Grey_3);
 }
 
@@ -1059,15 +1041,6 @@ input[type="text"]:disabled, input[type="date"]:disabled, input[type="number"]:d
     cursor: not-allowed;
 }
 
-
-
-
-
-
-
-
-
-
 .SNSFFW-Form__Design--KrokosuaOne fieldset {
     border-top-color: var(--SNSFFW_FirstColor_3);
 }
@@ -1088,7 +1061,7 @@ input[type="text"]:disabled, input[type="date"]:disabled, input[type="number"]:d
     background-color: var(--SNSFFW_Default);
 }
 
-.SNSFFW-Form__Design--KrokosuaOne input[type="radio"]:not(:checked):not(:disabled):before, .SNSFFW-Form__Design--KrokosuaOne input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+.SNSFFW-Form__Design--KrokosuaOne input[type="radio"]:not(:checked):not(:disabled):hover:before, .SNSFFW-Form__Design--KrokosuaOne input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
     background-color: var(--SNSFFW_FirstColor_3);
 }
 
@@ -1158,15 +1131,6 @@ input[type="text"]:disabled, input[type="date"]:disabled, input[type="number"]:d
     background-color: var(--SNSFFW_FirstColor_2);
 }
 
-
-
-
-
-
-
-
-
-
 .SNSFFW-Form__Design--KrokosuaTwo fieldset {
     border-top-color: var(--SNSFFW_SecondColor_3);
 }
@@ -1187,7 +1151,7 @@ input[type="text"]:disabled, input[type="date"]:disabled, input[type="number"]:d
     background-color: var(--SNSFFW_Default);
 }
 
-.SNSFFW-Form__Design--KrokosuaTwo input[type="radio"]:not(:checked):not(:disabled):before, .SNSFFW-Form__Design--KrokosuaTwo input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+.SNSFFW-Form__Design--KrokosuaTwo input[type="radio"]:not(:checked):not(:disabled):hover:before, .SNSFFW-Form__Design--KrokosuaTwo input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
     background-color: var(--SNSFFW_SecondColor_3);
 }
 
@@ -1257,15 +1221,6 @@ input[type="text"]:disabled, input[type="date"]:disabled, input[type="number"]:d
     background-color: var(--SNSFFW_SecondColor_2);
 }
 
-
-
-
-
-
-
-
-
-
 .SNSFFW-Form__Design--KrokosuaThree fieldset {
     border-top-color: var(--SNSFFW_ThirdColor_3);
 }
@@ -1286,7 +1241,7 @@ input[type="text"]:disabled, input[type="date"]:disabled, input[type="number"]:d
     background-color: var(--SNSFFW_Default);
 }
 
-.SNSFFW-Form__Design--KrokosuaThree input[type="radio"]:not(:checked):not(:disabled):before, .SNSFFW-Form__Design--KrokosuaThree input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+.SNSFFW-Form__Design--KrokosuaThree input[type="radio"]:not(:checked):not(:disabled):hover:before, .SNSFFW-Form__Design--KrokosuaThree input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
     background-color: var(--SNSFFW_ThirdColor_3);
 }
 
@@ -1356,15 +1311,6 @@ input[type="text"]:disabled, input[type="date"]:disabled, input[type="number"]:d
     background-color: var(--SNSFFW_ThirdColor_2);
 }
 
-
-
-
-
-
-
-
-
-
 .SNSFFW-Form__Design--KrokosuaFour fieldset {
     border-top-color: var(--SNSFFW_Grey_3);
 }
@@ -1385,7 +1331,7 @@ input[type="text"]:disabled, input[type="date"]:disabled, input[type="number"]:d
     background-color: var(--SNSFFW_Default);
 }
 
-.SNSFFW-Form__Design--KrokosuaFour input[type="radio"]:not(:checked):not(:disabled):before, .SNSFFW-Form__Design--KrokosuaFour input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+.SNSFFW-Form__Design--KrokosuaFour input[type="radio"]:not(:checked):not(:disabled):hover:before, .SNSFFW-Form__Design--KrokosuaFour input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
     background-color: var(--SNSFFW_Grey_3);
 }
 
@@ -1453,6 +1399,750 @@ input[type="text"]:disabled, input[type="date"]:disabled, input[type="number"]:d
 
 .SNSFFW-Form__Design--KrokosuaFour input[type="range"]:disabled::-moz-range-thumb {
     background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--AsubimaOne fieldset, .SNSFFW-Form__Design--AsubimaTwo fieldset, .SNSFFW-Form__Design--AsubimaThree fieldset, .SNSFFW-Form__Design--AsubimaFour fieldset {
+    padding-bottom: var(--SNSFFW_PaddingMargin_Spacing_Small);
+    padding-left: var(--SNSFFW_PaddingMargin_Spacing_Small);
+    padding-right: var(--SNSFFW_PaddingMargin_Spacing_Small);
+}
+
+.SNSFFW-Form__Design--AsubimaOne fieldset {
+    border-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaOne legend, .SNSFFW-Form__Design--AsubimaOne label {
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="text"], .SNSFFW-Form__Design--AsubimaOne input[type="date"], .SNSFFW-Form__Design--AsubimaOne input[type="number"], .SNSFFW-Form__Design--AsubimaOne input[type="tel"], .SNSFFW-Form__Design--AsubimaOne input[type="email"], .SNSFFW-Form__Design--AsubimaOne input[type="password"], .SNSFFW-Form__Design--AsubimaOne input[type="url"], .SNSFFW-Form__Design--AsubimaOne select, .SNSFFW-Form__Design--AsubimaOne textarea {
+    color: var(--SNSFFW_FirstColor_4);
+    border-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="radio"], .SNSFFW-Form__Design--AsubimaOne input[type="checkbox"] {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="radio"]:before, .SNSFFW-Form__Design--AsubimaOne input[type="checkbox"]:before {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="radio"]:not(:checked):not(:disabled):hover:before, .SNSFFW-Form__Design--AsubimaOne input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+    background-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="radio"]:checked:before, .SNSFFW-Form__Design--AsubimaOne input[type="checkbox"]:checked:before {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="range"]::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="range"]::-moz-range-track {
+    background-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_FirstColor_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="range"]::-moz-range-thumb {
+    background-color: var(--SNSFFW_FirstColor_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaOne output {
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaOne progress[value]::-webkit-progress-bar {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaOne progress[value]::-webkit-progress-value {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--AsubimaOne progress::-moz-progress-bar {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="color"] {
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="text"]:disabled, .SNSFFW-Form__Design--AsubimaOne input[type="date"]:disabled, .SNSFFW-Form__Design--AsubimaOne input[type="number"]:disabled, .SNSFFW-Form__Design--AsubimaOne input[type="tel"]:disabled, .SNSFFW-Form__Design--AsubimaOne input[type="email"]:disabled, .SNSFFW-Form__Design--AsubimaOne input[type="password"]:disabled, .SNSFFW-Form__Design--AsubimaOne input[type="url"]:disabled, .SNSFFW-Form__Design--AsubimaOne input[type="radio"]:disabled, .SNSFFW-Form__Design--AsubimaOne input[type="checkbox"]:disabled, .SNSFFW-Form__Design--AsubimaOne input[type="range"]:disabled, .SNSFFW-Form__Design--AsubimaOne input[type="color"]:disabled, .SNSFFW-Form__Design--AsubimaOne select:disabled, .SNSFFW-Form__Design--AsubimaOne textarea:disabled {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="radio"]:disabled:before, .SNSFFW-Form__Design--AsubimaOne input[type="checkbox"]:disabled:before {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="range"]:disabled::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="range"]:disabled::-moz-range-track {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="range"]:disabled::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaOne input[type="range"]:disabled::-moz-range-thumb {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo fieldset {
+    border-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo legend, .SNSFFW-Form__Design--AsubimaTwo label {
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="text"], .SNSFFW-Form__Design--AsubimaTwo input[type="date"], .SNSFFW-Form__Design--AsubimaTwo input[type="number"], .SNSFFW-Form__Design--AsubimaTwo input[type="tel"], .SNSFFW-Form__Design--AsubimaTwo input[type="email"], .SNSFFW-Form__Design--AsubimaTwo input[type="password"], .SNSFFW-Form__Design--AsubimaTwo input[type="url"], .SNSFFW-Form__Design--AsubimaTwo select, .SNSFFW-Form__Design--AsubimaTwo textarea {
+    color: var(--SNSFFW_SecondColor_4);
+    border-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="radio"], .SNSFFW-Form__Design--AsubimaTwo input[type="checkbox"] {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="radio"]:before, .SNSFFW-Form__Design--AsubimaTwo input[type="checkbox"]:before {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="radio"]:not(:checked):not(:disabled):hover:before, .SNSFFW-Form__Design--AsubimaTwo input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+    background-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="radio"]:checked:before, .SNSFFW-Form__Design--AsubimaTwo input[type="checkbox"]:checked:before {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="range"]::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="range"]::-moz-range-track {
+    background-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_SecondColor_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="range"]::-moz-range-thumb {
+    background-color: var(--SNSFFW_SecondColor_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo output {
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo progress[value]::-webkit-progress-bar {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo progress[value]::-webkit-progress-value {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo progress::-moz-progress-bar {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="color"] {
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="text"]:disabled, .SNSFFW-Form__Design--AsubimaTwo input[type="date"]:disabled, .SNSFFW-Form__Design--AsubimaTwo input[type="number"]:disabled, .SNSFFW-Form__Design--AsubimaTwo input[type="tel"]:disabled, .SNSFFW-Form__Design--AsubimaTwo input[type="email"]:disabled, .SNSFFW-Form__Design--AsubimaTwo input[type="password"]:disabled, .SNSFFW-Form__Design--AsubimaTwo input[type="url"]:disabled, .SNSFFW-Form__Design--AsubimaTwo input[type="radio"]:disabled, .SNSFFW-Form__Design--AsubimaTwo input[type="checkbox"]:disabled, .SNSFFW-Form__Design--AsubimaTwo input[type="range"]:disabled, .SNSFFW-Form__Design--AsubimaTwo input[type="color"]:disabled, .SNSFFW-Form__Design--AsubimaTwo select:disabled, .SNSFFW-Form__Design--AsubimaTwo textarea:disabled {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="radio"]:disabled:before, .SNSFFW-Form__Design--AsubimaTwo input[type="checkbox"]:disabled:before {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="range"]:disabled::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="range"]:disabled::-moz-range-track {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="range"]:disabled::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaTwo input[type="range"]:disabled::-moz-range-thumb {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaThree fieldset {
+    border-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaThree legend, .SNSFFW-Form__Design--AsubimaThree label {
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="text"], .SNSFFW-Form__Design--AsubimaThree input[type="date"], .SNSFFW-Form__Design--AsubimaThree input[type="number"], .SNSFFW-Form__Design--AsubimaThree input[type="tel"], .SNSFFW-Form__Design--AsubimaThree input[type="email"], .SNSFFW-Form__Design--AsubimaThree input[type="password"], .SNSFFW-Form__Design--AsubimaThree input[type="url"], .SNSFFW-Form__Design--AsubimaThree select, .SNSFFW-Form__Design--AsubimaThree textarea {
+    color: var(--SNSFFW_ThirdColor_4);
+    border-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="radio"], .SNSFFW-Form__Design--AsubimaThree input[type="checkbox"] {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="radio"]:before, .SNSFFW-Form__Design--AsubimaThree input[type="checkbox"]:before {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="radio"]:not(:checked):not(:disabled):hover:before, .SNSFFW-Form__Design--AsubimaThree input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+    background-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="radio"]:checked:before, .SNSFFW-Form__Design--AsubimaThree input[type="checkbox"]:checked:before {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="range"]::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="range"]::-moz-range-track {
+    background-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_ThirdColor_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="range"]::-moz-range-thumb {
+    background-color: var(--SNSFFW_ThirdColor_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaThree output {
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--AsubimaThree progress[value]::-webkit-progress-bar {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaThree progress[value]::-webkit-progress-value {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--AsubimaThree progress::-moz-progress-bar {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="color"] {
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="text"]:disabled, .SNSFFW-Form__Design--AsubimaThree input[type="date"]:disabled, .SNSFFW-Form__Design--AsubimaThree input[type="number"]:disabled, .SNSFFW-Form__Design--AsubimaThree input[type="tel"]:disabled, .SNSFFW-Form__Design--AsubimaThree input[type="email"]:disabled, .SNSFFW-Form__Design--AsubimaThree input[type="password"]:disabled, .SNSFFW-Form__Design--AsubimaThree input[type="url"]:disabled, .SNSFFW-Form__Design--AsubimaThree input[type="radio"]:disabled, .SNSFFW-Form__Design--AsubimaThree input[type="checkbox"]:disabled, .SNSFFW-Form__Design--AsubimaThree input[type="range"]:disabled, .SNSFFW-Form__Design--AsubimaThree input[type="color"]:disabled, .SNSFFW-Form__Design--AsubimaThree select:disabled, .SNSFFW-Form__Design--AsubimaThree textarea:disabled {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="radio"]:disabled:before, .SNSFFW-Form__Design--AsubimaThree input[type="checkbox"]:disabled:before {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="range"]:disabled::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="range"]:disabled::-moz-range-track {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="range"]:disabled::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaThree input[type="range"]:disabled::-moz-range-thumb {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--AsubimaFour fieldset {
+    border-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--AsubimaFour legend, .SNSFFW-Form__Design--AsubimaFour label {
+    color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="text"], .SNSFFW-Form__Design--AsubimaFour input[type="date"], .SNSFFW-Form__Design--AsubimaFour input[type="number"], .SNSFFW-Form__Design--AsubimaFour input[type="tel"], .SNSFFW-Form__Design--AsubimaFour input[type="email"], .SNSFFW-Form__Design--AsubimaFour input[type="password"], .SNSFFW-Form__Design--AsubimaFour input[type="url"], .SNSFFW-Form__Design--AsubimaFour select, .SNSFFW-Form__Design--AsubimaFour textarea {
+    color: var(--SNSFFW_Grey_4);
+    border-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="radio"], .SNSFFW-Form__Design--AsubimaFour input[type="checkbox"] {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="radio"]:before, .SNSFFW-Form__Design--AsubimaFour input[type="checkbox"]:before {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="radio"]:not(:checked):not(:disabled):hover:before, .SNSFFW-Form__Design--AsubimaFour input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="radio"]:checked:before, .SNSFFW-Form__Design--AsubimaFour input[type="checkbox"]:checked:before {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="range"]::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="range"]::-moz-range-track {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_Grey_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="range"]::-moz-range-thumb {
+    background-color: var(--SNSFFW_Grey_4);
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaFour output {
+    color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--AsubimaFour progress[value]::-webkit-progress-bar {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaFour progress[value]::-webkit-progress-value {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--AsubimaFour progress::-moz-progress-bar {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="color"] {
+    border-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="text"]:disabled, .SNSFFW-Form__Design--AsubimaFour input[type="date"]:disabled, .SNSFFW-Form__Design--AsubimaFour input[type="number"]:disabled, .SNSFFW-Form__Design--AsubimaFour input[type="tel"]:disabled, .SNSFFW-Form__Design--AsubimaFour input[type="email"]:disabled, .SNSFFW-Form__Design--AsubimaFour input[type="password"]:disabled, .SNSFFW-Form__Design--AsubimaFour input[type="url"]:disabled, .SNSFFW-Form__Design--AsubimaFour input[type="radio"]:disabled, .SNSFFW-Form__Design--AsubimaFour input[type="checkbox"]:disabled, .SNSFFW-Form__Design--AsubimaFour input[type="range"]:disabled, .SNSFFW-Form__Design--AsubimaFour input[type="color"]:disabled, .SNSFFW-Form__Design--AsubimaFour select:disabled, .SNSFFW-Form__Design--AsubimaFour textarea:disabled {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="radio"]:disabled:before, .SNSFFW-Form__Design--AsubimaFour input[type="checkbox"]:disabled:before {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="range"]:disabled::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="range"]:disabled::-moz-range-track {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="range"]:disabled::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--AsubimaFour input[type="range"]:disabled::-moz-range-thumb {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--SuhumaOne fieldset, .SNSFFW-Form__Design--SuhumaTwo fieldset, .SNSFFW-Form__Design--SuhumaThree fieldset, .SNSFFW-Form__Design--SuhumaFour fieldset {
+    padding-bottom: var(--SNSFFW_PaddingMargin_Spacing_Small);
+    padding-left: var(--SNSFFW_PaddingMargin_Spacing_Small);
+    padding-right: var(--SNSFFW_PaddingMargin_Spacing_Small);
+}
+
+.SNSFFW-Form__Design--SuhumaOne fieldset {
+    border-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaOne legend, .SNSFFW-Form__Design--SuhumaOne label {
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="text"], .SNSFFW-Form__Design--SuhumaOne input[type="date"], .SNSFFW-Form__Design--SuhumaOne input[type="number"], .SNSFFW-Form__Design--SuhumaOne input[type="tel"], .SNSFFW-Form__Design--SuhumaOne input[type="email"], .SNSFFW-Form__Design--SuhumaOne input[type="password"], .SNSFFW-Form__Design--SuhumaOne input[type="url"], .SNSFFW-Form__Design--SuhumaOne select, .SNSFFW-Form__Design--SuhumaOne textarea {
+    color: var(--SNSFFW_FirstColor_4);
+    border-color: var(--SNSFFW_FirstColor_4);
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="radio"], .SNSFFW-Form__Design--SuhumaOne input[type="checkbox"] {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="radio"]:before, .SNSFFW-Form__Design--SuhumaOne input[type="checkbox"]:before {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="radio"]:not(:checked):not(:disabled):hover:before, .SNSFFW-Form__Design--SuhumaOne input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+    background-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="radio"]:checked:before, .SNSFFW-Form__Design--SuhumaOne input[type="checkbox"]:checked:before {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="range"]::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="range"]::-moz-range-track {
+    background-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_FirstColor_4);
+    border-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="range"]::-moz-range-thumb {
+    background-color: var(--SNSFFW_FirstColor_4);
+    border-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaOne output {
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaOne progress[value]::-webkit-progress-bar {
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaOne progress[value]::-webkit-progress-value {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaOne progress::-moz-progress-bar {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="color"] {
+    border-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="text"]:disabled, .SNSFFW-Form__Design--SuhumaOne input[type="date"]:disabled, .SNSFFW-Form__Design--SuhumaOne input[type="number"]:disabled, .SNSFFW-Form__Design--SuhumaOne input[type="tel"]:disabled, .SNSFFW-Form__Design--SuhumaOne input[type="email"]:disabled, .SNSFFW-Form__Design--SuhumaOne input[type="password"]:disabled, .SNSFFW-Form__Design--SuhumaOne input[type="url"]:disabled, .SNSFFW-Form__Design--SuhumaOne input[type="radio"]:disabled, .SNSFFW-Form__Design--SuhumaOne input[type="checkbox"]:disabled, .SNSFFW-Form__Design--SuhumaOne input[type="range"]:disabled, .SNSFFW-Form__Design--SuhumaOne input[type="color"]:disabled, .SNSFFW-Form__Design--SuhumaOne select:disabled, .SNSFFW-Form__Design--SuhumaOne textarea:disabled {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="radio"]:disabled:before, .SNSFFW-Form__Design--SuhumaOne input[type="checkbox"]:disabled:before {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="range"]:disabled::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="range"]:disabled::-moz-range-track {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="range"]:disabled::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaOne input[type="range"]:disabled::-moz-range-thumb {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo fieldset {
+    border-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo legend, .SNSFFW-Form__Design--SuhumaTwo label {
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="text"], .SNSFFW-Form__Design--SuhumaTwo input[type="date"], .SNSFFW-Form__Design--SuhumaTwo input[type="number"], .SNSFFW-Form__Design--SuhumaTwo input[type="tel"], .SNSFFW-Form__Design--SuhumaTwo input[type="email"], .SNSFFW-Form__Design--SuhumaTwo input[type="password"], .SNSFFW-Form__Design--SuhumaTwo input[type="url"], .SNSFFW-Form__Design--SuhumaTwo select, .SNSFFW-Form__Design--SuhumaTwo textarea {
+    color: var(--SNSFFW_SecondColor_4);
+    border-color: var(--SNSFFW_SecondColor_4);
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="radio"], .SNSFFW-Form__Design--SuhumaTwo input[type="checkbox"] {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="radio"]:before, .SNSFFW-Form__Design--SuhumaTwo input[type="checkbox"]:before {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="radio"]:not(:checked):not(:disabled):hover:before, .SNSFFW-Form__Design--SuhumaTwo input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+    background-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="radio"]:checked:before, .SNSFFW-Form__Design--SuhumaTwo input[type="checkbox"]:checked:before {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="range"]::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="range"]::-moz-range-track {
+    background-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_SecondColor_4);
+    border-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="range"]::-moz-range-thumb {
+    background-color: var(--SNSFFW_SecondColor_4);
+    border-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo output {
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo progress[value]::-webkit-progress-bar {
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo progress[value]::-webkit-progress-value {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo progress::-moz-progress-bar {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="color"] {
+    border-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="text"]:disabled, .SNSFFW-Form__Design--SuhumaTwo input[type="date"]:disabled, .SNSFFW-Form__Design--SuhumaTwo input[type="number"]:disabled, .SNSFFW-Form__Design--SuhumaTwo input[type="tel"]:disabled, .SNSFFW-Form__Design--SuhumaTwo input[type="email"]:disabled, .SNSFFW-Form__Design--SuhumaTwo input[type="password"]:disabled, .SNSFFW-Form__Design--SuhumaTwo input[type="url"]:disabled, .SNSFFW-Form__Design--SuhumaTwo input[type="radio"]:disabled, .SNSFFW-Form__Design--SuhumaTwo input[type="checkbox"]:disabled, .SNSFFW-Form__Design--SuhumaTwo input[type="range"]:disabled, .SNSFFW-Form__Design--SuhumaTwo input[type="color"]:disabled, .SNSFFW-Form__Design--SuhumaTwo select:disabled, .SNSFFW-Form__Design--SuhumaTwo textarea:disabled {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="radio"]:disabled:before, .SNSFFW-Form__Design--SuhumaTwo input[type="checkbox"]:disabled:before {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="range"]:disabled::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="range"]:disabled::-moz-range-track {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="range"]:disabled::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaTwo input[type="range"]:disabled::-moz-range-thumb {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaThree fieldset {
+    border-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaThree legend, .SNSFFW-Form__Design--SuhumaThree label {
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="text"], .SNSFFW-Form__Design--SuhumaThree input[type="date"], .SNSFFW-Form__Design--SuhumaThree input[type="number"], .SNSFFW-Form__Design--SuhumaThree input[type="tel"], .SNSFFW-Form__Design--SuhumaThree input[type="email"], .SNSFFW-Form__Design--SuhumaThree input[type="password"], .SNSFFW-Form__Design--SuhumaThree input[type="url"], .SNSFFW-Form__Design--SuhumaThree select, .SNSFFW-Form__Design--SuhumaThree textarea {
+    color: var(--SNSFFW_ThirdColor_4);
+    border-color: var(--SNSFFW_ThirdColor_4);
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="radio"], .SNSFFW-Form__Design--SuhumaThree input[type="checkbox"] {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="radio"]:before, .SNSFFW-Form__Design--SuhumaThree input[type="checkbox"]:before {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="radio"]:not(:checked):not(:disabled):hover:before, .SNSFFW-Form__Design--SuhumaThree input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+    background-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="radio"]:checked:before, .SNSFFW-Form__Design--SuhumaThree input[type="checkbox"]:checked:before {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="range"]::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="range"]::-moz-range-track {
+    background-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_ThirdColor_4);
+    border-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="range"]::-moz-range-thumb {
+    background-color: var(--SNSFFW_ThirdColor_4);
+    border-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaThree output {
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Form__Design--SuhumaThree progress[value]::-webkit-progress-bar {
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaThree progress[value]::-webkit-progress-value {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaThree progress::-moz-progress-bar {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="color"] {
+    border-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="text"]:disabled, .SNSFFW-Form__Design--SuhumaThree input[type="date"]:disabled, .SNSFFW-Form__Design--SuhumaThree input[type="number"]:disabled, .SNSFFW-Form__Design--SuhumaThree input[type="tel"]:disabled, .SNSFFW-Form__Design--SuhumaThree input[type="email"]:disabled, .SNSFFW-Form__Design--SuhumaThree input[type="password"]:disabled, .SNSFFW-Form__Design--SuhumaThree input[type="url"]:disabled, .SNSFFW-Form__Design--SuhumaThree input[type="radio"]:disabled, .SNSFFW-Form__Design--SuhumaThree input[type="checkbox"]:disabled, .SNSFFW-Form__Design--SuhumaThree input[type="range"]:disabled, .SNSFFW-Form__Design--SuhumaThree input[type="color"]:disabled, .SNSFFW-Form__Design--SuhumaThree select:disabled, .SNSFFW-Form__Design--SuhumaThree textarea:disabled {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="radio"]:disabled:before, .SNSFFW-Form__Design--SuhumaThree input[type="checkbox"]:disabled:before {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="range"]:disabled::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="range"]:disabled::-moz-range-track {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="range"]:disabled::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaThree input[type="range"]:disabled::-moz-range-thumb {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Form__Design--SuhumaFour fieldset {
+    border-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--SuhumaFour legend, .SNSFFW-Form__Design--SuhumaFour label {
+    color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="text"], .SNSFFW-Form__Design--SuhumaFour input[type="date"], .SNSFFW-Form__Design--SuhumaFour input[type="number"], .SNSFFW-Form__Design--SuhumaFour input[type="tel"], .SNSFFW-Form__Design--SuhumaFour input[type="email"], .SNSFFW-Form__Design--SuhumaFour input[type="password"], .SNSFFW-Form__Design--SuhumaFour input[type="url"], .SNSFFW-Form__Design--SuhumaFour select, .SNSFFW-Form__Design--SuhumaFour textarea {
+    color: var(--SNSFFW_Grey_4);
+    border-color: var(--SNSFFW_Grey_4);
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="radio"], .SNSFFW-Form__Design--SuhumaFour input[type="checkbox"] {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="radio"]:before, .SNSFFW-Form__Design--SuhumaFour input[type="checkbox"]:before {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="radio"]:not(:checked):not(:disabled):hover:before, .SNSFFW-Form__Design--SuhumaFour input[type="checkbox"]:not(:checked):not(:disabled):hover:before {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="radio"]:checked:before, .SNSFFW-Form__Design--SuhumaFour input[type="checkbox"]:checked:before {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="range"]::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="range"]::-moz-range-track {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="range"]::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_Grey_4);
+    border-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="range"]::-moz-range-thumb {
+    background-color: var(--SNSFFW_Grey_4);
+    border-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--SuhumaFour output {
+    color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Form__Design--SuhumaFour progress[value]::-webkit-progress-bar {
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--SuhumaFour progress[value]::-webkit-progress-value {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--SuhumaFour progress::-moz-progress-bar {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="color"] {
+    border-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="text"]:disabled, .SNSFFW-Form__Design--SuhumaFour input[type="date"]:disabled, .SNSFFW-Form__Design--SuhumaFour input[type="number"]:disabled, .SNSFFW-Form__Design--SuhumaFour input[type="tel"]:disabled, .SNSFFW-Form__Design--SuhumaFour input[type="email"]:disabled, .SNSFFW-Form__Design--SuhumaFour input[type="password"]:disabled, .SNSFFW-Form__Design--SuhumaFour input[type="url"]:disabled, .SNSFFW-Form__Design--SuhumaFour input[type="radio"]:disabled, .SNSFFW-Form__Design--SuhumaFour input[type="checkbox"]:disabled, .SNSFFW-Form__Design--SuhumaFour input[type="range"]:disabled, .SNSFFW-Form__Design--SuhumaFour input[type="color"]:disabled, .SNSFFW-Form__Design--SuhumaFour select:disabled, .SNSFFW-Form__Design--SuhumaFour textarea:disabled {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="radio"]:disabled:before, .SNSFFW-Form__Design--SuhumaFour input[type="checkbox"]:disabled:before {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="range"]:disabled::-webkit-slider-runnable-track {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="range"]:disabled::-moz-range-track {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="range"]:disabled::-webkit-slider-thumb {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Form__Design--SuhumaFour input[type="range"]:disabled::-moz-range-thumb {
+    background-color: var(--SNSFFW_Grey_4);
 }
 
 
