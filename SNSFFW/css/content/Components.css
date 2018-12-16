@@ -35,9 +35,7 @@ _________________________________________________________________
 II. "medium" screen and (min-width: 768px and max-width: 1279px)
 _________________________________________________________________
 */
-@media only screen and (max-width: 1279px)
-{
-
+@media only screen and (max-width: 1279px) {
 }
 
 
@@ -48,9 +46,7 @@ _________________________________________________________________
 III. "small" screen and (max-width: 767px)
 _________________________________________________________________
 */
-@media only screen and (max-width: 767px)
-{
-
+@media only screen and (max-width: 767px) {
 }
 
 
@@ -61,9 +57,7 @@ _________________________________________________________________
 IV. print
 _________________________________________________________________
 */
-@media only print
-{
-
+@media only print {
 }
 
 
@@ -74,5 +68,398 @@ _________________________________________________________________
 V. common
 _________________________________________________________________
 */
+.SNSFFW-Accordion,
+.SNSFFW-Accordion__Design--SekondiOne,
+.SNSFFW-Accordion__Design--SekondiTwo,
+.SNSFFW-Accordion__Design--SekondiThree
+.SNSFFW-Accordion__Design--TakoradiOne,
+.SNSFFW-Accordion__Design--TakoradiTwo,
+.SNSFFW-Accordion__Design--TakoradiThree
+.SNSFFW-Accordion__Design--TemaOne,
+.SNSFFW-Accordion__Design--TemaTwo,
+.SNSFFW-Accordion__Design--TemaThree {
+    margin-bottom: var(--SNSFFW_PaddingMargin_Spacing_Big);
+}
+
+.SNSFFW-Accordion_Bellows:last-of-type {
+    border-bottom-width: var(--SNSFFW_Border_Width_Small);
+    border-bottom-style: solid;
+    border-bottom-color: currentColor;
+}
+
+.SNSFFW-Accordion_BellowsHeader {
+    padding: var(--SNSFFW_PaddingMargin_Spacing_Standard);
+    padding-left: var(--SNSFFW_PaddingMargin_Spacing_Big);
+    cursor: pointer;
+    border-right-width: var(--SNSFFW_Border_Width_Small);
+    border-right-style: solid;
+    border-right-color: currentColor;
+    border-left-width: var(--SNSFFW_Border_Width_Small);
+    border-left-style: solid;
+    border-left-color: currentColor;
+    border-top-width: var(--SNSFFW_Border_Width_Small);
+    border-top-style: solid;
+    border-top-color: currentColor;
+}
+
+.SNSFFW-Accordion_BellowsHeader > h6 {
+    margin: 0;
+    width: calc(100% - 28px);
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.SNSFFW-Accordion_BellowsHeader > i {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    transition-duration: .25s;
+}
+
+.SNSFFW-Accordion_BellowsHeader > i.SNSFFW-Accordion_BellowsHeader--IconUp {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition-duration: .25s;
+}
+
+.SNSFFW-Accordion_BellowsBody {
+    padding: var(--SNSFFW_PaddingMargin_Spacing_Big);
+    border-right-width: var(--SNSFFW_Border_Width_Smaller);
+    border-right-style: solid;
+    border-right-color: currentColor;
+    border-left-width: var(--SNSFFW_Border_Width_Smaller);
+    border-left-style: solid;
+    border-left-color: currentColor;
+    border-top-width: var(--SNSFFW_Border_Width_Small);
+    border-top-style: solid;
+    border-top-color: currentColor;
+    display: none;
+}
+
+.SNSFFW-Accordion_BellowsShow .SNSFFW-Accordion_BellowsBody {
+    display: block;
+}
+
+.SNSFFW-Accordion__Design--SekondiOne .SNSFFW-Accordion_Bellows:last-of-type {
+    border-bottom-color: transparent;
+}
+
+.SNSFFW-Accordion__Design--SekondiOne .SNSFFW-Accordion_BellowsHeader {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_FirstColor_1);
+    background-color: var(--SNSFFW_FirstColor_3);
+    color: var(--SNSFFW_FirstColor_1);
+}
+
+.SNSFFW-Accordion__Design--SekondiOne .SNSFFW-Accordion_Bellows:first-of-type .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: transparent;
+}
+
+.SNSFFW-Accordion__Design--SekondiOne .SNSFFW-Accordion_BellowsBody {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_FirstColor_1);
+    color: var(--SNSFFW_FirstColor_4);
+    background-color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Accordion__Design--SekondiTwo .SNSFFW-Accordion_Bellows:last-of-type {
+    border-bottom-color: transparent;
+}
+
+.SNSFFW-Accordion__Design--SekondiTwo .SNSFFW-Accordion_BellowsHeader {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_SecondColor_1);
+    background-color: var(--SNSFFW_SecondColor_3);
+    color: var(--SNSFFW_SecondColor_1);
+}
+
+.SNSFFW-Accordion__Design--SekondiTwo .SNSFFW-Accordion_Bellows:first-of-type .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: transparent;
+}
+
+.SNSFFW-Accordion__Design--SekondiTwo .SNSFFW-Accordion_BellowsBody {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_SecondColor_1);
+    color: var(--SNSFFW_SecondColor_4);
+    background-color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Accordion__Design--SekondiThree .SNSFFW-Accordion_Bellows:last-of-type {
+    border-bottom-color: transparent;
+}
+
+.SNSFFW-Accordion__Design--SekondiThree .SNSFFW-Accordion_BellowsHeader {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_ThirdColor_1);
+    background-color: var(--SNSFFW_ThirdColor_3);
+    color: var(--SNSFFW_ThirdColor_1);
+}
+
+.SNSFFW-Accordion__Design--SekondiThree .SNSFFW-Accordion_Bellows:first-of-type .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: transparent;
+}
+
+.SNSFFW-Accordion__Design--SekondiThree .SNSFFW-Accordion_BellowsBody {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_ThirdColor_1);
+    color: var(--SNSFFW_ThirdColor_4);
+    background-color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Accordion__Design--SekondiFour .SNSFFW-Accordion_Bellows:last-of-type {
+    border-bottom-color: transparent;
+}
+
+.SNSFFW-Accordion__Design--SekondiFour .SNSFFW-Accordion_BellowsHeader {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_Grey_1);
+    background-color: var(--SNSFFW_Grey_3);
+    color: var(--SNSFFW_Grey_1);
+}
+
+.SNSFFW-Accordion__Design--SekondiFour .SNSFFW-Accordion_Bellows:first-of-type .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: transparent;
+}
+
+.SNSFFW-Accordion__Design--SekondiFour .SNSFFW-Accordion_BellowsBody {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_Grey_1);
+    color: var(--SNSFFW_Grey_4);
+    background-color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Accordion__Design--TakoradiOne .SNSFFW-Accordion_Bellows:last-of-type {
+    border-bottom-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Accordion__Design--TakoradiOne .SNSFFW-Accordion_BellowsHeader {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_Grey_1);
+    background-color: var(--SNSFFW_FirstColor_3);
+    color: var(--SNSFFW_FirstColor_1);
+}
+
+.SNSFFW-Accordion__Design--TakoradiOne .SNSFFW-Accordion_Bellows:first-of-type .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: transparent;
+}
+
+.SNSFFW-Accordion__Design--TakoradiOne .SNSFFW-Accordion_BellowsBody {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_Grey_1);
+}
+
+.SNSFFW-Accordion__Design--TakoradiOne .SNSFFW-Accordion_Bellows:last-of-type .SNSFFW-Accordion_BellowsBody {
+    border-top-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Accordion__Design--TakoradiTwo .SNSFFW-Accordion_Bellows:last-of-type {
+    border-bottom-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Accordion__Design--TakoradiTwo .SNSFFW-Accordion_BellowsHeader {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_Grey_1);
+    background-color: var(--SNSFFW_SecondColor_3);
+    color: var(--SNSFFW_SecondColor_1);
+}
+
+.SNSFFW-Accordion__Design--TakoradiTwo .SNSFFW-Accordion_Bellows:first-of-type .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: transparent;
+}
+
+.SNSFFW-Accordion__Design--TakoradiTwo .SNSFFW-Accordion_BellowsBody {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_Grey_1);
+}
+
+.SNSFFW-Accordion__Design--TakoradiTwo .SNSFFW-Accordion_Bellows:last-of-type .SNSFFW-Accordion_BellowsBody {
+    border-top-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Accordion__Design--TakoradiThree .SNSFFW-Accordion_Bellows:last-of-type {
+    border-bottom-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Accordion__Design--TakoradiThree .SNSFFW-Accordion_BellowsHeader {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_Grey_1);
+    background-color: var(--SNSFFW_ThirdColor_3);
+    color: var(--SNSFFW_ThirdColor_1);
+}
+
+.SNSFFW-Accordion__Design--TakoradiThree .SNSFFW-Accordion_Bellows:first-of-type .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: transparent;
+}
+
+.SNSFFW-Accordion__Design--TakoradiThree .SNSFFW-Accordion_BellowsBody {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_Grey_1);
+}
+
+.SNSFFW-Accordion__Design--TakoradiThree .SNSFFW-Accordion_Bellows:last-of-type .SNSFFW-Accordion_BellowsBody {
+    border-top-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Accordion__Design--TakoradiFour .SNSFFW-Accordion_Bellows:last-of-type {
+    border-bottom-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Accordion__Design--TakoradiFour .SNSFFW-Accordion_BellowsHeader {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_Grey_1);
+    background-color: var(--SNSFFW_Grey_3);
+    color: var(--SNSFFW_Grey_1);
+}
+
+.SNSFFW-Accordion__Design--TakoradiFour .SNSFFW-Accordion_Bellows:first-of-type .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: transparent;
+}
+
+.SNSFFW-Accordion__Design--TakoradiFour .SNSFFW-Accordion_BellowsBody {
+    border-right-width: 0;
+    border-right-color: transparent;
+    border-left-width: 0;
+    border-left-color: transparent;
+    border-top-color: var(--SNSFFW_Grey_1);
+}
+
+.SNSFFW-Accordion__Design--TakoradiFour .SNSFFW-Accordion_Bellows:last-of-type .SNSFFW-Accordion_BellowsBody {
+    border-top-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Accordion__Design--TemaOne .SNSFFW-Accordion_Bellows:last-of-type {
+    border-bottom-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Accordion__Design--TemaOne .SNSFFW-Accordion_BellowsHeader {
+    border-right-color: var(--SNSFFW_FirstColor_3);
+    border-left-color: var(--SNSFFW_FirstColor_3);
+    border-top-color: var(--SNSFFW_FirstColor_3);
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Accordion__Design--TemaOne .SNSFFW-Accordion_Bellows:first-of-type .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Accordion__Design--TemaOne .SNSFFW-Accordion_BellowsBody {
+    border-right-color: var(--SNSFFW_FirstColor_3);
+    border-left-color: var(--SNSFFW_FirstColor_3);
+    border-top-color: var(--SNSFFW_FirstColor_3);
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Accordion__Design--TemaTwo .SNSFFW-Accordion_Bellows:last-of-type {
+    border-bottom-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Accordion__Design--TemaTwo .SNSFFW-Accordion_BellowsHeader {
+    border-right-color: var(--SNSFFW_SecondColor_3);
+    border-left-color: var(--SNSFFW_SecondColor_3);
+    border-top-color: var(--SNSFFW_SecondColor_3);
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Accordion__Design--TemaTwo .SNSFFW-Accordion_Bellows:first-of-type .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Accordion__Design--TemaTwo .SNSFFW-Accordion_BellowsBody {
+    border-left-color: var(--SNSFFW_SecondColor_3);
+    border-top-color: var(--SNSFFW_SecondColor_3);
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Accordion__Design--TemaThree .SNSFFW-Accordion_Bellows:last-of-type {
+    border-bottom-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Accordion__Design--TemaThree .SNSFFW-Accordion_BellowsHeader {
+    border-right-color: var(--SNSFFW_ThirdColor_3);
+    border-left-color: var(--SNSFFW_ThirdColor_3);
+    border-top-color: var(--SNSFFW_ThirdColor_3);
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Accordion__Design--TemaThree .SNSFFW-Accordion_Bellows:first-of-type .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Accordion__Design--TemaThree .SNSFFW-Accordion_BellowsBody {
+    border-right-color: var(--SNSFFW_ThirdColor_3);
+    border-left-color: var(--SNSFFW_ThirdColor_3);
+    border-top-color: var(--SNSFFW_ThirdColor_3);
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Accordion__Design--TemaFour .SNSFFW-Accordion_Bellows:last-of-type {
+    border-bottom-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Accordion__Design--TemaFour .SNSFFW-Accordion_BellowsHeader {
+    border-right-color: var(--SNSFFW_Grey_3);
+    border-left-color: var(--SNSFFW_Grey_3);
+    border-top-color: var(--SNSFFW_Grey_3);
+    color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Accordion__Design--TemaFour .SNSFFW-Accordion_Bellows:first-of-type .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Accordion__Design--TemaFour .SNSFFW-Accordion_BellowsBody {
+    border-right-color: var(--SNSFFW_Grey_3);
+    border-left-color: var(--SNSFFW_Grey_3);
+    border-top-color: var(--SNSFFW_Grey_3);
+    color: var(--SNSFFW_Grey_3);
+}
 
 

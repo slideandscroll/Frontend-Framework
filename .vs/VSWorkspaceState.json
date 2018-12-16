@@ -5,9 +5,10 @@
     "\\SNSFFW\\css",
     "\\SNSFFW\\css\\basics",
     "\\SNSFFW\\css\\content",
+    "\\SNSFFW\\font",
     "\\SNSFFW\\js",
     "\\SNSFFW\\preview"
   ],
-  "SelectedNode": "\\SNSFFW\\preview\\Elements.html",
+  "SelectedNode": "\\SNSFFW\\js\\SNSFFW.js",
   "PreviewInSolutionExplorer": false
 }

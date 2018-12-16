@@ -124,6 +124,9 @@ _________________________________________________________________
 .SNSFFW-ThemeAccra--Light .SNSFFW-Background__Grey--5 {
     background-color: rgb(25,28,30);
 }
+.SNSFFW-ThemeAccra--Light .SNSFFW-Background__Default {
+    background-color: white;
+}
 .SNSFFW-ThemeAccra--Light .SNSFFW-Font__FirstColor--1 {
     color: rgb(204,225,235);
 }
@@ -183,6 +186,9 @@ _________________________________________________________________
 }
 .SNSFFW-ThemeAccra--Light .SNSFFW-Font__Grey--5 {
     color: rgb(25,28,30);
+}
+.SNSFFW-ThemeAccra--Light .SNSFFW-Font__Default {
+    color: white;
 }
 
 
@@ -277,6 +283,9 @@ _________________________________________________________________
 .SNSFFW-ThemeAccra--Dark .SNSFFW-Background__Grey--5 {
     background-color: rgb(218,220,221);
 }
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Background__Default {
+    background-color:black;
+}
 .SNSFFW-ThemeAccra--Dark .SNSFFW-Font__FirstColor--1 {
     color: rgb(1,37,55);
 }
@@ -336,6 +345,9 @@ _________________________________________________________________
 }
 .SNSFFW-ThemeAccra--Dark .SNSFFW-Font__Grey--5 {
     color: rgb(218,220,221);
+}
+.SNSFFW-ThemeAccra--Dark .SNSFFW-Font__Default {
+    color: black;
 }
 
 
@@ -430,6 +442,9 @@ _________________________________________________________________
 .SNSFFW-ThemeKumasi--Light .SNSFFW-Background__Grey--5 {
     background-color: rgb(64,66,58);
 }
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Background__Default {
+    background-color: white;
+}
 .SNSFFW-ThemeKumasi--Light .SNSFFW-Font__FirstColor--1 {
     color: rgb(241,252,216);
 }
@@ -489,6 +504,9 @@ _________________________________________________________________
 }
 .SNSFFW-ThemeKumasi--Light .SNSFFW-Font__Grey--5 {
     color: rgb(64,66,58);
+}
+.SNSFFW-ThemeKumasi--Light .SNSFFW-Font__Default {
+    color: white;
 }
 
 
@@ -583,6 +601,9 @@ _________________________________________________________________
 .SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__Grey--5 {
     background-color: rgb(244,245,242);
 }
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Background__Default {
+    background-color: black;
+}
 .SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__FirstColor--1 {
     color: rgb(57,81,0);
 }
@@ -642,6 +663,9 @@ _________________________________________________________________
 }
 .SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__Grey--5 {
     color: rgb(244,245,242);
+}
+.SNSFFW-ThemeKumasi--Dark .SNSFFW-Font__Default {
+    color: black;
 }
 
 
@@ -736,6 +760,9 @@ _________________________________________________________________
 .SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__Grey--5 {
     background-color: rgb(23,19,24);
 }
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Background__Default {
+    background-color: white;
+}
 .SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__FirstColor--1 {
     color: rgb(229,204,236);
 }
@@ -795,6 +822,9 @@ _________________________________________________________________
 }
 .SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__Grey--5 {
     color: rgb(23,19,24);
+}
+.SNSFFW-ThemeCapeCoast--Light .SNSFFW-Font__Default {
+    color: white;
 }
 
 
@@ -889,6 +919,9 @@ _________________________________________________________________
 .SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__Grey--5 {
     background-color: rgb(216,213,217);
 }
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Background__Default {
+    background-color: black;
+}
 .SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__FirstColor--1 {
     color: rgb(45,1,57);
 }
@@ -948,6 +981,9 @@ _________________________________________________________________
 }
 .SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__Grey--5 {
     color: rgb(216,213,217);
+}
+.SNSFFW-ThemeCapeCoast--Dark .SNSFFW-Font__Default {
+    color: black;
 }
 
 
@@ -1042,6 +1078,9 @@ _________________________________________________________________
 .SNSFFW-ThemeTamale--Light .SNSFFW-Background__Grey--5 {
     background-color: rgb(74,73,65);
 }
+.SNSFFW-ThemeTamale--Light .SNSFFW-Background__Default {
+    background-color: white;
+}
 .SNSFFW-ThemeTamale--Light .SNSFFW-Font__FirstColor--1 {
     color: rgb(255,252,219);
 }
@@ -1101,6 +1140,9 @@ _________________________________________________________________
 }
 .SNSFFW-ThemeTamale--Light .SNSFFW-Font__Grey--5 {
     color: rgb(74,73,65);
+}
+.SNSFFW-ThemeTamale--Light .SNSFFW-Font__Default {
+    color: white;
 }
 
 
@@ -1195,6 +1237,9 @@ _________________________________________________________________
 .SNSFFW-ThemeTamale--Dark .SNSFFW-Background__Grey--5 {
     background-color: rgb(249,249,246);
 }
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Background__Default {
+    background-color: black;
+}
 .SNSFFW-ThemeTamale--Dark .SNSFFW-Font__FirstColor--1 {
     color: rgb(86,80,0);
 }
@@ -1254,6 +1299,9 @@ _________________________________________________________________
 }
 .SNSFFW-ThemeTamale--Dark .SNSFFW-Font__Grey--5 {
     color: rgb(249,249,246);
+}
+.SNSFFW-ThemeTamale--Dark .SNSFFW-Font__Default {
+    color: black;
 }
 
 
@@ -1348,6 +1396,9 @@ _________________________________________________________________
 .SNSFFW-ThemeHo--Light .SNSFFW-Background__Grey--5 {
     background-color: rgb(35,41,37);
 }
+.SNSFFW-ThemeHo--Light .SNSFFW-Background__Default {
+    background-color: white;
+}
 .SNSFFW-ThemeHo--Light .SNSFFW-Font__FirstColor--1 {
     color: rgb(206,239,220);
 }
@@ -1407,6 +1458,9 @@ _________________________________________________________________
 }
 .SNSFFW-ThemeHo--Light .SNSFFW-Font__Grey--5 {
     color: rgb(35,41,37);
+}
+.SNSFFW-ThemeHo--Light .SNSFFW-Font__Default {
+    color: white;
 }
 
 
@@ -1501,6 +1555,9 @@ _________________________________________________________________
 .SNSFFW-ThemeHo--Dark .SNSFFW-Background__Grey--5 {
     background-color: rgb(224,228,226);
 }
+.SNSFFW-ThemeHo--Dark .SNSFFW-Background__Default {
+    background-color: black;
+}
 .SNSFFW-ThemeHo--Dark .SNSFFW-Font__FirstColor--1 {
     color: rgb(0,62,27);
 }
@@ -1560,6 +1617,9 @@ _________________________________________________________________
 }
 .SNSFFW-ThemeHo--Dark .SNSFFW-Font__Grey--5 {
     color: rgb(224,228,226);
+}
+.SNSFFW-ThemeHo--Dark .SNSFFW-Font__Default {
+    color: black;
 }
 
 
@@ -1654,6 +1714,9 @@ _________________________________________________________________
 .SNSFFW-ThemeSunyani--Light .SNSFFW-Background__Grey--5 {
     background-color: rgb(14,15,20);
 }
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Background__Default {
+    background-color: white;
+}
 .SNSFFW-ThemeSunyani--Light .SNSFFW-Font__FirstColor--1 {
     color: rgb(208,214,237);
 }
@@ -1713,6 +1776,9 @@ _________________________________________________________________
 }
 .SNSFFW-ThemeSunyani--Light .SNSFFW-Font__Grey--5 {
     color: rgb(14,15,20);
+}
+.SNSFFW-ThemeSunyani--Light .SNSFFW-Font__Default {
+    color: white;
 }
 
 
@@ -1807,6 +1873,9 @@ _________________________________________________________________
 .SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__Grey--5 {
     background-color: rgb(214,214,217);
 }
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Background__Default {
+    background-color: black;
+}
 .SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__FirstColor--1 {
     color: rgb(2,14,59);
 }
@@ -1866,6 +1935,9 @@ _________________________________________________________________
 }
 .SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__Grey--5 {
     color: rgb(214,214,217);
+}
+.SNSFFW-ThemeSunyani--Dark .SNSFFW-Font__Default {
+    color: black;
 }
 
 
