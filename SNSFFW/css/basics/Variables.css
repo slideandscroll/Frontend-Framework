@@ -99,6 +99,13 @@ _________________________________________________________________
 --SNSFFW_LineHeight_High: 1.5em;
 --SNSFFW_LineHeight_Higher: 2em;
 
+/* font size */
+--SNSFFW_Font_Size_Smaller: .5em;
+--SNSFFW_Font_Size_Small: .75em;
+--SNSFFW_Font_Size_Standard: 1em;
+--SNSFFW_Font_Size_Large: 1.5em;
+--SNSFFW_Font_Size_Larger: 2em;
+
 /* font weight */
 --SNSFFW_Font_Weight_Lighter: 200;
 --SNSFFW_Font_Weight_Light: 300;

@@ -7,8 +7,9 @@
     "\\SNSFFW\\css\\content",
     "\\SNSFFW\\font",
     "\\SNSFFW\\js",
-    "\\SNSFFW\\preview"
+    "\\SNSFFW\\preview",
+    "\\SNSFFW\\preview\\helpers"
   ],
-  "SelectedNode": "\\SNSFFW\\js\\SNSFFW.js",
+  "SelectedNode": "\\SNSFFW\\css\\content\\Typography.css",
   "PreviewInSolutionExplorer": false
 }
