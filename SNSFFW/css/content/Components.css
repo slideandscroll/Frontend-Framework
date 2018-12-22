@@ -496,10 +496,8 @@ _________________________________________________________________
     padding: 0;
     display: inline-block;
     position: relative;
-    border-width: var(--SNSFFW_Border_Width_Smaller);
     border-style: solid;
     border-color: currentColor;
-    overflow: hidden;
 }
 
 .SNSFFW-AvatarSquare:not([data-snsffw-avatar-initials='']):before,
@@ -535,6 +533,22 @@ _________________________________________________________________
     right: 0%;
     bottom: 0%;
     background-color: transparent;
+}
+
+.SNSFFW-AvatarCircle:before,
+.SNSFFW-AvatarCircle__Design--KetaOne:before,
+.SNSFFW-AvatarCircle__Design--KetaTwo:before,
+.SNSFFW-AvatarCircle__Design--KetaThree:before,
+.SNSFFW-AvatarCircle__Design--KetaFour:before,
+.SNSFFW-AvatarCircle__Design--SongorOne:before,
+.SNSFFW-AvatarCircle__Design--SongorTwo:before,
+.SNSFFW-AvatarCircle__Design--SongorThree:before,
+.SNSFFW-AvatarCircle__Design--SongorFour:before,
+.SNSFFW-AvatarCircle__Design--MoyoOne:before,
+.SNSFFW-AvatarCircle__Design--MoyoTwo:before,
+.SNSFFW-AvatarCircle__Design--MoyoThree:before,
+.SNSFFW-AvatarCircle__Design--MoyoFour:before {
+    border-radius: 50%;
 }
 
 .SNSFFW-AvatarSquare:after,
@@ -590,6 +604,7 @@ _________________________________________________________________
 .SNSFFW-Avatar--XL {
     width: 64px;
     height: 64px;
+    border-width: var(--SNSFFW_Border_Width_Small);
 }
 
 .SNSFFW-Avatar--XL:after {
@@ -599,6 +614,7 @@ _________________________________________________________________
 .SNSFFW-Avatar--L {
     width: 48px;
     height: 48px;
+    border-width: var(--SNSFFW_Border_Width_Small);
 }
 
 .SNSFFW-Avatar--L:after {
@@ -608,6 +624,7 @@ _________________________________________________________________
 .SNSFFW-Avatar--M {
     width: 32px;
     height: 32px;
+    border-width: var(--SNSFFW_Border_Width_Smaller);
 }
 
 .SNSFFW-Avatar--M:after {
@@ -617,6 +634,7 @@ _________________________________________________________________
 .SNSFFW-Avatar--S {
     width: 24px;
     height: 24px;
+    border-width: var(--SNSFFW_Border_Width_Smaller);
 }
 
 .SNSFFW-Avatar--S:after {
@@ -626,6 +644,7 @@ _________________________________________________________________
 .SNSFFW-Avatar--XS {
     width: 16px;
     height: 16px;
+    border-width: var(--SNSFFW_Border_Width_Smaller);
 }
 
 .SNSFFW-Avatar--XS:after {
@@ -782,6 +801,51 @@ _________________________________________________________________
 .SNSFFW-AvatarSquare__Design--MoyoFour:after,
 .SNSFFW-AvatarCircle__Design--MoyoFour:after {
     color: var(--SNSFFW_Grey_3);
+}
+
+
+
+
+
+
+
+
+
+
+.SNSFFW-Badge {
+    position: relative;
+}
+
+.SNSFFW-BadgeText {
+    padding: var(--SNSFFW_PaddingMargin_Spacing_Smaller);
+    padding-bottom: calc(var(--SNSFFW_PaddingMargin_Spacing_Smaller) - 1px);
+    position: absolute;
+    font-size: 12px;
+    font-weight: var(--SNSFFW_Font_Weight_Bolder);
+}
+
+.SNSFFW-BadgeText.SNSFFW-BadgeText__Position--LeftTop {
+    top: 0%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.SNSFFW-BadgeText.SNSFFW-BadgeText__Position--LeftBottom {
+    bottom: 0%;
+    left: 0%;
+    transform: translate(-50%, 50%);
+}
+
+.SNSFFW-BadgeText.SNSFFW-BadgeText__Position--RightTop {
+    top: 0%;
+    right: 0%;
+    transform: translate(50%, -50%);
+}
+
+.SNSFFW-BadgeText.SNSFFW-BadgeText__Position--RightBottom {
+    bottom: 0%;
+    right: 0%;
+    transform: translate(50%, 50%);
 }
 
 

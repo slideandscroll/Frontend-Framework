@@ -30,7 +30,8 @@ TABLE OF CONTENTS
     VI.  Theme "Sunyani"
         a.  "Light"
         b.  "Dark"
-    VII. Standard Website Colors
+    VII.  Default Colors
+    VIII. Standard Website Colors
 */
 
 
@@ -1945,7 +1946,67 @@ _________________________________________________________________
 /*
 _________________________________________________________________
 
-VII. Standard Website Colors
+VII. Default Colors
+_________________________________________________________________
+*/
+body {
+   --SNSFFW_DefaultColor_Black: black;
+   --SNSFFW_DefaultColor_White: white;
+   --SNSFFW_DefaultColor_Blue: royalblue;
+   --SNSFFW_DefaultColor_Green: seagreen;
+   --SNSFFW_DefaultColor_Red: orangered;
+   --SNSFFW_DefaultColor_Orange: orange;
+   --SNSFFW_DefaultColor_Yellow: yellow;
+}
+.SNSFFW-Background__DefaultColor--Black {
+    background-color: black;
+}
+.SNSFFW-Background__DefaultColor--White {
+    background-color: white;
+}
+.SNSFFW-Background__DefaultColor--Blue {
+    background-color: royalblue;
+}
+.SNSFFW-Background__DefaultColor--Green {
+    background-color: seagreen;
+}
+.SNSFFW-Background__DefaultColor--Red {
+    background-color: orangered;
+}
+.SNSFFW-Background__DefaultColor--Orange {
+    background-color: orange;
+}
+.SNSFFW-Background__DefaultColor--Yellow {
+    background-color: yellow;
+}
+.SNSFFW-Font__DefaultColor--Black {
+    color: black;
+}
+.SNSFFW-Font__DefaultColor--White {
+    color: white;
+}
+.SNSFFW-Font__DefaultColor--Blue {
+    color: royalblue;
+}
+.SNSFFW-Font__DefaultColor--Green {
+    color: seagreen;
+}
+.SNSFFW-Font__DefaultColor--Red {
+    color: orangered;
+}
+.SNSFFW-Font__DefaultColor--Orange {
+    color: orange;
+}
+.SNSFFW-Font__DefaultColor--Yellow {
+    color: yellow;
+}
+
+
+
+/*
+_________________________________________________________________
+
+VIII. Standard Website Colors
 _________________________________________________________________
 */
 body {
