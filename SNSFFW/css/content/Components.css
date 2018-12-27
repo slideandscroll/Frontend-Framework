@@ -803,15 +803,6 @@ _________________________________________________________________
     color: var(--SNSFFW_Grey_3);
 }
 
-
-
-
-
-
-
-
-
-
 .SNSFFW-Badge {
     position: relative;
 }
@@ -846,6 +837,227 @@ _________________________________________________________________
     bottom: 0%;
     right: 0%;
     transform: translate(50%, 50%);
+}
+
+.SNSFFW-Breadcrumb,
+.SNSFFW-Breadcrumb__Design--BosomtweOne,
+.SNSFFW-Breadcrumb__Design--BosomtweTwo,
+.SNSFFW-Breadcrumb__Design--BosomtweThree,
+.SNSFFW-Breadcrumb__Design--BosomtweFour,
+.SNSFFW-Breadcrumb__Design--WeijaOne,
+.SNSFFW-Breadcrumb__Design--WeijaTwo,
+.SNSFFW-Breadcrumb__Design--WeijaThree,
+.SNSFFW-Breadcrumb__Design--WeijaFour {
+    padding: 0;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SNSFFW-BreadcrumbItem {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    float: left;
+}
+
+.SNSFFW-BreadcrumbItem a {
+    text-decoration: none;
+    color: currentColor;
+    vertical-align: middle;
+}
+
+.SNSFFW-BreadcrumbItem a:hover {
+    text-decoration: underline;
+}
+
+.SNSFFW-BreadcrumbItem span {
+    color: var(--SNSFFW_Grey_2);
+    vertical-align: middle;
+}
+
+.SNSFFW-BreadcrumbItem--Icon {
+    font-size: var(--SNSFFW_Font_Size_Standard);
+    vertical-align: middle;
+    color: currentColor;
+}
+
+.SNSFFW-Breadcrumb__Design--BosomtweOne .SNSFFW-BreadcrumbItem--Icon {
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Breadcrumb__Design--BosomtweTwo .SNSFFW-BreadcrumbItem--Icon {
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Breadcrumb__Design--BosomtweThree .SNSFFW-BreadcrumbItem--Icon {
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Breadcrumb__Design--BosomtweFour .SNSFFW-BreadcrumbItem--Icon {
+    color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Breadcrumb__Design--WeijaOne .SNSFFW-BreadcrumbItem a {
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Breadcrumb__Design--WeijaOne .SNSFFW-BreadcrumbItem span {
+    color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Breadcrumb__Design--WeijaTwo .SNSFFW-BreadcrumbItem a {
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Breadcrumb__Design--WeijaTwo .SNSFFW-BreadcrumbItem span {
+    color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Breadcrumb__Design--WeijaThree .SNSFFW-BreadcrumbItem a {
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Breadcrumb__Design--WeijaThree .SNSFFW-BreadcrumbItem span {
+    color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Breadcrumb__Design--WeijaFour .SNSFFW-BreadcrumbItem a {
+    color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Breadcrumb__Design--WeijaFour .SNSFFW-BreadcrumbItem span {
+    color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoOne,
+.SNSFFW-Breadcrumb__Design--TonoTwo,
+.SNSFFW-Breadcrumb__Design--TonoThree,
+.SNSFFW-Breadcrumb__Design--TonoFour {
+    padding: 0;
+}
+
+.SNSFFW-Breadcrumb__Design--TonoOne .SNSFFW-BreadcrumbItem,
+.SNSFFW-Breadcrumb__Design--TonoTwo .SNSFFW-BreadcrumbItem,
+.SNSFFW-Breadcrumb__Design--TonoThree .SNSFFW-BreadcrumbItem,
+.SNSFFW-Breadcrumb__Design--TonoFour .SNSFFW-BreadcrumbItem {
+    float: none;
+    padding: var(--SNSFFW_PaddingMargin_Spacing_Smaller);
+    padding-right: 0;
+}
+
+.SNSFFW-Breadcrumb__Design--TonoOne a:hover,
+.SNSFFW-Breadcrumb__Design--TonoTwo a:hover,
+.SNSFFW-Breadcrumb__Design--TonoThree a:hover,
+.SNSFFW-Breadcrumb__Design--TonoFour a:hover {
+    text-decoration: none;
+}
+
+.SNSFFW-Breadcrumb__Design--TonoOne span,
+.SNSFFW-Breadcrumb__Design--TonoTwo span,
+.SNSFFW-Breadcrumb__Design--TonoThree span,
+.SNSFFW-Breadcrumb__Design--TonoFour span {
+    padding-right: calc(var(--SNSFFW_PaddingMargin_Spacing_Small) - 2px);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoOne .SNSFFW-BreadcrumbItem {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoOne .SNSFFW-BreadcrumbItem:last-child {
+    background-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoOne .SNSFFW-BreadcrumbItem:hover a,
+.SNSFFW-Breadcrumb__Design--TonoOne .SNSFFW-BreadcrumbItem:hover .SNSFFW-BreadcrumbItem--Icon {
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoOne a {
+    color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoOne span {
+    color: var(--SNSFFW_FirstColor_1);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoOne .SNSFFW-BreadcrumbItem--Icon {
+    color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoTwo .SNSFFW-BreadcrumbItem {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoTwo .SNSFFW-BreadcrumbItem:last-child {
+    background-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoTwo .SNSFFW-BreadcrumbItem:hover a,
+.SNSFFW-Breadcrumb__Design--TonoTwo .SNSFFW-BreadcrumbItem:hover .SNSFFW-BreadcrumbItem--Icon {
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoTwo a {
+    color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoTwo span {
+    color: var(--SNSFFW_SecondColor_1);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoTwo .SNSFFW-BreadcrumbItem--Icon {
+    color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoThree .SNSFFW-BreadcrumbItem {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoThree .SNSFFW-BreadcrumbItem:last-child {
+    background-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoThree .SNSFFW-BreadcrumbItem:hover a,
+.SNSFFW-Breadcrumb__Design--TonoThree .SNSFFW-BreadcrumbItem:hover .SNSFFW-BreadcrumbItem--Icon {
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoThree a {
+    color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoThree span {
+    color: var(--SNSFFW_ThirdColor_1);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoThree .SNSFFW-BreadcrumbItem--Icon {
+    color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoFour .SNSFFW-BreadcrumbItem {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoFour .SNSFFW-BreadcrumbItem:last-child {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoFour .SNSFFW-BreadcrumbItem:hover a,
+.SNSFFW-Breadcrumb__Design--TonoFour .SNSFFW-BreadcrumbItem:hover .SNSFFW-BreadcrumbItem--Icon {
+    color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoFour a {
+    color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoFour span {
+    color: var(--SNSFFW_Grey_1);
+}
+
+.SNSFFW-Breadcrumb__Design--TonoFour .SNSFFW-BreadcrumbItem--Icon {
+    color: var(--SNSFFW_Grey_2);
 }
 
 

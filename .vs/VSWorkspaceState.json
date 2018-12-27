@@ -7,9 +7,8 @@
     "\\SNSFFW\\css\\content",
     "\\SNSFFW\\font",
     "\\SNSFFW\\js",
-    "\\SNSFFW\\preview",
-    "\\SNSFFW\\preview\\helpers"
+    "\\SNSFFW\\preview"
   ],
-  "SelectedNode": "\\SNSFFW\\preview\\helpers\\avatar.svg",
+  "SelectedNode": "\\SNSFFW\\index.html",
   "PreviewInSolutionExplorer": false
 }
