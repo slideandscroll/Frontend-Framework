@@ -1060,4 +1060,44 @@ _________________________________________________________________
     color: var(--SNSFFW_Grey_2);
 }
 
+.SNSFFW-Card {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-Card.SNSFFW-CardBorder {
+    border-color: var(--SNSFFW_Grey_2);
+    border-width: var(--SNSFFW_Border_Width_Smaller);
+    border-style: solid;
+}
+
+.SNSFFW-CardHeader,
+.SNSFFW-CardBody,
+.SNSFFW-CardFooter {
+    padding: var(--SNSFFW_PaddingMargin_Spacing_Standard);
+}
+
+.SNSFFW-CardHeader,
+.SNSFFW-CardBody {
+    padding-bottom: 0;
+}
+
+.SNSFFW-CardImage {
+    padding-top: var(--SNSFFW_PaddingMargin_Spacing_Standard);
+}
+
+.SNSFFW-CardImage:first-child {
+    padding-top: 0;
+}
+
+.SNSFFW-CardHeader *:last-child,
+.SNSFFW-CardBody *:last-child,
+.SNSFFW-CardImage *:last-child,
+.SNSFFW-CardFooter *:last-child {
+    margin-bottom: 0;
+}
+
+.SNSFFW-CardImage img {
+    float: none;
+}
+
 
