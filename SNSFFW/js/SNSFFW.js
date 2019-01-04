@@ -14,7 +14,6 @@ Date: 01.08.2018
 TABLE OF CONTENTS
     I.   Layout
     II.  Content
-    III. 
 */
 
 $(document).ready(function () {
@@ -104,6 +103,52 @@ $(document).ready(function () {
         // ... bellows body toggles between appear and disappear and icon toggles between "Up" and "Down" (only this bellows).
         $(this).children('.SNSFFW-Accordion_BellowsHeader--Icon').toggleClass('SNSFFW-Accordion_BellowsHeader--IconUp');
         $(this).next('.SNSFFW-Accordion_BellowsBody').slideToggle(250);
+    });
+
+    /*
+     *  Modals
+     */
+
+    // If modal button is clicked, than ...
+    $('.SNSFFW-ModalButton').click(function () {
+
+        // ... take body width with scrollbar.
+        var bodyWidthWithScrollbar = $('body').outerWidth();
+
+        // ... hide scrollbar.
+        $('body').css("overflow", "hidden");
+        
+        // ... take body width without scrollbar and calculate scrollbar width.
+        var bodyWidthWithoutScrollbar = $('body').outerWidth();
+        var bodyScrollbarWidth = bodyWidthWithoutScrollbar - bodyWidthWithScrollbar;
+        
+        // ... if scrollbar width is less than or equal "0", ...
+        if (bodyScrollbarWidth <= 0) {
+            // ... margin right has "0px", ...
+            $('body').css("margin-right", "0");
+        }
+        else {
+            // ... else margin right has scrollbar width.
+            $('body').css("margin-right", bodyScrollbarWidth);
+        }
+        
+        // ... the modal (dialog) appears.
+        $(this).next('.SNSFFW-ModalContainer').delay(250).fadeIn(250);
+    });
+
+    // If modal button "close" or "cancel" or modal background "black", "white" or "grey" is clicked, than ...
+    $('.SNSFFW-ModalButton__Close, .SNSFFW-ModalButton__Cancel, .SNSFFW-ModalBackground__Black, .SNSFFW-ModalBackground__White, .SNSFFW-ModalBackground__Grey').click(function () {
+        // ... the modal (dialog) disappears, ...
+        $(this).parents('.SNSFFW-ModalContainer').fadeOut(250);
+
+        // ... "body" is scrollable again.
+        $('body').delay(250).queue(function (next) {
+            $(this).css({
+                "overflow": "inherit",
+                "margin-right": "0"
+            });
+            next();
+        });     
     });
 
 

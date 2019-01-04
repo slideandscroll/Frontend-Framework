@@ -543,6 +543,11 @@ button, input[type="button"], input[type="reset"], input[type="submit"], a.SNSFF
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
+    background-color: transparent;
+}
+
+button i, input[type="button"] i, input[type="reset"] i, input[type="submit"] i, a.SNSFFW-Button__Link i {
+    vertical-align: middle;
 }
 
 button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, a.SNSFFW-Button__Link:hover {
@@ -739,103 +744,71 @@ button.SNSFFW-Button__Design--EdoukaFour:disabled, input.SNSFFW-Button__Design--
 }
 
 button.SNSFFW-Button__Design--KwamisaOne, input.SNSFFW-Button__Design--KwamisaOne, a.SNSFFW-Button__Design--KwamisaOne {
-    border-color: var(--SNSFFW_FirstColor_4);
-    background-color: var(--SNSFFW_FirstColor_2);
-    color: var(--SNSFFW_FirstColor_4);
+    color: var(--SNSFFW_FirstColor_3);
 }
 
 button.SNSFFW-Button__Design--KwamisaOne:hover, input.SNSFFW-Button__Design--KwamisaOne:hover, a.SNSFFW-Button__Design--KwamisaOne:hover {
-    border-color: var(--SNSFFW_FirstColor_5);
-    background-color: var(--SNSFFW_FirstColor_3);
-    color: var(--SNSFFW_FirstColor_5);
+    color: var(--SNSFFW_FirstColor_4);
 }
 
 button.SNSFFW-Button__Design--KwamisaOne:active, input.SNSFFW-Button__Design--KwamisaOne:active, a.SNSFFW-Button__Design--KwamisaOne:active {
-    border-color: var(--SNSFFW_FirstColor_3);
-    background-color: var(--SNSFFW_FirstColor_1);
-    color: var(--SNSFFW_FirstColor_3);
+    color: var(--SNSFFW_FirstColor_2);
 }
 
 button.SNSFFW-Button__Design--KwamisaOne:disabled, input.SNSFFW-Button__Design--KwamisaOne:disabled, a.SNSFFW-Button__Design--KwamisaOne.SNSFFW-Button__Link--Disabled {
-    border-color: var(--SNSFFW_FirstColor_3);
-    background-color: var(--SNSFFW_FirstColor_1);
-    color: var(--SNSFFW_FirstColor_3);
+    color: var(--SNSFFW_FirstColor_2);
 }
 
 button.SNSFFW-Button__Design--KwamisaTwo, input.SNSFFW-Button__Design--KwamisaTwo, a.SNSFFW-Button__Design--KwamisaTwo {
-    border-color: var(--SNSFFW_SecondColor_4);
-    background-color: var(--SNSFFW_SecondColor_2);
-    color: var(--SNSFFW_SecondColor_4);
+    color: var(--SNSFFW_SecondColor_3);
 }
 
 button.SNSFFW-Button__Design--KwamisaTwo:hover, input.SNSFFW-Button__Design--KwamisaTwo:hover, a.SNSFFW-Button__Design--KwamisaTwo:hover {
-    border-color: var(--SNSFFW_SecondColor_5);
-    background-color: var(--SNSFFW_SecondColor_3);
-    color: var(--SNSFFW_SecondColor_5);
+    color: var(--SNSFFW_SecondColor_4);
 }
 
 button.SNSFFW-Button__Design--KwamisaTwo:active, input.SNSFFW-Button__Design--KwamisaTwo:active, a.SNSFFW-Button__Design--KwamisaTwo:active {
-    border-color: var(--SNSFFW_SecondColor_3);
-    background-color: var(--SNSFFW_SecondColor_1);
-    color: var(--SNSFFW_SecondColor_3);
+    color: var(--SNSFFW_SecondColor_2);
 }
 
 button.SNSFFW-Button__Design--KwamisaTwo:disabled, input.SNSFFW-Button__Design--KwamisaTwo:disabled, a.SNSFFW-Button__Design--KwamisaTwo.SNSFFW-Button__Link--Disabled {
-    border-color: var(--SNSFFW_SecondColor_3);
-    background-color: var(--SNSFFW_SecondColor_1);
-    color: var(--SNSFFW_SecondColor_3);
+    color: var(--SNSFFW_SecondColor_2);
 }
 
 button.SNSFFW-Button__Design--KwamisaThree, input.SNSFFW-Button__Design--KwamisaThree, a.SNSFFW-Button__Design--KwamisaThree {
-    border-color: var(--SNSFFW_ThirdColor_4);
-    background-color: var(--SNSFFW_ThirdColor_2);
-    color: var(--SNSFFW_ThirdColor_4);
+    color: var(--SNSFFW_ThirdColor_3);
 }
 
 button.SNSFFW-Button__Design--KwamisaThree:hover, input.SNSFFW-Button__Design--KwamisaThree:hover, a.SNSFFW-Button__Design--KwamisaThree:hover {
-    border-color: var(--SNSFFW_ThirdColor_5);
-    background-color: var(--SNSFFW_ThirdColor_3);
-    color: var(--SNSFFW_ThirdColor_5);
+    color: var(--SNSFFW_ThirdColor_4);
 }
 
 button.SNSFFW-Button__Design--KwamisaThree:active, input.SNSFFW-Button__Design--KwamisaThree:active, a.SNSFFW-Button__Design--KwamisaThree:active {
-    border-color: var(--SNSFFW_ThirdColor_3);
-    background-color: var(--SNSFFW_ThirdColor_1);
-    color: var(--SNSFFW_ThirdColor_3);
+    color: var(--SNSFFW_ThirdColor_2);
 }
 
 button.SNSFFW-Button__Design--KwamisaThree:disabled, input.SNSFFW-Button__Design--KwamisaThree:disabled, a.SNSFFW-Button__Design--KwamisaThree.SNSFFW-Button__Link--Disabled {
-    border-color: var(--SNSFFW_ThirdColor_3);
-    background-color: var(--SNSFFW_ThirdColor_1);
-    color: var(--SNSFFW_ThirdColor_3);
+    color: var(--SNSFFW_ThirdColor_2);
 }
 
 button.SNSFFW-Button__Design--KwamisaFour, input.SNSFFW-Button__Design--KwamisaFour, a.SNSFFW-Button__Design--KwamisaFour {
-    border-color: var(--SNSFFW_Grey_4);
-    background-color: var(--SNSFFW_Grey_2);
-    color: var(--SNSFFW_Grey_4);
+    color: var(--SNSFFW_Grey_3);
 }
 
 button.SNSFFW-Button__Design--KwamisaFour:hover, input.SNSFFW-Button__Design--KwamisaFour:hover, a.SNSFFW-Button__Design--KwamisaFour:hover {
-    border-color: var(--SNSFFW_Grey_5);
-    background-color: var(--SNSFFW_Grey_3);
-    color: var(--SNSFFW_Grey_5);
+    color: var(--SNSFFW_Grey_4);
 }
 
 button.SNSFFW-Button__Design--KwamisaFour:active, input.SNSFFW-Button__Design--KwamisaFour:active, a.SNSFFW-Button__Design--KwamisaFour:active {
-    border-color: var(--SNSFFW_Grey_3);
-    background-color: var(--SNSFFW_Grey_1);
-    color: var(--SNSFFW_Grey_3);
+    color: var(--SNSFFW_Grey_2);
 }
 
 button.SNSFFW-Button__Design--KwamisaFour:disabled, input.SNSFFW-Button__Design--KwamisaFour:disabled, a.SNSFFW-Button__Design--KwamisaFour.SNSFFW-Button__Link--Disabled {
-    border-color: var(--SNSFFW_Grey_3);
-    background-color: var(--SNSFFW_Grey_1);
-    color: var(--SNSFFW_Grey_3);
+    color: var(--SNSFFW_Grey_2);
 }
 
 .SNSFFW-ButtonGroup__Horizontal {
-    display: inline-flex;
+    display: flex;
 }
 
 .SNSFFW-ButtonGroup__Vertical {

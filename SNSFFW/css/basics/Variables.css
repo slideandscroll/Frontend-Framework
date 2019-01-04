@@ -113,6 +113,13 @@ _________________________________________________________________
 --SNSFFW_Font_Weight_Bold: 500;
 --SNSFFW_Font_Weight_Bolder: 600;
 
+/* box shadow size */
+--SNSFFW_Box_Shadow_Smaller: 0 .2rem .5rem;
+--SNSFFW_Box_Shadow_Small: 0 .3rem .75rem;
+--SNSFFW_Box_Shadow_Standard: 0 .4rem 1rem;
+--SNSFFW_Box_Shadow_Big: 0 .5rem 1.25rem;
+--SNSFFW_Box_Shadow_Bigger: 0 .6rem 1.5rem;
+
 /* END ROOT */
 }
 

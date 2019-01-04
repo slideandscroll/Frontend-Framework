@@ -582,6 +582,7 @@ _________________________________________________________________
     font-weight: var(--SNSFFW_Font_Weight_Bold);
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -818,24 +819,28 @@ _________________________________________________________________
 .SNSFFW-BadgeText.SNSFFW-BadgeText__Position--LeftTop {
     top: 0%;
     left: 0%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
 .SNSFFW-BadgeText.SNSFFW-BadgeText__Position--LeftBottom {
     bottom: 0%;
     left: 0%;
+    -webkit-transform: translate(-50%, 50%);
     transform: translate(-50%, 50%);
 }
 
 .SNSFFW-BadgeText.SNSFFW-BadgeText__Position--RightTop {
     top: 0%;
     right: 0%;
+    -webkit-transform: translate(50%, -50%);
     transform: translate(50%, -50%);
 }
 
 .SNSFFW-BadgeText.SNSFFW-BadgeText__Position--RightBottom {
     bottom: 0%;
     right: 0%;
+    -webkit-transform: translate(50%, 50%);
     transform: translate(50%, 50%);
 }
 
@@ -1098,6 +1103,118 @@ _________________________________________________________________
 
 .SNSFFW-CardImage img {
     float: none;
+}
+
+.SNSFFW-ModalContainer {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: none;
+}
+
+.SNSFFW-ModalBackground {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+
+.SNSFFW-ModalBackground.SNSFFW-ModalBackground__Black,
+.SNSFFW-ModalBackground.SNSFFW-ModalBackground__White,
+.SNSFFW-ModalBackground.SNSFFW-ModalBackground__Grey {
+    opacity: .5;
+}
+
+.SNSFFW-ModalBackground.SNSFFW-ModalBackground__Black {
+    background-color: var(--SNSFFW_DefaultColor_Black);
+}
+
+.SNSFFW-ModalBackground.SNSFFW-ModalBackground__White {
+    background-color: var(--SNSFFW_DefaultColor_White);
+}
+
+.SNSFFW-ModalBackground.SNSFFW-ModalBackground__Grey {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-ModalBackground.SNSFFW-ModalBackground__Black + .SNSFFW-ModalContent,
+.SNSFFW-ModalBackground.SNSFFW-ModalBackground__White + .SNSFFW-ModalContent,
+.SNSFFW-ModalBackground.SNSFFW-ModalBackground__Grey + .SNSFFW-ModalContent {
+    box-shadow: none;
+}
+
+.SNSFFW-ModalContent {
+    background-color: var(--SNSFFW_Default);
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 690px;
+    max-height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: var(--SNSFFW_Box_Shadow_Standard) var(--SNSFFW_DefaultColor_Black);
+}
+
+.SNSFFW-ModalContent.SNSFFW-ModalContent__Small {
+    max-width: 320px;
+}
+
+.SNSFFW-ModalContent.SNSFFW-ModalContent__Large {
+    max-width: 1150px;
+}
+
+.SNSFFW-ModalContent.SNSFFW-ModalContentBorder {
+    border-color: var(--SNSFFW_Grey_2);
+    border-width: var(--SNSFFW_Border_Width_Smaller);
+    border-style: solid;
+}
+
+.SNSFFW-ModalHeader {
+    border-bottom-color: var(--SNSFFW_Grey_1);
+    border-bottom-width: var(--SNSFFW_Border_Width_Smaller);
+    border-bottom-style: solid;
+}
+
+.SNSFFW-ModalHeader .SNSFFW-ModalHeaderTitle {
+    margin: 0;
+    padding-top: calc(var(--SNSFFW_PaddingMargin_Spacing_Standard) + 3px);
+    padding-bottom: calc(var(--SNSFFW_PaddingMargin_Spacing_Standard) + 3px);
+    padding-right: var(--SNSFFW_PaddingMargin_Spacing_Standard);
+    padding-left: var(--SNSFFW_PaddingMargin_Spacing_Standard);
+    display: inline-block;
+    font-weight: var(--SNSFFW_Font_Weight_Bold);
+    font-size: 20px;
+}
+
+.SNSFFW-ModalHeader button {
+    float: right;
+}
+
+.SNSFFW-ModalBody {
+    padding: var(--SNSFFW_PaddingMargin_Spacing_Standard);
+    position: relative;
+    overflow-y: auto;
+}
+
+.SNSFFW-ModalBody *:last-child {
+    margin-bottom: 0;
+}
+
+.SNSFFW-ModalFooter {
+    border-top-color: var(--SNSFFW_Grey_1);
+    border-top-width: var(--SNSFFW_Border_Width_Smaller);
+    border-top-style: solid;
+}
+
+.SNSFFW-ModalFooter .SNSFFW-ButtonGroup__Horizontal {
+    flex-direction: row-reverse;
+
 }
 
 
