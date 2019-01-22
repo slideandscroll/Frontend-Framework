@@ -33,6 +33,7 @@ Date: 01.08.2018
         <script src=""></script>
     </head>
     <body class="SNSFFW-ThemeAccra--Light">
+        <div style="position:fixed;width:100%;min-height:24px;"></div>
         <div class="SNSFFW-Container__Centered--Width60">
             <h1 class="SNSFFW-Font__FirstColor--3">Content</h1>
             <h2 class="SNSFFW-Font__FirstColor--3">Components</h2>
@@ -1696,7 +1697,7 @@ Date: 01.08.2018
                 <li class="SNSFFW-BreadcrumbItem"><a href="#">Breadcrumbs</a><i class="SNSFFW-BreadcrumbItem--Icon material-icons">chevron_right</i></li>
                 <li class="SNSFFW-BreadcrumbItem"><span>Standard Design</span></li>
             </ul>
-            <p>&nbsp;</p>-->
+            <p>&nbsp;</p>
             <h3 class="SNSFFW-Font__FirstColor--3">Cards (Panels)</h3>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
@@ -2270,57 +2271,384 @@ Date: 01.08.2018
                     </div>
                 </div>
             </div>
-            <p>&nbsp;</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
+            <p>&nbsp;</p>-->
             <h3 class="SNSFFW-Font__FirstColor--3">Menus (Dropdowns)</h3>
-            <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__3Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
-                <div class="SNSFFW-Grid__Column1 SNSFFW-Grid__Row1">
+            <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
+                <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h5>horizontal</h5>
                     <p style="background-color: var(--SNSFFW_FirstColor_2);">
                         <code>
-                            &lt;div class="..."&gt;<br />
-                            &emsp;&lt;div class="..."&gt;...&lt;/div&gt;<br />
+                            &lt;div class="SNSFFW-ButtonGroup__Horizontal"&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_drop_down&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;&lt;ul class="SNSFFW-MenuDropdown"&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button&gt;menu 1.1&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button&gt;...&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&lt;/ul&gt;<br />
+                            &emsp;&lt;/div&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;...<br />
+                            &emsp;&lt;/div&gt;<br />
                             &lt;/div&gt;
                         </code>
                     </p>
                 </div>
-                <div class="SNSFFW-Grid__Column1 SNSFFW-Grid__Row2"></div>
-                <div class="SNSFFW-Grid__Column2 SNSFFW-Grid__Row1">
+                <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row2">
+                    <div class="SNSFFW-ButtonGroup__Horizontal">
+                        <div class="SNSFFW-Menu">
+                            <button><span>menu 1</span><i class="material-icons">arrow_drop_down</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button>menu 1.1</button></li>
+                                <li><button>menu 1.2</button></li>
+                                <li><button>menu 1.3</button></li>
+                                <li><button>menu 1.4</button></li>
+                                <li><button>menu 1.5</button></li>
+                                <li><button>menu 1.6</button></li>
+                                <li><button>menu 1.7</button></li>
+                                <li><button>menu 1.8</button></li>
+                                <li><button>...</button></li>
+                            </ul>
+                        </div>
+                        <div class="SNSFFW-Menu">
+                            <button><span>menu 2</span><i class="material-icons">arrow_drop_down</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button>menu 2.1</button></li>
+                                <li><button>menu 2.2</button></li>
+                                <li><button>...</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h5>vertical</h5>
                     <p style="background-color: var(--SNSFFW_FirstColor_2);">
                         <code>
-                            &lt;div class="..."&gt;<br />
-                            &emsp;&lt;div class="..."&gt;...&lt;/div&gt;<br />
+                            &lt;div class="SNSFFW-ButtonGroup__Vertical"&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_right&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;&lt;ul class="SNSFFW-MenuDropdown"&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button&gt;menu 1.1&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button&gt;...&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&lt;/ul&gt;<br />
+                            &emsp;&lt;/div&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;...<br />
+                            &emsp;&lt;/div&gt;<br />
                             &lt;/div&gt;
                         </code>
                     </p>
                 </div>
-                <div class="SNSFFW-Grid__Column2 SNSFFW-Grid__Row2"></div>
-                <div class="SNSFFW-Grid__Column3 SNSFFW-Grid__Row1">
-                    <h5>combined</h5>
+                <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row2">
+                    <div class="SNSFFW-ButtonGroup__Vertical">
+                        <div class="SNSFFW-Menu">
+                            <button><span>menu 1</span><i class="material-icons">arrow_right</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button>menu 1.1</button></li>
+                                <li><button>menu 1.2</button></li>
+                                <li><button>menu 1.3</button></li>
+                                <li><button>menu 1.4</button></li>
+                                <li><button>menu 1.5</button></li>
+                                <li><button>menu 1.6</button></li>
+                                <li><button>menu 1.7</button></li>
+                                <li><button>menu 1.8</button></li>
+                                <li><button>...</button></li>
+                            </ul>
+                        </div>
+                        <div class="SNSFFW-Menu">
+                            <button><span>menu 2</span><i class="material-icons">arrow_right</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button>menu 2.1</button></li>
+                                <li><button>menu 2.2</button></li>
+                                <li><button>...</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+            <h4 class="SNSFFW-Font__FirstColor--3">disabled menu buttons</h4>
+            <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
+                <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
+                    <h5>horizontal</h5>
                     <p style="background-color: var(--SNSFFW_FirstColor_2);">
                         <code>
-                            &lt;div class="..."&gt;<br />
-                            &emsp;&lt;div class="..."&gt;...&lt;/div&gt;<br />
+                            &lt;div class="SNSFFW-ButtonGroup__Horizontal"&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_drop_down&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;&lt;ul class="SNSFFW-MenuDropdown"&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button disabled&gt;menu 1.1&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button&gt;...&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&lt;/ul&gt;<br />
+                            &emsp;&lt;/div&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button disabled&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_drop_down&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;...<br />
+                            &emsp;&lt;/div&gt;<br />
                             &lt;/div&gt;
                         </code>
                     </p>
                 </div>
-                <div class="SNSFFW-Grid__Column3 SNSFFW-Grid__Row2"></div>
+                <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row2">
+                    <div class="SNSFFW-ButtonGroup__Horizontal">
+                        <div class="SNSFFW-Menu">
+                            <button><span>menu 1</span><i class="material-icons">arrow_drop_down</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button disabled>menu 1.1</button></li>
+                                <li><button>menu 1.2</button></li>
+                                <li><button>menu 1.3</button></li>
+                                <li><button>menu 1.4</button></li>
+                                <li><button>menu 1.5</button></li>
+                                <li><button>menu 1.6</button></li>
+                                <li><button>menu 1.7</button></li>
+                                <li><button>menu 1.8</button></li>
+                                <li><button>...</button></li>
+                            </ul>
+                        </div>
+                        <div class="SNSFFW-Menu">
+                            <button disabled><span>menu 2</span><i class="material-icons">arrow_drop_down</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button>menu 2.1</button></li>
+                                <li><button>menu 2.2</button></li>
+                                <li><button>...</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
+                    <h5>vertical</h5>
+                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                        <code>
+                            &lt;div class="SNSFFW-ButtonGroup__Vertical"&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_right&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;&lt;ul class="SNSFFW-MenuDropdown"&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button disabled&gt;menu 1.1&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button&gt;...&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&lt;/ul&gt;<br />
+                            &emsp;&lt;/div&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button disabled&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_drop_down&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;...<br />
+                            &emsp;&lt;/div&gt;<br />
+                            &lt;/div&gt;
+                        </code>
+                    </p>
+                </div>
+                <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row2">
+                    <div class="SNSFFW-ButtonGroup__Vertical">
+                        <div class="SNSFFW-Menu">
+                            <button><span>menu 1</span><i class="material-icons">arrow_right</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button disabled>menu 1.1</button></li>
+                                <li><button>menu 1.2</button></li>
+                                <li><button>menu 1.3</button></li>
+                                <li><button>menu 1.4</button></li>
+                                <li><button>menu 1.5</button></li>
+                                <li><button>menu 1.6</button></li>
+                                <li><button>menu 1.7</button></li>
+                                <li><button>menu 1.8</button></li>
+                                <li><button>...</button></li>
+                            </ul>
+                        </div>
+                        <div class="SNSFFW-Menu">
+                            <button disabled><span>menu 2</span><i class="material-icons">arrow_right</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button>menu 2.1</button></li>
+                                <li><button>menu 2.2</button></li>
+                                <li><button>...</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+            <h4 class="SNSFFW-Font__FirstColor--3">more Examples</h4>
+            <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
+                <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
+                    <h5>horizontal</h5>
+                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                        <code>
+                            &lt;div class="SNSFFW-ButtonGroup__Horizontal"&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button class="SNSFFW-Button__Design--EdoukaOne"&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_drop_down&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;&lt;ul class="SNSFFW-MenuDropdown"&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button class="SNSFFW-Button__Design--EdoukaFour" disabled&gt;menu 1.1&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button class="SNSFFW-Button__Design--EdoukaFour"&gt;...&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&lt;/ul&gt;<br />
+                            &emsp;&lt;/div&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button class="SNSFFW-Button__Design--EdoukaOne" disabled&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_drop_down&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;...<br />
+                            &emsp;&lt;/div&gt;<br />
+                            &lt;/div&gt;
+                        </code>
+                    </p>
+                </div>
+                <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row2">
+                    <div class="SNSFFW-ButtonGroup__Horizontal">
+                        <div class="SNSFFW-Menu">
+                            <button class="SNSFFW-Button__Design--EdoukaOne"><span>menu 1</span><i class="material-icons">arrow_drop_down</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour" disabled>menu 1.1</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.2</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.3</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.4</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.5</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.6</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.7</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.8</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">...</button></li>
+                            </ul>
+                        </div>
+                        <div class="SNSFFW-Menu">
+                            <button class="SNSFFW-Button__Design--EdoukaOne" disabled><span>menu 2</span><i class="material-icons">arrow_drop_down</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 2.1</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 2.2</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">...</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
+                    <h5>vertical</h5>
+                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                        <code>
+                            &lt;div class="SNSFFW-ButtonGroup__Vertical"&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button class="SNSFFW-Button__Design--EdoukaOne"&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_right&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;&lt;ul class="SNSFFW-MenuDropdown"&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button class="SNSFFW-Button__Design--EdoukaFour" disabled&gt;menu 1.1&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button class="SNSFFW-Button__Design--EdoukaFour"&gt;...&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&lt;/ul&gt;<br />
+                            &emsp;&lt;/div&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button class="SNSFFW-Button__Design--EdoukaOne" disabled&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_drop_down&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;...<br />
+                            &emsp;&lt;/div&gt;<br />
+                            &lt;/div&gt;
+                        </code>
+                    </p>
+                </div>
+                <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row2">
+                    <div class="SNSFFW-ButtonGroup__Vertical">
+                        <div class="SNSFFW-Menu">
+                            <button class="SNSFFW-Button__Design--EdoukaOne"><span>menu 1</span><i class="material-icons">arrow_right</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour" disabled>menu 1.1</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.2</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.3</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.4</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.5</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.6</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.7</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 1.8</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">...</button></li>
+                            </ul>
+                        </div>
+                        <div class="SNSFFW-Menu">
+                            <button class="SNSFFW-Button__Design--EdoukaOne" disabled><span>menu 2</span><i class="material-icons">arrow_right</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 2.1</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">menu 2.2</button></li>
+                                <li><button class="SNSFFW-Button__Design--EdoukaFour">...</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+            <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
+                <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
+                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                        <code>
+                            &lt;div class="SNSFFW-ButtonGroup__Horizontal"&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button class="SNSFFW-Button__Design--EdoukaFour"&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_drop_down&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;&lt;ul class="SNSFFW-MenuDropdown" style="background-color:var(--SNSFFW_FirstColor_1);"&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button class="SNSFFW-Button__Design--KwamisaOne" disabled&gt;menu 1.1&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button class="SNSFFW-Button__Design--KwamisaOne"&gt;...&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&lt;/ul&gt;<br />
+                            &emsp;&lt;/div&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button class="SNSFFW-Button__Design--AfadjatoFour" disabled&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_drop_down&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;...<br />
+                            &emsp;&lt;/div&gt;<br />
+                            &lt;/div&gt;
+                        </code>
+                    </p>
+                </div>
+                <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row2">
+                    <div class="SNSFFW-ButtonGroup__Horizontal">
+                        <div class="SNSFFW-Menu">
+                            <button class="SNSFFW-Button__Design--EdoukaFour"><span>menu 1</span><i class="material-icons">arrow_drop_down</i></button>
+                            <ul class="SNSFFW-MenuDropdown" style="background-color:var(--SNSFFW_FirstColor_1);">
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne" disabled>menu 1.1</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.2</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.3</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.4</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.5</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.6</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.7</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.8</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">...</button></li>
+                            </ul>
+                        </div>
+                        <div class="SNSFFW-Menu">
+                            <button class="SNSFFW-Button__Design--AfadjatoFour" disabled><span>menu 2</span><i class="material-icons">arrow_drop_down</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 2.1</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 2.2</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">...</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
+                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                        <code>
+                            &lt;div class="SNSFFW-ButtonGroup__Vertical"&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button class="SNSFFW-Button__Design--EdoukaFour"&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_right&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;&lt;ul class="SNSFFW-MenuDropdown" style="background-color:var(--SNSFFW_FirstColor_1);"&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button class="SNSFFW-Button__Design--KwamisaOne" disabled&gt;menu 1.1&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&emsp;&lt;li&gt;&lt;button class="SNSFFW-Button__Design--KwamisaOne"&gt;...&lt;/button&gt;&lt;/li&gt;<br />
+                            &emsp;&emsp;&lt;/ul&gt;<br />
+                            &emsp;&lt;/div&gt;<br />
+                            &emsp;&lt;div class="SNSFFW-Menu"&gt;<br />
+                            &emsp;&emsp;&lt;button class="SNSFFW-Button__Design--AfadjatoFour" disabled&gt;&lt;span&gt;menu 1&lt;/span&gt;&lt;i class="material-icons"&gt;arrow_drop_down&lt;/i&gt;&lt;/button&gt;<br />
+                            &emsp;&emsp;...<br />
+                            &emsp;&lt;/div&gt;<br />
+                            &lt;/div&gt;
+                        </code>
+                    </p>
+                </div>
+                <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row2">
+                    <div class="SNSFFW-ButtonGroup__Vertical">
+                        <div class="SNSFFW-Menu">
+                            <button class="SNSFFW-Button__Design--EdoukaFour"><span>menu 1</span><i class="material-icons">arrow_right</i></button>
+                            <ul class="SNSFFW-MenuDropdown" style="background-color:var(--SNSFFW_FirstColor_1);">
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne" disabled>menu 1.1</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.2</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.3</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.4</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.5</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.6</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.7</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 1.8</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">...</button></li>
+                            </ul>
+                        </div>
+                        <div class="SNSFFW-Menu">
+                            <button class="SNSFFW-Button__Design--AfadjatoFour" disabled><span>menu 2</span><i class="material-icons">arrow_right</i></button>
+                            <ul class="SNSFFW-MenuDropdown">
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 2.1</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">menu 2.2</button></li>
+                                <li><button class="SNSFFW-Button__Design--KwamisaOne">...</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
             <p>&nbsp;</p>
 
@@ -2328,6 +2656,12 @@ Date: 01.08.2018
 
 
 
+            <h3 class="SNSFFW-Font__FirstColor--3">Navbars (Tabs)</h3>
+
+
+
+
+
         </div>
-</body>
+    </body>
 </html>

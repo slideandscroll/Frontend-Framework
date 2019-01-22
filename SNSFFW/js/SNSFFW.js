@@ -111,7 +111,6 @@ $(document).ready(function () {
 
     // If modal button is clicked, than ...
     $('.SNSFFW-ModalButton').click(function () {
-
         // ... take body width with scrollbar.
         var bodyWidthWithScrollbar = $('body').outerWidth();
 
@@ -150,6 +149,114 @@ $(document).ready(function () {
             next();
         });     
     });
+    
+    /*
+     *  Menus
+     */
+    
+    // If browser windows is scrolling or resizing ...
+    $(window).ready(function () {
+        $(window).on('scroll resize', function () {
+            // ... it changes dropdown position (horzontal menu) above or below button automatically.
+            $('.SNSFFW-ButtonGroup__Horizontal > .SNSFFW-Menu > .SNSFFW-MenuDropdown').css("top", function () {
+                var SNSFFW_Menu_ButtonHeight = $(this).prev('button').outerHeight();
+                var SNSFFW_Menu_DropdownHeight = $(this).outerHeight();
+                var SNSFFW_Menu_Offset = $(this).prev('button').offset();
+                var SNSFFW_Menu_SpaceAboveButton = SNSFFW_Menu_Offset.top - $(window).scrollTop();
+                var SNSFFW_Menu_SpaceBelowButton = $(window).outerHeight() - SNSFFW_Menu_SpaceAboveButton - SNSFFW_Menu_ButtonHeight;
+                
+                if (SNSFFW_Menu_SpaceAboveButton < SNSFFW_Menu_DropdownHeight) {
+                    return SNSFFW_Menu_ButtonHeight;
+                }
+                else if (SNSFFW_Menu_SpaceBelowButton < SNSFFW_Menu_DropdownHeight) {
+                    return SNSFFW_Menu_DropdownHeight * (-1);
+                }
+                else {
+                    return SNSFFW_Menu_ButtonHeight;
+                }
+            });
+
+            // ... it changes dropdown position (vertical menu) above or below button automatically.
+            $('.SNSFFW-ButtonGroup__Vertical > .SNSFFW-Menu > .SNSFFW-MenuDropdown').css("top", function () {
+                var SNSFFW_Menu_ButtonHeight = $(this).prev('button').outerHeight();
+                var SNSFFW_Menu_DropdownHeight = $(this).outerHeight() - SNSFFW_Menu_ButtonHeight;
+                var SNSFFW_Menu_Offset = $(this).prev('button').offset();
+                var SNSFFW_Menu_SpaceAboveButton = SNSFFW_Menu_Offset.top - $(window).scrollTop();
+                var SNSFFW_Menu_SpaceBelowButton = $(window).outerHeight() - SNSFFW_Menu_SpaceAboveButton;
+
+                if (SNSFFW_Menu_SpaceAboveButton < SNSFFW_Menu_DropdownHeight) {
+                    return 0;
+                }
+                else if (SNSFFW_Menu_SpaceBelowButton < SNSFFW_Menu_DropdownHeight) {
+                    return SNSFFW_Menu_DropdownHeight * (-1);
+                }
+                else {
+                    return 0;
+                }
+            });
+            
+            // ... it changes dropdown position (vertical menu) left or right button automatically.
+            $('.SNSFFW-ButtonGroup__Vertical > .SNSFFW-Menu > .SNSFFW-MenuDropdown').css("left", function () {
+                var SNSFFW_Menu_ButtonWidth = $(this).prev('button').outerWidth();
+                var SNSFFW_Menu_DropdownWidth = $(this).outerWidth();
+                var SNSFFW_Menu_Offset = $(this).prev('button').offset();
+                var SNSFFW_Menu_SpaceLeftButton = SNSFFW_Menu_Offset.left - $(window).scrollLeft();
+                var SNSFFW_Menu_SpaceRightButton = $(window).outerWidth() - SNSFFW_Menu_SpaceLeftButton - SNSFFW_Menu_ButtonWidth;
+                
+                if (SNSFFW_Menu_SpaceLeftButton < SNSFFW_Menu_DropdownWidth) {
+                    return SNSFFW_Menu_ButtonWidth;
+                }
+                else if (SNSFFW_Menu_SpaceRightButton < SNSFFW_Menu_DropdownWidth) {
+                    return SNSFFW_Menu_DropdownWidth * (-1);
+                }
+                else {
+                    return SNSFFW_Menu_ButtonWidth;
+                }
+            });
+            
+            // ... it changes dropdown position (horizontal menu) left or right button automatically.
+            $('.SNSFFW-ButtonGroup__Horizontal > .SNSFFW-Menu > .SNSFFW-MenuDropdown').css("left", function () {
+                var SNSFFW_Menu_ButtonWidth = $(this).prev('button').outerWidth();
+                var SNSFFW_Menu_DropdownWidth = $(this).outerWidth();
+                var SNSFFW_Menu_Offset = $(this).prev('button').offset();
+                var SNSFFW_Menu_SpaceLeftButton = SNSFFW_Menu_Offset.left - $(window).scrollLeft();
+                var SNSFFW_Menu_SpaceRightButton = $(window).outerWidth() - SNSFFW_Menu_SpaceLeftButton;
+                
+                if (SNSFFW_Menu_SpaceLeftButton < SNSFFW_Menu_DropdownWidth) {
+                    return 0;
+                }
+                else if (SNSFFW_Menu_SpaceRightButton < SNSFFW_Menu_DropdownWidth) {
+                    return (SNSFFW_Menu_DropdownWidth - SNSFFW_Menu_ButtonWidth) * (-1);
+                }
+                else {
+                    return 0;
+                }
+            });
+        }).scroll().resize();
+    });
+    
+    // If document is clicked ...
+    $(document).click(function (event) {
+        // ... and not any menu ...
+        if (!$(event.target).closest('.SNSFFW-Menu > button').length) {
+            // ... fade out (all) menus.
+            $('.SNSFFW-MenuDropdown').fadeOut(250);
+        }
+    });
+
+    // If menu button is clicked ...
+    $('.SNSFFW-Menu > button').click(function () {
+        // ... fade out (all) menus ...
+        $(this).parents('body').find('.SNSFFW-MenuDropdown').not($(this).next('.SNSFFW-MenuDropdown')).fadeOut(250);
+        // ... and fade in or out menu.
+        $(this).next('.SNSFFW-MenuDropdown').fadeToggle(250);
+    });
+
+
+
+
+
+
 
 
 

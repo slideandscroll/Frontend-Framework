@@ -1182,6 +1182,7 @@ _________________________________________________________________
 }
 
 .SNSFFW-ModalHeader .SNSFFW-ModalHeaderTitle {
+    width: calc(100% - 64px);
     margin: 0;
     padding-top: calc(var(--SNSFFW_PaddingMargin_Spacing_Standard) + 3px);
     padding-bottom: calc(var(--SNSFFW_PaddingMargin_Spacing_Standard) + 3px);
@@ -1190,6 +1191,10 @@ _________________________________________________________________
     display: inline-block;
     font-weight: var(--SNSFFW_Font_Weight_Bold);
     font-size: 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .SNSFFW-ModalHeader button {
@@ -1214,7 +1219,101 @@ _________________________________________________________________
 
 .SNSFFW-ModalFooter .SNSFFW-ButtonGroup__Horizontal {
     flex-direction: row-reverse;
+}
 
+
+
+
+
+
+
+
+
+
+.SNSFFW-Menu {
+    position: relative;
+}
+
+.SNSFFW-Menu > button {
+    padding-top: calc(var(--SNSFFW_PaddingMargin_Spacing_Standard) - 4px);
+    padding-bottom: calc(var(--SNSFFW_PaddingMargin_Spacing_Standard) - 4px);
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    clear: both;
+}
+
+ .SNSFFW-ButtonGroup__Vertical > .SNSFFW-Menu > button {
+    text-align: left;
+}
+
+.SNSFFW-Menu > button > i {
+    line-height: 24px;
+}
+
+.SNSFFW-Menu > button > i:first-child {
+    padding-left: var(--SNSFFW_PaddingMargin_Spacing_Small);
+}
+
+.SNSFFW-Menu > button > i:last-child {
+    padding-right: var(--SNSFFW_PaddingMargin_Spacing_Small);
+}
+
+.SNSFFW-ButtonGroup__Vertical > .SNSFFW-Menu > button > i:last-child {
+    float: right;
+}
+
+.SNSFFW-Menu > button > span {
+    vertical-align: middle;
+    padding-right: var(--SNSFFW_PaddingMargin_Spacing_Small);
+    padding-left: var(--SNSFFW_PaddingMargin_Spacing_Small);
+    display: inline-block;
+    line-height: 24px;
+    max-width:200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.SNSFFW-Menu > button > span:first-child {
+    padding-right: var(--SNSFFW_PaddingMargin_Spacing_Small);
+    padding-left: var(--SNSFFW_PaddingMargin_Spacing_Standard);
+}
+
+.SNSFFW-Menu > button > span:last-child {
+    padding-left: var(--SNSFFW_PaddingMargin_Spacing_Small);
+    padding-right: var(--SNSFFW_PaddingMargin_Spacing_Standard);
+}
+
+.SNSFFW-ButtonGroup__Vertical > .SNSFFW-Menu > button > span:last-child {
+    float: right;
+}
+
+.SNSFFW-MenuDropdown {
+    position: absolute;
+    max-width: 300px;
+    max-height: 500px;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: var(--SNSFFW_Default);
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.SNSFFW-MenuDropdown li {
+    margin: 0;
+}
+
+.SNSFFW-MenuDropdown li button {
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 
