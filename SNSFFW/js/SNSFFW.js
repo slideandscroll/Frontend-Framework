@@ -158,7 +158,7 @@ $(document).ready(function () {
     $(window).ready(function () {
         $(window).on('scroll resize', function () {
             // ... it changes dropdown position (horzontal menu) above or below button automatically.
-            $('.SNSFFW-ButtonGroup__Horizontal > .SNSFFW-Menu > .SNSFFW-MenuDropdown').css("top", function () {
+            $('.SNSFFW-MenuHorizontal > .SNSFFW-MenuItem > .SNSFFW-MenuItemDropdown').css("top", function () {
                 var SNSFFW_Menu_ButtonHeight = $(this).prev('button').outerHeight();
                 var SNSFFW_Menu_DropdownHeight = $(this).outerHeight();
                 var SNSFFW_Menu_Offset = $(this).prev('button').offset();
@@ -177,7 +177,7 @@ $(document).ready(function () {
             });
 
             // ... it changes dropdown position (vertical menu) above or below button automatically.
-            $('.SNSFFW-ButtonGroup__Vertical > .SNSFFW-Menu > .SNSFFW-MenuDropdown').css("top", function () {
+            $('.SNSFFW-MenuVertical > .SNSFFW-MenuItem > .SNSFFW-MenuItemDropdown').css("top", function () {
                 var SNSFFW_Menu_ButtonHeight = $(this).prev('button').outerHeight();
                 var SNSFFW_Menu_DropdownHeight = $(this).outerHeight() - SNSFFW_Menu_ButtonHeight;
                 var SNSFFW_Menu_Offset = $(this).prev('button').offset();
@@ -196,7 +196,7 @@ $(document).ready(function () {
             });
             
             // ... it changes dropdown position (vertical menu) left or right button automatically.
-            $('.SNSFFW-ButtonGroup__Vertical > .SNSFFW-Menu > .SNSFFW-MenuDropdown').css("left", function () {
+            $('.SNSFFW-MenuVertical > .SNSFFW-MenuItem > .SNSFFW-MenuItemDropdown').css("left", function () {
                 var SNSFFW_Menu_ButtonWidth = $(this).prev('button').outerWidth();
                 var SNSFFW_Menu_DropdownWidth = $(this).outerWidth();
                 var SNSFFW_Menu_Offset = $(this).prev('button').offset();
@@ -215,7 +215,7 @@ $(document).ready(function () {
             });
             
             // ... it changes dropdown position (horizontal menu) left or right button automatically.
-            $('.SNSFFW-ButtonGroup__Horizontal > .SNSFFW-Menu > .SNSFFW-MenuDropdown').css("left", function () {
+            $('.SNSFFW-MenuHorizontal > .SNSFFW-MenuItem > .SNSFFW-MenuItemDropdown').css("left", function () {
                 var SNSFFW_Menu_ButtonWidth = $(this).prev('button').outerWidth();
                 var SNSFFW_Menu_DropdownWidth = $(this).outerWidth();
                 var SNSFFW_Menu_Offset = $(this).prev('button').offset();
@@ -238,19 +238,37 @@ $(document).ready(function () {
     // If document is clicked ...
     $(document).click(function (event) {
         // ... and not any menu ...
-        if (!$(event.target).closest('.SNSFFW-Menu > button').length) {
+        if (!$(event.target).closest('.SNSFFW-MenuItem > button').length) {
             // ... fade out (all) menus.
-            $('.SNSFFW-MenuDropdown').fadeOut(250);
+            $('.SNSFFW-MenuItemDropdown').fadeOut(250);
         }
     });
 
     // If menu button is clicked ...
-    $('.SNSFFW-Menu > button').click(function () {
+    $('.SNSFFW-MenuItem > button').click(function () {
         // ... fade out (all) menus ...
-        $(this).parents('body').find('.SNSFFW-MenuDropdown').not($(this).next('.SNSFFW-MenuDropdown')).fadeOut(250);
+        $(this).parents('body').find('.SNSFFW-MenuItemDropdown').not($(this).next('.SNSFFW-MenuItemDropdown')).fadeOut(250);
         // ... and fade in or out menu.
-        $(this).next('.SNSFFW-MenuDropdown').fadeToggle(250);
+        $(this).next('.SNSFFW-MenuItemDropdown').fadeToggle(250);
     });
+
+    /*
+     *  Tabs
+     */
+
+    // If tab bar button clicked ...
+    $('.SNSFFW-TabBar > button').click(function () {
+        // ... and if number of tabs and tab items are equal ...
+        if ($(this).parents('.SNSFFW-Tabs').find('.SNSFFW-TabBar > button').length === $(this).parents('.SNSFFW-Tabs').find('.SNSFFW-TabItem').length) {
+            // ... removes emphasis from all tab button and add emphasis to clicked tab button ...
+            $(this).siblings().removeClass('SNSFFW-TabButton--Active');
+            $(this).addClass('SNSFFW-TabButton--Active');
+            // ... disappears all tab items and appears the tab item belonging to the clicked tab button.
+            $(this).parents('.SNSFFW-Tabs').find('.SNSFFW-TabItem').removeClass('SNSFFW-TabItem--Active');
+            $(this).parents('.SNSFFW-Tabs').find('.SNSFFW-TabItem:eq(' + $(this).index() + ')').addClass('SNSFFW-TabItem--Active');
+        }
+    });
+
 
 
 

@@ -1221,20 +1221,25 @@ _________________________________________________________________
     flex-direction: row-reverse;
 }
 
+.SNSFFW-Menu.SNSFFW-MenuVertical {
+    display: inline-flex;
+    flex-direction: column;
+}
 
-
-
-
-
-
-
-
-
-.SNSFFW-Menu {
+.SNSFFW-MenuItem {
     position: relative;
 }
 
-.SNSFFW-Menu > button {
+.SNSFFW-Menu.SNSFFW-MenuHorizontal > .SNSFFW-MenuItem {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.SNSFFW-Menu.SNSFFW-MenuVertical > .SNSFFW-MenuItem {
+    
+}
+
+.SNSFFW-MenuItem > button {
     padding-top: calc(var(--SNSFFW_PaddingMargin_Spacing_Standard) - 4px);
     padding-bottom: calc(var(--SNSFFW_PaddingMargin_Spacing_Standard) - 4px);
     padding-left: 0;
@@ -1243,27 +1248,27 @@ _________________________________________________________________
     clear: both;
 }
 
- .SNSFFW-ButtonGroup__Vertical > .SNSFFW-Menu > button {
+ .SNSFFW-MenuVertical > .SNSFFW-MenuItem > button {
     text-align: left;
 }
 
-.SNSFFW-Menu > button > i {
+.SNSFFW-MenuItem > button > i {
     line-height: 24px;
 }
 
-.SNSFFW-Menu > button > i:first-child {
+.SNSFFW-MenuItem > button > i:first-child {
     padding-left: var(--SNSFFW_PaddingMargin_Spacing_Small);
 }
 
-.SNSFFW-Menu > button > i:last-child {
+.SNSFFW-MenuItem > button > i:last-child {
     padding-right: var(--SNSFFW_PaddingMargin_Spacing_Small);
 }
 
-.SNSFFW-ButtonGroup__Vertical > .SNSFFW-Menu > button > i:last-child {
+.SNSFFW-MenuVertical > .SNSFFW-MenuItem > button > i:last-child {
     float: right;
 }
 
-.SNSFFW-Menu > button > span {
+.SNSFFW-MenuItem > button > span {
     vertical-align: middle;
     padding-right: var(--SNSFFW_PaddingMargin_Spacing_Small);
     padding-left: var(--SNSFFW_PaddingMargin_Spacing_Small);
@@ -1275,21 +1280,21 @@ _________________________________________________________________
     white-space: nowrap;
 }
 
-.SNSFFW-Menu > button > span:first-child {
+.SNSFFW-MenuItem > button > span:first-child {
     padding-right: var(--SNSFFW_PaddingMargin_Spacing_Small);
     padding-left: var(--SNSFFW_PaddingMargin_Spacing_Standard);
 }
 
-.SNSFFW-Menu > button > span:last-child {
+.SNSFFW-MenuItem > button > span:last-child {
     padding-left: var(--SNSFFW_PaddingMargin_Spacing_Small);
     padding-right: var(--SNSFFW_PaddingMargin_Spacing_Standard);
 }
 
-.SNSFFW-ButtonGroup__Vertical > .SNSFFW-Menu > button > span:last-child {
+.SNSFFW-MenuVertical > .SNSFFW-MenuItem > button > span:last-child {
     float: right;
 }
 
-.SNSFFW-MenuDropdown {
+.SNSFFW-MenuItemDropdown {
     position: absolute;
     max-width: 300px;
     max-height: 500px;
@@ -1302,18 +1307,61 @@ _________________________________________________________________
     list-style-type: none;
     overflow-y: auto;
     overflow-x: hidden;
+    z-index: 1;
 }
 
-.SNSFFW-MenuDropdown li {
+.SNSFFW-MenuItemDropdown li {
     margin: 0;
 }
 
-.SNSFFW-MenuDropdown li button {
+.SNSFFW-MenuItemDropdown li button {
     width: 100%;
     text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+.SNSFFW-Tabs {
+    display: flex;
+}
+
+.SNSFFW-Tabs.SNSFFW-Tabs--Horizontal {
+    flex-direction: column;
+}
+
+.SNSFFW-Tabs.SNSFFW-Tabs--Vertical {
+    flex-direction: row;
+}
+
+.SNSFFW-TabBar button {
+    white-space: nowrap;
+}
+
+.SNSFFW-TabButton--Active {
+    background-color: var(--SNSFFW_Default);
+}
+
+.SNSFFW-TabItem {
+    background-color: var(--SNSFFW_Default);
+    display: none;
+    padding: var(--SNSFFW_PaddingMargin_Spacing_Standard);
+}
+
+.SNSFFW-TabItem.SNSFFW-TabItem--Active {
+    display: block;
+}
+
+.SNSFFW-TabItem *:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
 
 

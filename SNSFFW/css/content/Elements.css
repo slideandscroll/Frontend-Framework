@@ -809,7 +809,17 @@ button.SNSFFW-Button__Design--KwamisaFour:disabled, input.SNSFFW-Button__Design-
 
 .SNSFFW-ButtonGroup__Horizontal {
     display: flex;
+    overflow-x: auto;
 }
+
+.SNSFFW-ButtonGroup__Horizontal button,
+.SNSFFW-ButtonGroup__Horizontal input[type="button"],
+.SNSFFW-ButtonGroup__Horizontal input[type="reset"],
+.SNSFFW-ButtonGroup__Horizontal input[type="submit"],
+.SNSFFW-ButtonGroup__Horizontal a.SNSFFW-Button__Link {
+    white-space: nowrap;
+}
+
 
 .SNSFFW-ButtonGroup__Vertical {
     display: inline-flex;
