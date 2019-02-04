@@ -1356,12 +1356,341 @@ _________________________________________________________________
     margin-bottom: 0;
 }
 
+.SNSFFW-Pagination {
+    list-style: none;
+    padding: 0;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.SNSFFW-Pagination.SNSFFW-Pagination--Left {
+    margin-left: 0;
+}
 
+.SNSFFW-Pagination.SNSFFW-Pagination--Right {
+    margin-right: 0;
+}
 
+.SNSFFW-PaginationButton,
+.SNSFFW-PaginationItem {
+    margin: 0;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding: var(--SNSFFW_PaddingMargin_Spacing_Smaller);
+}
 
+.SNSFFW-PaginationButton a,
+.SNSFFW-PaginationItem a {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    color: var(--SNSFFW_Grey_3);
+}
 
+.SNSFFW-PaginationButton a:hover,
+.SNSFFW-PaginationItem a:hover {
+    color: var(--SNSFFW_Grey_4);
+}
 
+.SNSFFW-PaginationButton a i {
+    vertical-align: middle;
+    font-size: var(--SNSFFW_Font_Size_Standard);
+}
 
+.SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
+.SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+    color: var(--SNSFFW_Grey_2);
+    cursor: not-allowed;
+}
+
+.SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active a {
+    color: var(--SNSFFW_Grey_1);
+}
+
+.SNSFFW-Pagination__Design--AtimpokuOne .SNSFFW-PaginationButton a {
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Pagination__Design--AtimpokuOne .SNSFFW-PaginationButton a:hover {
+    color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Pagination__Design--AtimpokuOne .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a {
+    color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Pagination__Design--AtimpokuTwo .SNSFFW-PaginationButton a {
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Pagination__Design--AtimpokuTwo .SNSFFW-PaginationButton a:hover {
+    color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Pagination__Design--AtimpokuTwo .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a {
+    color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Pagination__Design--AtimpokuThree .SNSFFW-PaginationButton a {
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Pagination__Design--AtimpokuThree .SNSFFW-PaginationButton a:hover {
+    color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Pagination__Design--AtimpokuThree .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a {
+    color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Pagination__Design--AtimpokuFour .SNSFFW-PaginationButton a {
+    color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Pagination__Design--AtimpokuFour .SNSFFW-PaginationButton a:hover {
+    color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Pagination__Design--AtimpokuFour .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a {
+    color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Pagination__Design--KonongoOne .SNSFFW-PaginationButton a,
+.SNSFFW-Pagination__Design--KonongoOne .SNSFFW-PaginationItem a,
+.SNSFFW-Pagination__Design--KonongoOne .SNSFFW-PaginationItem span {
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Pagination__Design--KonongoOne .SNSFFW-PaginationButton a:hover,
+.SNSFFW-Pagination__Design--KonongoOne .SNSFFW-PaginationItem a:hover {
+    color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Pagination__Design--KonongoOne .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
+.SNSFFW-Pagination__Design--KonongoOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+    color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Pagination__Design--KonongoOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active {
+    background-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Pagination__Design--KonongoOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active a {
+    color: var(--SNSFFW_FirstColor_1);
+}
+
+.SNSFFW-Pagination__Design--KonongoTwo .SNSFFW-PaginationButton a,
+.SNSFFW-Pagination__Design--KonongoTwo .SNSFFW-PaginationItem a,
+.SNSFFW-Pagination__Design--KonongoTwo .SNSFFW-PaginationItem span {
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Pagination__Design--KonongoTwo .SNSFFW-PaginationButton a:hover,
+.SNSFFW-Pagination__Design--KonongoTwo .SNSFFW-PaginationItem a:hover {
+    color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Pagination__Design--KonongoTwo .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
+.SNSFFW-Pagination__Design--KonongoTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+    color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Pagination__Design--KonongoTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active {
+    background-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Pagination__Design--KonongoTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active a {
+    color: var(--SNSFFW_SecondColor_1);
+}
+
+.SNSFFW-Pagination__Design--KonongoThree .SNSFFW-PaginationButton a,
+.SNSFFW-Pagination__Design--KonongoThree .SNSFFW-PaginationItem a,
+.SNSFFW-Pagination__Design--KonongoThree .SNSFFW-PaginationItem span {
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Pagination__Design--KonongoThree .SNSFFW-PaginationButton a:hover,
+.SNSFFW-Pagination__Design--KonongoThree .SNSFFW-PaginationItem a:hover {
+    color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Pagination__Design--KonongoThree .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
+.SNSFFW-Pagination__Design--KonongoThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+    color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Pagination__Design--KonongoThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active {
+    background-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Pagination__Design--KonongoThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active a {
+    color: var(--SNSFFW_ThirdColor_1);
+}
+
+.SNSFFW-Pagination__Design--KonongoFour .SNSFFW-PaginationButton a,
+.SNSFFW-Pagination__Design--KonongoFour .SNSFFW-PaginationItem a,
+.SNSFFW-Pagination__Design--KonongoFour .SNSFFW-PaginationItem span {
+    color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Pagination__Design--KonongoFour .SNSFFW-PaginationButton a:hover,
+.SNSFFW-Pagination__Design--KonongoFour .SNSFFW-PaginationItem a:hover {
+    color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Pagination__Design--KonongoFour .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
+.SNSFFW-Pagination__Design--KonongoFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+    color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Pagination__Design--KonongoFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Pagination__Design--KonongoFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active a {
+    color: var(--SNSFFW_Grey_1);
+}
+
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationButton,
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem {
+    background-color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationButton a,
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem a,
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem span {
+    color: var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationButton a:hover,
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem a:hover {
+    color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled,
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled {
+    background-color: var(--SNSFFW_FirstColor_3);
+}
+
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+    color: var(--SNSFFW_FirstColor_1);
+}
+
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active {
+    background-color:  var(--SNSFFW_FirstColor_2);
+}
+
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active a {
+    color: var(--SNSFFW_FirstColor_4);
+}
+
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationButton,
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem {
+    background-color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationButton a,
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem a,
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem span {
+    color: var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationButton a:hover,
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem a:hover {
+    color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled,
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled {
+    background-color: var(--SNSFFW_SecondColor_3);
+}
+
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+    color: var(--SNSFFW_SecondColor_1);
+}
+
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active {
+    background-color:  var(--SNSFFW_SecondColor_2);
+}
+
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active a {
+    color: var(--SNSFFW_SecondColor_4);
+}
+
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationButton,
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem {
+    background-color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationButton a,
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem a,
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem span {
+    color: var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationButton a:hover,
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem a:hover {
+    color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled,
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled {
+    background-color: var(--SNSFFW_ThirdColor_3);
+}
+
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+    color: var(--SNSFFW_ThirdColor_1);
+}
+
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active {
+    background-color:  var(--SNSFFW_ThirdColor_2);
+}
+
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active a {
+    color: var(--SNSFFW_ThirdColor_4);
+}
+
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationButton,
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem {
+    background-color: var(--SNSFFW_Grey_4);
+}
+
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationButton a,
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem a,
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem span {
+    color: var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationButton a:hover,
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem a:hover {
+    color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled,
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled {
+    background-color: var(--SNSFFW_Grey_3);
+}
+
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+    color: var(--SNSFFW_Grey_1);
+}
+
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active {
+    background-color:  var(--SNSFFW_Grey_2);
+}
+
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active a {
+    color: var(--SNSFFW_Grey_4);
+}
 
 
