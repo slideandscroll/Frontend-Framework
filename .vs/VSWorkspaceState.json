@@ -5,11 +5,8 @@
     "\\SNSFFW\\css",
     "\\SNSFFW\\css\\basics",
     "\\SNSFFW\\css\\content",
-    "\\SNSFFW\\css\\layout",
-    "\\SNSFFW\\font",
-    "\\SNSFFW\\js",
-    "\\SNSFFW\\preview"
+    "\\SNSFFW\\css\\layout"
   ],
-  "SelectedNode": "\\SNSFFW\\index.html",
+  "SelectedNode": "\\SNSFFW\\css\\basics\\Colors.css",
   "PreviewInSolutionExplorer": false
 }
