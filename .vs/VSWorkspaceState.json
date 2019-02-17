@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SNSFFW",
-    "\\SNSFFW\\css",
-    "\\SNSFFW\\css\\basics",
-    "\\SNSFFW\\css\\content",
-    "\\SNSFFW\\css\\layout"
+    "\\SNSFFW"
   ],
-  "SelectedNode": "\\SNSFFW\\css\\basics\\Colors.css",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
