@@ -38,64 +38,62 @@ _________________________________________________________________
 */
 /* START ROOT */
 :root {
+    /* letter spacing */
+    --SNSFFW_LetterSpacing_Narrower: -0.08em;
+    --SNSFFW_LetterSpacing_Narrow: -0.04em;
+    --SNSFFW_LetterSpacing_Standard: normal;
+    --SNSFFW_LetterSpacing_Wide: 0.2em;
+    --SNSFFW_LetterSpacing_Wider: 0.4em;
 
-/* padding & margin */
---SNSFFW_PaddingMargin_Spacing_Smaller: .25rem;
---SNSFFW_PaddingMargin_Spacing_Small: .5rem;
---SNSFFW_PaddingMargin_Spacing_Standard: 1rem;
---SNSFFW_PaddingMargin_Spacing_Big: 1.5rem;
---SNSFFW_PaddingMargin_Spacing_Bigger: 2rem;
+    /* line height */
+    --SNSFFW_LineHeight_Lower: .86em;
+    --SNSFFW_LineHeight_Low: .93em;
+    --SNSFFW_LineHeight_Standard: 1em;
+    --SNSFFW_LineHeight_High: 1.5em;
+    --SNSFFW_LineHeight_Higher: 2em;
 
-/* border width */
---SNSFFW_Border_Width_Smaller: .0625rem;
---SNSFFW_Border_Width_Small: .125rem;
---SNSFFW_Border_Width_Standard: .1875rem;
---SNSFFW_Border_Width_Big: .25rem;
---SNSFFW_Border_Width_Bigger: .3125rem;
+    /* font weight */
+    --SNSFFW_Font_Weight_Lighter: 200;
+    --SNSFFW_Font_Weight_Light: 300;
+    --SNSFFW_Font_Weight_Standard: 400;
+    --SNSFFW_Font_Weight_Bold: 500;
+    --SNSFFW_Font_Weight_Bolder: 600;
 
-/* border radius */
---SNSFFW_Border_Radius_Smaller: .125rem;
---SNSFFW_Border_Radius_Small: .25rem;
---SNSFFW_Border_Radius_Standard: .375rem;
---SNSFFW_Border_Radius_Big: .5rem;
---SNSFFW_Border_Radius_Bigger: .625rem;
+    /* font size */
+    --SNSFFW_Font_Size_Smaller: .5em;
+    --SNSFFW_Font_Size_Small: .75em;
+    --SNSFFW_Font_Size_Standard: 1em;
+    --SNSFFW_Font_Size_Large: 1.5em;
+    --SNSFFW_Font_Size_Larger: 2em;
 
-/* letter spacing */
---SNSFFW_LetterSpacing_Narrower: -0.08em;
---SNSFFW_LetterSpacing_Narrow: -0.04em;
---SNSFFW_LetterSpacing_Standard: normal;
---SNSFFW_LetterSpacing_Wide: 0.2em;
---SNSFFW_LetterSpacing_Wider: 0.4em;
+    /* padding & margin */
+    --SNSFFW_PaddingMargin_Spacing_Smaller: .25rem;
+    --SNSFFW_PaddingMargin_Spacing_Small: .5rem;
+    --SNSFFW_PaddingMargin_Spacing_Standard: 1rem;
+    --SNSFFW_PaddingMargin_Spacing_Big: 1.5rem;
+    --SNSFFW_PaddingMargin_Spacing_Bigger: 2rem;
 
-/* line height */
---SNSFFW_LineHeight_Lower: .86em;
---SNSFFW_LineHeight_Low: .93em;
---SNSFFW_LineHeight_Standard: 1em;
---SNSFFW_LineHeight_High: 1.5em;
---SNSFFW_LineHeight_Higher: 2em;
+    /* border width */
+    --SNSFFW_Border_Width_Smaller: .0625rem;
+    --SNSFFW_Border_Width_Small: .125rem;
+    --SNSFFW_Border_Width_Standard: .1875rem;
+    --SNSFFW_Border_Width_Big: .25rem;
+    --SNSFFW_Border_Width_Bigger: .3125rem;
 
-/* font size */
---SNSFFW_Font_Size_Smaller: .5em;
---SNSFFW_Font_Size_Small: .75em;
---SNSFFW_Font_Size_Standard: 1em;
---SNSFFW_Font_Size_Large: 1.5em;
---SNSFFW_Font_Size_Larger: 2em;
+    /* border radius */
+    --SNSFFW_Border_Radius_Smaller: .125rem;
+    --SNSFFW_Border_Radius_Small: .25rem;
+    --SNSFFW_Border_Radius_Standard: .375rem;
+    --SNSFFW_Border_Radius_Big: .5rem;
+    --SNSFFW_Border_Radius_Bigger: .625rem;
 
-/* font weight */
---SNSFFW_Font_Weight_Lighter: 200;
---SNSFFW_Font_Weight_Light: 300;
---SNSFFW_Font_Weight_Standard: 400;
---SNSFFW_Font_Weight_Bold: 500;
---SNSFFW_Font_Weight_Bolder: 600;
-
-/* box shadow size */
---SNSFFW_Box_Shadow_Smaller: 0 .2rem .5rem;
---SNSFFW_Box_Shadow_Small: 0 .3rem .75rem;
---SNSFFW_Box_Shadow_Standard: 0 .4rem 1rem;
---SNSFFW_Box_Shadow_Big: 0 .5rem 1.25rem;
---SNSFFW_Box_Shadow_Bigger: 0 .6rem 1.5rem;
-
-/* END ROOT */
+    /* box shadow size */
+    --SNSFFW_Box_Shadow_Smaller: 0 .2rem .5rem;
+    --SNSFFW_Box_Shadow_Small: 0 .3rem .75rem;
+    --SNSFFW_Box_Shadow_Standard: 0 .4rem 1rem;
+    --SNSFFW_Box_Shadow_Big: 0 .5rem 1.25rem;
+    --SNSFFW_Box_Shadow_Bigger: 0 .6rem 1.5rem;
+    /* END ROOT */
 }
 
 
@@ -233,6 +231,7 @@ button, input, input[type="file"]::-webkit-file-upload-button, textarea, select 
     color: inherit;
     font: inherit;
 }
+
 input, input[type="range"] {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -562,7 +561,7 @@ _________________________________________________________________
 }
 
 .SNSFFW-ThemeAccra--Dark .SNSFFW-Background__Default {
-    background-color:black;
+    background-color: black;
 }
 
 .SNSFFW-ThemeAccra--Dark .SNSFFW-Font__FirstColor--1 {
@@ -2585,13 +2584,13 @@ _________________________________________________________________
 
 /* Default Colors*/
 body {
-   --SNSFFW_DefaultColor_Black: black;
-   --SNSFFW_DefaultColor_White: white;
-   --SNSFFW_DefaultColor_Blue: royalblue;
-   --SNSFFW_DefaultColor_Green: seagreen;
-   --SNSFFW_DefaultColor_Red: orangered;
-   --SNSFFW_DefaultColor_Orange: orange;
-   --SNSFFW_DefaultColor_Yellow: yellow;
+    --SNSFFW_DefaultColor_Black: black;
+    --SNSFFW_DefaultColor_White: white;
+    --SNSFFW_DefaultColor_Blue: royalblue;
+    --SNSFFW_DefaultColor_Green: seagreen;
+    --SNSFFW_DefaultColor_Red: orangered;
+    --SNSFFW_DefaultColor_Orange: orange;
+    --SNSFFW_DefaultColor_Yellow: yellow;
 }
 
 .SNSFFW-Background__DefaultColor--Black {
@@ -2690,23 +2689,21 @@ _________________________________________________________________
 }
 
 /*"medium" screen and (min-width: 768px and max-width: 1279px)*/
-@media only screen and (max-width: 1279px)
-{
-.SNSFFW-Container__Centered--FixedWidth,
-.SNSFFW-Container__FlushRight--FixedWidth,
-.SNSFFW-Container__FlushLeft--FixedWidth {
-    width: 722px;
-}
+@media only screen and (max-width: 1279px) {
+    .SNSFFW-Container__Centered--FixedWidth,
+    .SNSFFW-Container__FlushRight--FixedWidth,
+    .SNSFFW-Container__FlushLeft--FixedWidth {
+        width: 722px;
+    }
 }
 
 /*"small" screen and (max-width: 767px)*/
-@media only screen and (max-width: 767px)
-{
-.SNSFFW-Container__Centered--FixedWidth,
-.SNSFFW-Container__FlushRight--FixedWidth,
-.SNSFFW-Container__FlushLeft--FixedWidth {
-    width: 338px;
-}
+@media only screen and (max-width: 767px) {
+    .SNSFFW-Container__Centered--FixedWidth,
+    .SNSFFW-Container__FlushRight--FixedWidth,
+    .SNSFFW-Container__FlushLeft--FixedWidth {
+        width: 338px;
+    }
 }
 
 /*common*/
@@ -2781,139 +2778,499 @@ I. Layout
 _________________________________________________________________
 */
 /*"large" screen and projection (min-width: 1280px)*/
-.SNSFFW-Visible__Large--Block{display: block;}
-.SNSFFW-Visible__Medium--Block{display: none;}
-.SNSFFW-Visible__Small--Block{display: none;}
-.SNSFFW-Visible__Large--Inline{display: inline;}
-.SNSFFW-Visible__Medium--Inline{display: none;}
-.SNSFFW-Visible__Small--Inline{display: none;}
-.SNSFFW-Visible__Large--InlineBlock{display: inline-block;}
-.SNSFFW-Visible__Medium--InlineBlock{display: none;}
-.SNSFFW-Visible__Small--InlineBlock{display: none;}
-.SNSFFW-Visible__Large--Grid{display: grid;display: -ms-grid;}
-.SNSFFW-Visible__Medium--Grid{display: inherit;}
-.SNSFFW-Visible__Small--Grid{display: inherit;}
-.SNSFFW-Visible__Large--Flex{display: flex;display: -ms-flexbox;}
-.SNSFFW-Visible__Medium--Flex{display: inherit;}
-.SNSFFW-Visible__Small--Flex{display: inherit;}
-.SNSFFW-Hidden__Large--Block{display: none;}
-.SNSFFW-Hidden__Medium--Block{display: block;}
-.SNSFFW-Hidden__Small--Block{display: block;}
-.SNSFFW-Hidden__Large--Inline{display: none;}
-.SNSFFW-Hidden__Medium--Inline{display: inline;}
-.SNSFFW-Hidden__Small--Inline{display: inline;}
-.SNSFFW-Hidden__Large--InlineBlock{display: none;}
-.SNSFFW-Hidden__Medium--InlineBlock{display: inline-block;}
-.SNSFFW-Hidden__Small--InlineBlock{display: inline-block;}
-.SNSFFW-Hidden__Large--Grid{display: inherit;}
-.SNSFFW-Hidden__Medium--Grid{display: grid;display: -ms-grid;}
-.SNSFFW-Hidden__Small--Grid{display: grid;display: -ms-grid;}
-.SNSFFW-Hidden__Large--Flex{display: inherit;}
-.SNSFFW-Hidden__Medium--Flex{display: flex;display: -ms-flexbox;}
-.SNSFFW-Hidden__Small--Flex{display: flex;display: -ms-flexbox;}
+.SNSFFW-Visible__Large--Block {
+    display: block;
+}
 
-.SNSFFW-Visible__Print--Block{display: none;}
-.SNSFFW-Visible__Print--Inline{display: none;}
-.SNSFFW-Visible__Print--InlineBlock{display: none;}
-.SNSFFW-Visible__Print--Grid{display: inherit;}
-.SNSFFW-Visible__Print--Flex{display: inherit;}
-.SNSFFW-Hidden__Print--Block{display: block;}
-.SNSFFW-Hidden__Print--Inline{display: inline;}
-.SNSFFW-Hidden__Print--InlineBlock{display: inline-block;}
-.SNSFFW-Hidden__Print--Grid{display: grid;display: -ms-grid;}
-.SNSFFW-Hidden__Print--Flex{display: flex;display: -ms-flexbox;}
+.SNSFFW-Visible__Medium--Block {
+    display: none;
+}
+
+.SNSFFW-Visible__Small--Block {
+    display: none;
+}
+
+.SNSFFW-Visible__Large--Inline {
+    display: inline;
+}
+
+.SNSFFW-Visible__Medium--Inline {
+    display: none;
+}
+
+.SNSFFW-Visible__Small--Inline {
+    display: none;
+}
+
+.SNSFFW-Visible__Large--InlineBlock {
+    display: inline-block;
+}
+
+.SNSFFW-Visible__Medium--InlineBlock {
+    display: none;
+}
+
+.SNSFFW-Visible__Small--InlineBlock {
+    display: none;
+}
+
+.SNSFFW-Visible__Large--Grid {
+    display: grid;
+    display: -ms-grid;
+}
+
+.SNSFFW-Visible__Medium--Grid {
+    display: inherit;
+}
+
+.SNSFFW-Visible__Small--Grid {
+    display: inherit;
+}
+
+.SNSFFW-Visible__Large--Flex {
+    display: flex;
+    display: -ms-flexbox;
+}
+
+.SNSFFW-Visible__Medium--Flex {
+    display: inherit;
+}
+
+.SNSFFW-Visible__Small--Flex {
+    display: inherit;
+}
+
+.SNSFFW-Hidden__Large--Block {
+    display: none;
+}
+
+.SNSFFW-Hidden__Medium--Block {
+    display: block;
+}
+
+.SNSFFW-Hidden__Small--Block {
+    display: block;
+}
+
+.SNSFFW-Hidden__Large--Inline {
+    display: none;
+}
+
+.SNSFFW-Hidden__Medium--Inline {
+    display: inline;
+}
+
+.SNSFFW-Hidden__Small--Inline {
+    display: inline;
+}
+
+.SNSFFW-Hidden__Large--InlineBlock {
+    display: none;
+}
+
+.SNSFFW-Hidden__Medium--InlineBlock {
+    display: inline-block;
+}
+
+.SNSFFW-Hidden__Small--InlineBlock {
+    display: inline-block;
+}
+
+.SNSFFW-Hidden__Large--Grid {
+    display: inherit;
+}
+
+.SNSFFW-Hidden__Medium--Grid {
+    display: grid;
+    display: -ms-grid;
+}
+
+.SNSFFW-Hidden__Small--Grid {
+    display: grid;
+    display: -ms-grid;
+}
+
+.SNSFFW-Hidden__Large--Flex {
+    display: inherit;
+}
+
+.SNSFFW-Hidden__Medium--Flex {
+    display: flex;
+    display: -ms-flexbox;
+}
+
+.SNSFFW-Hidden__Small--Flex {
+    display: flex;
+    display: -ms-flexbox;
+}
+
+.SNSFFW-Visible__Print--Block {
+    display: none;
+}
+
+.SNSFFW-Visible__Print--Inline {
+    display: none;
+}
+
+.SNSFFW-Visible__Print--InlineBlock {
+    display: none;
+}
+
+.SNSFFW-Visible__Print--Grid {
+    display: inherit;
+}
+
+.SNSFFW-Visible__Print--Flex {
+    display: inherit;
+}
+
+.SNSFFW-Hidden__Print--Block {
+    display: block;
+}
+
+.SNSFFW-Hidden__Print--Inline {
+    display: inline;
+}
+
+.SNSFFW-Hidden__Print--InlineBlock {
+    display: inline-block;
+}
+
+.SNSFFW-Hidden__Print--Grid {
+    display: grid;
+    display: -ms-grid;
+}
+
+.SNSFFW-Hidden__Print--Flex {
+    display: flex;
+    display: -ms-flexbox;
+}
 
 /*"medium" screen and (min-width: 768px and max-width: 1279px)*/
-@media only screen and (max-width: 1279px)
-{
-.SNSFFW-Visible__Large--Block{display: none;}
-.SNSFFW-Visible__Medium--Block{display: block;}
-.SNSFFW-Visible__Small--Block{display: none;}
-.SNSFFW-Visible__Large--Inline{display: none;}
-.SNSFFW-Visible__Medium--Inline{display: inline;}
-.SNSFFW-Visible__Small--Inline{display: none;}
-.SNSFFW-Visible__Large--InlineBlock{display: none;}
-.SNSFFW-Visible__Medium--InlineBlock{display: inline-block;}
-.SNSFFW-Visible__Small--InlineBlock{display: none;}
-.SNSFFW-Visible__Large--Grid{display: inherit;}
-.SNSFFW-Visible__Medium--Grid{display: grid;display: -ms-grid;}
-.SNSFFW-Visible__Small--Grid{display: inherit;}
-.SNSFFW-Visible__Large--Flex{display: inherit;}
-.SNSFFW-Visible__Medium--Flex{display: flex;display: -ms-flexbox;}
-.SNSFFW-Visible__Small--Flex{display: inherit;}
-.SNSFFW-Hidden__Large--Block{display: block;}
-.SNSFFW-Hidden__Medium--Block{display: none;}
-.SNSFFW-Hidden__Small--Block{display: block;}
-.SNSFFW-Hidden__Large--Inline{display: inline;}
-.SNSFFW-Hidden__Medium--Inline{display: none;}
-.SNSFFW-Hidden__Small--Inline{display: inline;}
-.SNSFFW-Hidden__Large--InlineBlock{display: inline-block;}
-.SNSFFW-Hidden__Medium--InlineBlock{display: none;}
-.SNSFFW-Hidden__Small--InlineBlock{display: inline-block;}
-.SNSFFW-Hidden__Large--Grid{display: grid;display: -ms-grid;}
-.SNSFFW-Hidden__Medium--Grid{display: inherit;}
-.SNSFFW-Hidden__Small--Grid{display: grid;display: -ms-grid;}
-.SNSFFW-Hidden__Large--Flex{display: flex;display: -ms-flexbox;}
-.SNSFFW-Hidden__Medium--Flex{display: inherit;}
-.SNSFFW-Hidden__Small--Flex{display: flex;display: -ms-flexbox;}
+@media only screen and (max-width: 1279px) {
+    .SNSFFW-Visible__Large--Block {
+        display: none;
+    }
+
+    .SNSFFW-Visible__Medium--Block {
+        display: block;
+    }
+
+    .SNSFFW-Visible__Small--Block {
+        display: none;
+    }
+
+    .SNSFFW-Visible__Large--Inline {
+        display: none;
+    }
+
+    .SNSFFW-Visible__Medium--Inline {
+        display: inline;
+    }
+
+    .SNSFFW-Visible__Small--Inline {
+        display: none;
+    }
+
+    .SNSFFW-Visible__Large--InlineBlock {
+        display: none;
+    }
+
+    .SNSFFW-Visible__Medium--InlineBlock {
+        display: inline-block;
+    }
+
+    .SNSFFW-Visible__Small--InlineBlock {
+        display: none;
+    }
+
+    .SNSFFW-Visible__Large--Grid {
+        display: inherit;
+    }
+
+    .SNSFFW-Visible__Medium--Grid {
+        display: grid;
+        display: -ms-grid;
+    }
+
+    .SNSFFW-Visible__Small--Grid {
+        display: inherit;
+    }
+
+    .SNSFFW-Visible__Large--Flex {
+        display: inherit;
+    }
+
+    .SNSFFW-Visible__Medium--Flex {
+        display: flex;
+        display: -ms-flexbox;
+    }
+
+    .SNSFFW-Visible__Small--Flex {
+        display: inherit;
+    }
+
+    .SNSFFW-Hidden__Large--Block {
+        display: block;
+    }
+
+    .SNSFFW-Hidden__Medium--Block {
+        display: none;
+    }
+
+    .SNSFFW-Hidden__Small--Block {
+        display: block;
+    }
+
+    .SNSFFW-Hidden__Large--Inline {
+        display: inline;
+    }
+
+    .SNSFFW-Hidden__Medium--Inline {
+        display: none;
+    }
+
+    .SNSFFW-Hidden__Small--Inline {
+        display: inline;
+    }
+
+    .SNSFFW-Hidden__Large--InlineBlock {
+        display: inline-block;
+    }
+
+    .SNSFFW-Hidden__Medium--InlineBlock {
+        display: none;
+    }
+
+    .SNSFFW-Hidden__Small--InlineBlock {
+        display: inline-block;
+    }
+
+    .SNSFFW-Hidden__Large--Grid {
+        display: grid;
+        display: -ms-grid;
+    }
+
+    .SNSFFW-Hidden__Medium--Grid {
+        display: inherit;
+    }
+
+    .SNSFFW-Hidden__Small--Grid {
+        display: grid;
+        display: -ms-grid;
+    }
+
+    .SNSFFW-Hidden__Large--Flex {
+        display: flex;
+        display: -ms-flexbox;
+    }
+
+    .SNSFFW-Hidden__Medium--Flex {
+        display: inherit;
+    }
+
+    .SNSFFW-Hidden__Small--Flex {
+        display: flex;
+        display: -ms-flexbox;
+    }
 }
 
 /*"small" screen and (max-width: 767px)*/
-@media only screen and (max-width: 767px)
-{
-.SNSFFW-Visible__Large--Block{display: none;}
-.SNSFFW-Visible__Medium--Block{display: none;}
-.SNSFFW-Visible__Small--Block{display: block;}
-.SNSFFW-Visible__Large--Inline{display: none;}
-.SNSFFW-Visible__Medium--Inline{display: none;}
-.SNSFFW-Visible__Small--Inline{display: inline;}
-.SNSFFW-Visible__Large--InlineBlock{display: none;}
-.SNSFFW-Visible__Medium--InlineBlock{display: none;}
-.SNSFFW-Visible__Small--InlineBlock{display: inline-block;}
-.SNSFFW-Visible__Large--Grid{display: inherit;}
-.SNSFFW-Visible__Medium--Grid{display: inherit;}
-.SNSFFW-Visible__Small--Grid{display: grid;display: -ms-grid;}
-.SNSFFW-Visible__Large--Flex{display: inherit;}
-.SNSFFW-Visible__Medium--Flex{display: inherit;}
-.SNSFFW-Visible__Small--Flex{display: flex;display: -ms-flexbox;}
-.SNSFFW-Hidden__Large--Block{display: block;}
-.SNSFFW-Hidden__Medium--Block{display: block;}
-.SNSFFW-Hidden__Small--Block{display: none;}
-.SNSFFW-Hidden__Large--Inline{display: inline;}
-.SNSFFW-Hidden__Medium--Inline{display: inline;}
-.SNSFFW-Hidden__Small--Inline{display: none;}
-.SNSFFW-Hidden__Large--InlineBlock{display: inline-block;}
-.SNSFFW-Hidden__Medium--InlineBlock{display: inline-block;}
-.SNSFFW-Hidden__Small--InlineBlock{display: none;}
-.SNSFFW-Hidden__Large--Grid{display: grid;display: -ms-grid;}
-.SNSFFW-Hidden__Medium--Grid{display: grid;display: -ms-grid;}
-.SNSFFW-Hidden__Small--Grid{display: inherit;}
-.SNSFFW-Hidden__Large--Flex{display: flex;display: -ms-flexbox;}
-.SNSFFW-Hidden__Medium--Flex{display: flex;display: -ms-flexbox;}
-.SNSFFW-Hidden__Small--Flex{display: inherit;}
+@media only screen and (max-width: 767px) {
+    .SNSFFW-Visible__Large--Block {
+        display: none;
+    }
+
+    .SNSFFW-Visible__Medium--Block {
+        display: none;
+    }
+
+    .SNSFFW-Visible__Small--Block {
+        display: block;
+    }
+
+    .SNSFFW-Visible__Large--Inline {
+        display: none;
+    }
+
+    .SNSFFW-Visible__Medium--Inline {
+        display: none;
+    }
+
+    .SNSFFW-Visible__Small--Inline {
+        display: inline;
+    }
+
+    .SNSFFW-Visible__Large--InlineBlock {
+        display: none;
+    }
+
+    .SNSFFW-Visible__Medium--InlineBlock {
+        display: none;
+    }
+
+    .SNSFFW-Visible__Small--InlineBlock {
+        display: inline-block;
+    }
+
+    .SNSFFW-Visible__Large--Grid {
+        display: inherit;
+    }
+
+    .SNSFFW-Visible__Medium--Grid {
+        display: inherit;
+    }
+
+    .SNSFFW-Visible__Small--Grid {
+        display: grid;
+        display: -ms-grid;
+    }
+
+    .SNSFFW-Visible__Large--Flex {
+        display: inherit;
+    }
+
+    .SNSFFW-Visible__Medium--Flex {
+        display: inherit;
+    }
+
+    .SNSFFW-Visible__Small--Flex {
+        display: flex;
+        display: -ms-flexbox;
+    }
+
+    .SNSFFW-Hidden__Large--Block {
+        display: block;
+    }
+
+    .SNSFFW-Hidden__Medium--Block {
+        display: block;
+    }
+
+    .SNSFFW-Hidden__Small--Block {
+        display: none;
+    }
+
+    .SNSFFW-Hidden__Large--Inline {
+        display: inline;
+    }
+
+    .SNSFFW-Hidden__Medium--Inline {
+        display: inline;
+    }
+
+    .SNSFFW-Hidden__Small--Inline {
+        display: none;
+    }
+
+    .SNSFFW-Hidden__Large--InlineBlock {
+        display: inline-block;
+    }
+
+    .SNSFFW-Hidden__Medium--InlineBlock {
+        display: inline-block;
+    }
+
+    .SNSFFW-Hidden__Small--InlineBlock {
+        display: none;
+    }
+
+    .SNSFFW-Hidden__Large--Grid {
+        display: grid;
+        display: -ms-grid;
+    }
+
+    .SNSFFW-Hidden__Medium--Grid {
+        display: grid;
+        display: -ms-grid;
+    }
+
+    .SNSFFW-Hidden__Small--Grid {
+        display: inherit;
+    }
+
+    .SNSFFW-Hidden__Large--Flex {
+        display: flex;
+        display: -ms-flexbox;
+    }
+
+    .SNSFFW-Hidden__Medium--Flex {
+        display: flex;
+        display: -ms-flexbox;
+    }
+
+    .SNSFFW-Hidden__Small--Flex {
+        display: inherit;
+    }
 }
 
 /*print*/
-@media only print
-{
-.SNSFFW-Visible__Print--Block{display: block;}
-.SNSFFW-Visible__Print--Inline{display: inline;}
-.SNSFFW-Visible__Print--InlineBlock{display: inline-block;}
-.SNSFFW-Visible__Print--Grid{display: grid;display: -ms-grid;}
-.SNSFFW-Visible__Print--Flex{display: flex;display: -ms-flexbox;}
-.SNSFFW-Hidden__Print--Block{display: none;}
-.SNSFFW-Hidden__Print--Inline{display: none;}
-.SNSFFW-Hidden__Print--InlineBlock{display: none;}
-.SNSFFW-Hidden__Print--Grid{display: inherit;}
-.SNSFFW-Hidden__Print--Flex{display: inherit;}
+@media only print {
+    .SNSFFW-Visible__Print--Block {
+        display: block;
+    }
+
+    .SNSFFW-Visible__Print--Inline {
+        display: inline;
+    }
+
+    .SNSFFW-Visible__Print--InlineBlock {
+        display: inline-block;
+    }
+
+    .SNSFFW-Visible__Print--Grid {
+        display: grid;
+        display: -ms-grid;
+    }
+
+    .SNSFFW-Visible__Print--Flex {
+        display: flex;
+        display: -ms-flexbox;
+    }
+
+    .SNSFFW-Hidden__Print--Block {
+        display: none;
+    }
+
+    .SNSFFW-Hidden__Print--Inline {
+        display: none;
+    }
+
+    .SNSFFW-Hidden__Print--InlineBlock {
+        display: none;
+    }
+
+    .SNSFFW-Hidden__Print--Grid {
+        display: inherit;
+    }
+
+    .SNSFFW-Hidden__Print--Flex {
+        display: inherit;
+    }
 }
 
 /*common*/
-.SNSFFW-Visible__All--Block{display: block;}
-.SNSFFW-Visible__All--Inline{display: inline;}
-.SNSFFW-Visible__All--InlineBlock{display: inline-block;}
-.SNSFFW-Visible__All--Grid{display: grid;display: -ms-grid;}
-.SNSFFW-Visible__All--Flex{display: flex;display: -ms-flexbox;}
+.SNSFFW-Visible__All--Block {
+    display: block;
+}
+
+.SNSFFW-Visible__All--Inline {
+    display: inline;
+}
+
+.SNSFFW-Visible__All--InlineBlock {
+    display: inline-block;
+}
+
+.SNSFFW-Visible__All--Grid {
+    display: grid;
+    display: -ms-grid;
+}
+
+.SNSFFW-Visible__All--Flex {
+    display: flex;
+    display: -ms-flexbox;
+}
 
 
 
@@ -2927,7 +3284,6 @@ _________________________________________________________________
 .SNSFFW-Flex__Item {
     -ms-flex-positive: 0;
     -ms-flex-negative: 1;
-    -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     flex-grow: 0;
     flex-shrink: 1;
@@ -2936,7 +3292,6 @@ _________________________________________________________________
 .SNSFFW-Flex__Item1of3 {
     -ms-flex-positive: 0;
     -ms-flex-negative: 1;
-    -ms-flex-preferred-size: calc(100% / 3);
     flex-basis: calc(100% / 3);
     flex-grow: 0;
     flex-shrink: 1;
@@ -2945,7 +3300,6 @@ _________________________________________________________________
 .SNSFFW-Flex__Item2of3 {
     -ms-flex-positive: 0;
     -ms-flex-negative: 1;
-    -ms-flex-preferred-size: calc(100% / 3 * 2);
     flex-basis: calc(100% / 3 * 2);
     flex-grow: 0;
     flex-shrink: 1;
@@ -2954,7 +3308,6 @@ _________________________________________________________________
 .SNSFFW-Flex__Item1of4 {
     -ms-flex-positive: 0;
     -ms-flex-negative: 1;
-    -ms-flex-preferred-size: calc(100% / 4);
     flex-basis: calc(100% / 4);
     flex-grow: 0;
     flex-shrink: 1;
@@ -2963,7 +3316,6 @@ _________________________________________________________________
 .SNSFFW-Flex__Item2of4 {
     -ms-flex-positive: 0;
     -ms-flex-negative: 1;
-    -ms-flex-preferred-size: calc(100% / 4 * 2);
     flex-basis: calc(100% / 4 * 2);
     flex-grow: 0;
     flex-shrink: 1;
@@ -2972,7 +3324,6 @@ _________________________________________________________________
 .SNSFFW-Flex__Item3of4 {
     -ms-flex-positive: 0;
     -ms-flex-negative: 1;
-    -ms-flex-preferred-size: calc(100% / 4 * 3);
     flex-basis: calc(100% / 4 * 3);
     flex-grow: 0;
     flex-shrink: 1;
@@ -2981,7 +3332,6 @@ _________________________________________________________________
 .SNSFFW-Flex__Item1of5 {
     -ms-flex-positive: 0;
     -ms-flex-negative: 1;
-    -ms-flex-preferred-size: calc(100% / 5);
     flex-basis: calc(100% / 5);
     flex-grow: 0;
     flex-shrink: 1;
@@ -2990,7 +3340,6 @@ _________________________________________________________________
 .SNSFFW-Flex__Item2of5 {
     -ms-flex-positive: 0;
     -ms-flex-negative: 1;
-    -ms-flex-preferred-size: calc(100% / 5 * 2);
     flex-basis: calc(100% / 5 * 2);
     flex-grow: 0;
     flex-shrink: 1;
@@ -2999,7 +3348,6 @@ _________________________________________________________________
 .SNSFFW-Flex__Item3of5 {
     -ms-flex-positive: 0;
     -ms-flex-negative: 1;
-    -ms-flex-preferred-size: calc(100% / 5 * 3);
     flex-basis: calc(100% / 5 * 3);
     flex-grow: 0;
     flex-shrink: 1;
@@ -3008,49 +3356,40 @@ _________________________________________________________________
 .SNSFFW-Flex__Item4of5 {
     -ms-flex-positive: 0;
     -ms-flex-negative: 1;
-    -ms-flex-preferred-size: calc(100% / 5 * 4);
     flex-basis: calc(100% / 5 * 4);
     flex-grow: 0;
     flex-shrink: 1;
 }
 
 .SNSFFW-Flex__HorizontalAlignment--Start {
-    -ms-flex-pack: start;
     justify-content: flex-start;
 }
 
 .SNSFFW-Flex__HorizontalAlignment--Center {
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
 .SNSFFW-Flex__HorizontalAlignment--End {
-    -ms-flex-pack: end;
     justify-content: flex-end;
 }
 
 .SNSFFW-Flex__HorizontalAlignment--SpaceBetween {
-    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
 .SNSFFW-Flex__HorizontalAlignment--SpaceAround {
-    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 
 .SNSFFW-Flex__VerticalAlignment--Start {
-    -ms-flex-align: start;
     align-items: flex-start;
 }
 
 .SNSFFW-Flex__VerticalAlignment--Center {
-    -ms-flex-align: center;
     align-items: center;
 }
 
 .SNSFFW-Flex__VerticalAlignment--End {
-    -ms-flex-align: end;
     align-items: flex-end;
 }
 
@@ -3063,237 +3402,201 @@ I. Layout
     d. Grid System
 _________________________________________________________________
 */
-.SNSFFW-Grid__3Columns
-{
+.SNSFFW-Grid__3Columns {
     -ms-grid-columns: (1fr)[3];
     grid-template-columns: repeat(3, 1fr);
 }
 
-.SNSFFW-Grid__3Rows
-{
+.SNSFFW-Grid__3Rows {
     -ms-grid-rows: (1fr)[3];
     grid-template-rows: repeat(3, 1fr);
 }
 
-.SNSFFW-Grid__4Columns
-{
+.SNSFFW-Grid__4Columns {
     -ms-grid-columns: (1fr)[4];
     grid-template-columns: repeat(4, 1fr);
 }
 
-.SNSFFW-Grid__4Rows
-{
+.SNSFFW-Grid__4Rows {
     -ms-grid-rows: (1fr)[4];
     grid-template-rows: repeat(4, 1fr);
 }
 
-.SNSFFW-Grid__5Columns
-{
+.SNSFFW-Grid__5Columns {
     -ms-grid-columns: (1fr)[5];
     grid-template-columns: repeat(5, 1fr);
 }
 
-.SNSFFW-Grid__5Rows
-{
+.SNSFFW-Grid__5Rows {
     -ms-grid-rows: (1fr)[5];
     grid-template-rows: repeat(5, 1fr);
 }
 
-.SNSFFW-Grid__Column1
-{
+.SNSFFW-Grid__Column1 {
     -ms-grid-column: 1;
     grid-column: 1;
 }
 
-.SNSFFW-Grid__Column2
-{
+.SNSFFW-Grid__Column2 {
     -ms-grid-column: 2;
     grid-column: 2;
 }
 
-.SNSFFW-Grid__Column3
-{
+.SNSFFW-Grid__Column3 {
     -ms-grid-column: 3;
     grid-column: 3;
 }
 
-.SNSFFW-Grid__Column4
-{
+.SNSFFW-Grid__Column4 {
     -ms-grid-column: 4;
     grid-column: 4;
 }
 
-.SNSFFW-Grid__Column5
-{
+.SNSFFW-Grid__Column5 {
     -ms-grid-column: 5;
     grid-column: 5;
 }
 
-.SNSFFW-Grid__Column1to2
-{
+.SNSFFW-Grid__Column1to2 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-column: 1 / span 2;
 }
 
-.SNSFFW-Grid__Column1to3
-{
+.SNSFFW-Grid__Column1to3 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
     grid-column: 1 / span 3;
 }
 
-.SNSFFW-Grid__Column1to4
-{
+.SNSFFW-Grid__Column1to4 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 4;
     grid-column: 1 / span 4;
 }
 
-.SNSFFW-Grid__Column1to5
-{
+.SNSFFW-Grid__Column1to5 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 5;
     grid-column: 1 / span 5;
 }
 
-.SNSFFW-Grid__Column2to3
-{
+.SNSFFW-Grid__Column2to3 {
     -ms-grid-column: 2;
     -ms-grid-column-span: 2;
     grid-column: 2 / span 2;
 }
 
-.SNSFFW-Grid__Column2to4
-{
+.SNSFFW-Grid__Column2to4 {
     -ms-grid-column: 2;
     -ms-grid-column-span: 3;
     grid-column: 2 / span 3;
 }
 
-.SNSFFW-Grid__Column2to5
-{
+.SNSFFW-Grid__Column2to5 {
     -ms-grid-column: 2;
     -ms-grid-column-span: 4;
     grid-column: 2 / span 4;
 }
 
-.SNSFFW-Grid__Column3to4
-{
+.SNSFFW-Grid__Column3to4 {
     -ms-grid-column: 3;
     -ms-grid-column-span: 2;
     grid-column: 3 / span 2;
 }
 
-.SNSFFW-Grid__Column3to5
-{
+.SNSFFW-Grid__Column3to5 {
     -ms-grid-column: 3;
     -ms-grid-column-span: 3;
     grid-column: 3 / span 3;
 }
 
-.SNSFFW-Grid__Column4to5
-{
+.SNSFFW-Grid__Column4to5 {
     -ms-grid-column: 4;
     -ms-grid-column-span: 2;
     grid-column: 4 / span 2;
 }
 
-.SNSFFW-Grid__Row1
-{
+.SNSFFW-Grid__Row1 {
     -ms-grid-row: 1;
     grid-row: 1;
 }
 
-.SNSFFW-Grid__Row2
-{
+.SNSFFW-Grid__Row2 {
     -ms-grid-row: 2;
     grid-row: 2;
 }
 
-.SNSFFW-Grid__Row3
-{
+.SNSFFW-Grid__Row3 {
     -ms-grid-row: 3;
     grid-row: 3;
 }
 
-.SNSFFW-Grid__Row4
-{
+.SNSFFW-Grid__Row4 {
     -ms-grid-row: 4;
     grid-row: 4;
 }
 
-.SNSFFW-Grid__Row5
-{
+.SNSFFW-Grid__Row5 {
     -ms-grid-row: 5;
     grid-row: 5;
 }
 
-.SNSFFW-Grid__Row1to2
-{
+.SNSFFW-Grid__Row1to2 {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
     grid-row: 1 / span 2;
 }
 
-.SNSFFW-Grid__Row1to3
-{
+.SNSFFW-Grid__Row1to3 {
     -ms-grid-row: 1;
     -ms-grid-row-span: 3;
     grid-row: 1 / span 3;
 }
 
-.SNSFFW-Grid__Row1to4
-{
+.SNSFFW-Grid__Row1to4 {
     -ms-grid-row: 1;
     -ms-grid-row-span: 4;
     grid-row: 1 / span 4;
 }
 
-.SNSFFW-Grid__Row1to5
-{
+.SNSFFW-Grid__Row1to5 {
     -ms-grid-row: 1;
     -ms-grid-row-span: 5;
     grid-row: 1 / span 5;
 }
 
-.SNSFFW-Grid__Row2to3
-{
+.SNSFFW-Grid__Row2to3 {
     -ms-grid-row: 2;
     -ms-grid-row-span: 2;
     grid-row: 2 / span 2;
 }
 
-.SNSFFW-Grid__Row2to4
-{
+.SNSFFW-Grid__Row2to4 {
     -ms-grid-row: 2;
     -ms-grid-row-span: 3;
     grid-row: 2 / span 3;
 }
 
-.SNSFFW-Grid__Row2to5
-{
+.SNSFFW-Grid__Row2to5 {
     -ms-grid-row: 2;
     -ms-grid-row-span: 4;
     grid-row: 2 / span 4;
 }
 
-.SNSFFW-Grid__Row3to4
-{
+.SNSFFW-Grid__Row3to4 {
     -ms-grid-row: 3;
     -ms-grid-row-span: 2;
     grid-row: 3 / span 2;
 }
 
-.SNSFFW-Grid__Row3to5
-{
+.SNSFFW-Grid__Row3to5 {
     -ms-grid-row: 3;
     -ms-grid-row-span: 3;
     grid-row: 3 / span 3;
 }
 
-.SNSFFW-Grid__Row4to5
-{
+.SNSFFW-Grid__Row4to5 {
     -ms-grid-row: 4;
     -ms-grid-row-span: 2;
     grid-row: 4 / span 2;
@@ -3344,75 +3647,73 @@ figcaption {
 }
 
 /*"medium" screen and (min-width: 768px and max-width: 1279px)*/
-@media only screen and (max-width: 1279px)
-{
-h1 {
-    font-size: 2.25rem;
-}
+@media only screen and (max-width: 1279px) {
+    h1 {
+        font-size: 2.25rem;
+    }
 
-h2 {
-    font-size: 1.75rem;
-}
+    h2 {
+        font-size: 1.75rem;
+    }
 
-h3 {
-    font-size: 1.625rem;
-}
+    h3 {
+        font-size: 1.625rem;
+    }
 
-h4 {
-    font-size: 1.375rem;
-}
+    h4 {
+        font-size: 1.375rem;
+    }
 
-h5 {
-    font-size: 1.25rem;
-}
+    h5 {
+        font-size: 1.25rem;
+    }
 
-h6 {
-    font-size: 1rem;
-}
+    h6 {
+        font-size: 1rem;
+    }
 
-p, strong, b, em, i, cite, var, s, del, samp, abbr, code, blockquote, ul, ol, dl, table, figcaption, form, legend, label, input, textarea, select, button, a {
-    font-size: .875rem;
-}
+    p, strong, b, em, i, cite, var, s, del, samp, abbr, code, blockquote, ul, ol, dl, table, figcaption, form, legend, label, input, textarea, select, button, a {
+        font-size: .875rem;
+    }
 
-figcaption {
-    font-size: .7rem;
-}
+    figcaption {
+        font-size: .7rem;
+    }
 }
 
 /*"small" screen and (max-width: 767px)*/
-@media only screen and (max-width: 767px)
-{
-h1 {
-    font-size: 2rem;
-}
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+    }
 
-h2 {
-    font-size: 1.625rem;
-}
+    h2 {
+        font-size: 1.625rem;
+    }
 
-h3 {
-    font-size: 1.5rem;
-}
+    h3 {
+        font-size: 1.5rem;
+    }
 
-h4 {
-    font-size: 1.25rem;
-}
+    h4 {
+        font-size: 1.25rem;
+    }
 
-h5 {
-    font-size: 1.125rem;
-}
+    h5 {
+        font-size: 1.125rem;
+    }
 
-h6 {
-    font-size: .875rem;
-}
+    h6 {
+        font-size: .875rem;
+    }
 
-p, strong, b, em, i, cite, var, s, del, samp, abbr, code, blockquote, ul, ol, dl, table, figcaption, form, legend, label, input, textarea, select, button, a {
-    font-size: .75rem;
-}
+    p, strong, b, em, i, cite, var, s, del, samp, abbr, code, blockquote, ul, ol, dl, table, figcaption, form, legend, label, input, textarea, select, button, a {
+        font-size: .75rem;
+    }
 
-figcaption {
-    font-size: .6rem;
-}
+    figcaption {
+        font-size: .6rem;
+    }
 }
 
 /*common*/
@@ -3551,7 +3852,7 @@ sup {
 }
 
 sub {
-    vertical-align:sub;
+    vertical-align: sub;
 }
 
 s, del {
@@ -3574,8 +3875,8 @@ code {
 }
 
 hr {
-    border: 0;
     height: 1px;
+    border: 0;
     background-color: currentColor;
 }
 
@@ -4057,13 +4358,13 @@ button, input[type="button"], input[type="reset"], input[type="submit"], a.SNSFF
     border-width: var(--SNSFFW_Border_Width_Smaller);
     border-style: solid;
     border-color: transparent;
+    background-color: transparent;
     color: var(--SNSFFW_Grey_3);
     font-weight: var(--SNSFFW_Font_Weight_Bolder);
     line-height: 1em;
     text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
-    background-color: transparent;
 }
 
 button i, input[type="button"] i, input[type="reset"] i, input[type="submit"] i, a.SNSFFW-Button__Link i {
@@ -5682,33 +5983,33 @@ _________________________________________________________________
 .SNSFFW-Accordion_BellowsHeader {
     padding: var(--SNSFFW_PaddingMargin_Spacing_Standard);
     padding-left: var(--SNSFFW_PaddingMargin_Spacing_Big);
-    cursor: pointer;
-    border-right-width: var(--SNSFFW_Border_Width_Small);
-    border-right-style: solid;
-    border-right-color: currentColor;
-    border-left-width: var(--SNSFFW_Border_Width_Small);
-    border-left-style: solid;
-    border-left-color: currentColor;
     border-top-width: var(--SNSFFW_Border_Width_Small);
+    border-right-width: var(--SNSFFW_Border_Width_Small);
+    border-left-width: var(--SNSFFW_Border_Width_Small);
     border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
     border-top-color: currentColor;
+    border-right-color: currentColor;
+    border-left-color: currentColor;
+    cursor: pointer;
 }
 
 .SNSFFW-Accordion_BellowsHeader > h6 {
-    margin: 0;
-    width: calc(100% - 28px);
     display: inline-block;
-    vertical-align: middle;
+    width: calc(100% - 28px);
+    margin: 0;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    vertical-align: middle;
 }
 
 .SNSFFW-Accordion_BellowsHeader > i {
-    vertical-align: middle;
     width: 24px;
     height: 24px;
     transition-duration: .25s;
+    vertical-align: middle;
 }
 
 .SNSFFW-Accordion_BellowsHeader > i.SNSFFW-Accordion_BellowsHeader--IconUp {
@@ -5718,17 +6019,17 @@ _________________________________________________________________
 }
 
 .SNSFFW-Accordion_BellowsBody {
-    padding: var(--SNSFFW_PaddingMargin_Spacing_Big);
-    border-right-width: var(--SNSFFW_Border_Width_Smaller);
-    border-right-style: solid;
-    border-right-color: currentColor;
-    border-left-width: var(--SNSFFW_Border_Width_Smaller);
-    border-left-style: solid;
-    border-left-color: currentColor;
-    border-top-width: var(--SNSFFW_Border_Width_Small);
-    border-top-style: solid;
-    border-top-color: currentColor;
     display: none;
+    padding: var(--SNSFFW_PaddingMargin_Spacing_Big);
+    border-top-width: var(--SNSFFW_Border_Width_Small);
+    border-right-width: var(--SNSFFW_Border_Width_Smaller);
+    border-left-width: var(--SNSFFW_Border_Width_Smaller);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-color: currentColor;
+    border-right-color: currentColor;
+    border-left-color: currentColor;
 }
 
 .SNSFFW-Accordion_BellowsShow .SNSFFW-Accordion_BellowsBody {
@@ -5741,10 +6042,10 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--SekondiOne .SNSFFW-Accordion_BellowsHeader {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_FirstColor_1);
+    border-right-color: transparent;
+    border-left-color: transparent;
     background-color: var(--SNSFFW_FirstColor_3);
     color: var(--SNSFFW_FirstColor_1);
 }
@@ -5755,12 +6056,12 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--SekondiOne .SNSFFW-Accordion_BellowsBody {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_FirstColor_1);
-    color: var(--SNSFFW_FirstColor_4);
+    border-right-color: transparent;
+    border-left-color: transparent;
     background-color: var(--SNSFFW_FirstColor_2);
+    color: var(--SNSFFW_FirstColor_4);
 }
 
 .SNSFFW-Accordion__Design--SekondiTwo .SNSFFW-Accordion_Bellows:last-of-type {
@@ -5769,10 +6070,10 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--SekondiTwo .SNSFFW-Accordion_BellowsHeader {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_SecondColor_1);
+    border-right-color: transparent;
+    border-left-color: transparent;
     background-color: var(--SNSFFW_SecondColor_3);
     color: var(--SNSFFW_SecondColor_1);
 }
@@ -5783,12 +6084,12 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--SekondiTwo .SNSFFW-Accordion_BellowsBody {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_SecondColor_1);
-    color: var(--SNSFFW_SecondColor_4);
+    border-right-color: transparent;
+    border-left-color: transparent;
     background-color: var(--SNSFFW_SecondColor_2);
+    color: var(--SNSFFW_SecondColor_4);
 }
 
 .SNSFFW-Accordion__Design--SekondiThree .SNSFFW-Accordion_Bellows:last-of-type {
@@ -5797,10 +6098,10 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--SekondiThree .SNSFFW-Accordion_BellowsHeader {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_ThirdColor_1);
+    border-right-color: transparent;
+    border-left-color: transparent;
     background-color: var(--SNSFFW_ThirdColor_3);
     color: var(--SNSFFW_ThirdColor_1);
 }
@@ -5811,12 +6112,12 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--SekondiThree .SNSFFW-Accordion_BellowsBody {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_ThirdColor_1);
-    color: var(--SNSFFW_ThirdColor_4);
+    border-right-color: transparent;
+    border-left-color: transparent;
     background-color: var(--SNSFFW_ThirdColor_2);
+    color: var(--SNSFFW_ThirdColor_4);
 }
 
 .SNSFFW-Accordion__Design--SekondiFour .SNSFFW-Accordion_Bellows:last-of-type {
@@ -5825,10 +6126,10 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--SekondiFour .SNSFFW-Accordion_BellowsHeader {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_Grey_1);
+    border-right-color: transparent;
+    border-left-color: transparent;
     background-color: var(--SNSFFW_Grey_3);
     color: var(--SNSFFW_Grey_1);
 }
@@ -5839,12 +6140,12 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--SekondiFour .SNSFFW-Accordion_BellowsBody {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_Grey_1);
-    color: var(--SNSFFW_Grey_4);
+    border-right-color: transparent;
+    border-left-color: transparent;
     background-color: var(--SNSFFW_Grey_2);
+    color: var(--SNSFFW_Grey_4);
 }
 
 .SNSFFW-Accordion__Design--TakoradiOne .SNSFFW-Accordion_Bellows:last-of-type {
@@ -5853,10 +6154,10 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--TakoradiOne .SNSFFW-Accordion_BellowsHeader {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_Grey_1);
+    border-right-color: transparent;
+    border-left-color: transparent;
     background-color: var(--SNSFFW_FirstColor_3);
     color: var(--SNSFFW_FirstColor_1);
 }
@@ -5867,10 +6168,10 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--TakoradiOne .SNSFFW-Accordion_BellowsBody {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_Grey_1);
+    border-right-color: transparent;
+    border-left-color: transparent;
 }
 
 .SNSFFW-Accordion__Design--TakoradiOne .SNSFFW-Accordion_Bellows:last-of-type .SNSFFW-Accordion_BellowsBody {
@@ -5883,10 +6184,10 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--TakoradiTwo .SNSFFW-Accordion_BellowsHeader {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_Grey_1);
+    border-right-color: transparent;
+    border-left-color: transparent;
     background-color: var(--SNSFFW_SecondColor_3);
     color: var(--SNSFFW_SecondColor_1);
 }
@@ -5897,10 +6198,10 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--TakoradiTwo .SNSFFW-Accordion_BellowsBody {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_Grey_1);
+    border-right-color: transparent;
+    border-left-color: transparent;
 }
 
 .SNSFFW-Accordion__Design--TakoradiTwo .SNSFFW-Accordion_Bellows:last-of-type .SNSFFW-Accordion_BellowsBody {
@@ -5913,10 +6214,10 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--TakoradiThree .SNSFFW-Accordion_BellowsHeader {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_Grey_1);
+    border-right-color: transparent;
+    border-left-color: transparent;
     background-color: var(--SNSFFW_ThirdColor_3);
     color: var(--SNSFFW_ThirdColor_1);
 }
@@ -5927,10 +6228,10 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--TakoradiThree .SNSFFW-Accordion_BellowsBody {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_Grey_1);
+    border-right-color: transparent;
+    border-left-color: transparent;
 }
 
 .SNSFFW-Accordion__Design--TakoradiThree .SNSFFW-Accordion_Bellows:last-of-type .SNSFFW-Accordion_BellowsBody {
@@ -5943,10 +6244,10 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--TakoradiFour .SNSFFW-Accordion_BellowsHeader {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_Grey_1);
+    border-right-color: transparent;
+    border-left-color: transparent;
     background-color: var(--SNSFFW_Grey_3);
     color: var(--SNSFFW_Grey_1);
 }
@@ -5957,10 +6258,10 @@ _________________________________________________________________
 
 .SNSFFW-Accordion__Design--TakoradiFour .SNSFFW-Accordion_BellowsBody {
     border-right-width: 0;
-    border-right-color: transparent;
     border-left-width: 0;
-    border-left-color: transparent;
     border-top-color: var(--SNSFFW_Grey_1);
+    border-right-color: transparent;
+    border-left-color: transparent;
 }
 
 .SNSFFW-Accordion__Design--TakoradiFour .SNSFFW-Accordion_Bellows:last-of-type .SNSFFW-Accordion_BellowsBody {
@@ -5972,9 +6273,9 @@ _________________________________________________________________
 }
 
 .SNSFFW-Accordion__Design--TemaOne .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: var(--SNSFFW_FirstColor_3);
     border-right-color: var(--SNSFFW_FirstColor_3);
     border-left-color: var(--SNSFFW_FirstColor_3);
-    border-top-color: var(--SNSFFW_FirstColor_3);
     color: var(--SNSFFW_FirstColor_3);
 }
 
@@ -5983,9 +6284,9 @@ _________________________________________________________________
 }
 
 .SNSFFW-Accordion__Design--TemaOne .SNSFFW-Accordion_BellowsBody {
+    border-top-color: var(--SNSFFW_FirstColor_3);
     border-right-color: var(--SNSFFW_FirstColor_3);
     border-left-color: var(--SNSFFW_FirstColor_3);
-    border-top-color: var(--SNSFFW_FirstColor_3);
     color: var(--SNSFFW_FirstColor_3);
 }
 
@@ -5994,9 +6295,9 @@ _________________________________________________________________
 }
 
 .SNSFFW-Accordion__Design--TemaTwo .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: var(--SNSFFW_SecondColor_3);
     border-right-color: var(--SNSFFW_SecondColor_3);
     border-left-color: var(--SNSFFW_SecondColor_3);
-    border-top-color: var(--SNSFFW_SecondColor_3);
     color: var(--SNSFFW_SecondColor_3);
 }
 
@@ -6005,8 +6306,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Accordion__Design--TemaTwo .SNSFFW-Accordion_BellowsBody {
-    border-left-color: var(--SNSFFW_SecondColor_3);
     border-top-color: var(--SNSFFW_SecondColor_3);
+    border-left-color: var(--SNSFFW_SecondColor_3);
     color: var(--SNSFFW_SecondColor_3);
 }
 
@@ -6015,9 +6316,9 @@ _________________________________________________________________
 }
 
 .SNSFFW-Accordion__Design--TemaThree .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: var(--SNSFFW_ThirdColor_3);
     border-right-color: var(--SNSFFW_ThirdColor_3);
     border-left-color: var(--SNSFFW_ThirdColor_3);
-    border-top-color: var(--SNSFFW_ThirdColor_3);
     color: var(--SNSFFW_ThirdColor_3);
 }
 
@@ -6026,9 +6327,9 @@ _________________________________________________________________
 }
 
 .SNSFFW-Accordion__Design--TemaThree .SNSFFW-Accordion_BellowsBody {
+    border-top-color: var(--SNSFFW_ThirdColor_3);
     border-right-color: var(--SNSFFW_ThirdColor_3);
     border-left-color: var(--SNSFFW_ThirdColor_3);
-    border-top-color: var(--SNSFFW_ThirdColor_3);
     color: var(--SNSFFW_ThirdColor_3);
 }
 
@@ -6037,9 +6338,9 @@ _________________________________________________________________
 }
 
 .SNSFFW-Accordion__Design--TemaFour .SNSFFW-Accordion_BellowsHeader {
+    border-top-color: var(--SNSFFW_Grey_3);
     border-right-color: var(--SNSFFW_Grey_3);
     border-left-color: var(--SNSFFW_Grey_3);
-    border-top-color: var(--SNSFFW_Grey_3);
     color: var(--SNSFFW_Grey_3);
 }
 
@@ -6048,9 +6349,9 @@ _________________________________________________________________
 }
 
 .SNSFFW-Accordion__Design--TemaFour .SNSFFW-Accordion_BellowsBody {
+    border-top-color: var(--SNSFFW_Grey_3);
     border-right-color: var(--SNSFFW_Grey_3);
     border-left-color: var(--SNSFFW_Grey_3);
-    border-top-color: var(--SNSFFW_Grey_3);
     color: var(--SNSFFW_Grey_3);
 }
 
@@ -6080,11 +6381,11 @@ _________________________________________________________________
 .SNSFFW-AvatarCircle__Design--MoyoTwo,
 .SNSFFW-AvatarCircle__Design--MoyoThree,
 .SNSFFW-AvatarCircle__Design--MoyoFour {
+    display: inline-block;
+    position: relative;
     width: 2em;
     height: 2em;
     padding: 0;
-    display: inline-block;
-    position: relative;
     border-style: solid;
     border-color: currentColor;
 }
@@ -6115,13 +6416,13 @@ _________________________________________________________________
 .SNSFFW-AvatarCircle__Design--MoyoTwo:not([data-snsffw-avatar-initials='']):before,
 .SNSFFW-AvatarCircle__Design--MoyoThree:not([data-snsffw-avatar-initials='']):before,
 .SNSFFW-AvatarCircle__Design--MoyoFour:not([data-snsffw-avatar-initials='']):before {
-    content: "";
     position: absolute;
     top: 0%;
-    left: 0%;
     right: 0%;
     bottom: 0%;
+    left: 0%;
     background-color: transparent;
+    content: "";
 }
 
 .SNSFFW-AvatarCircle:before,
@@ -6166,13 +6467,13 @@ _________________________________________________________________
 .SNSFFW-AvatarCircle__Design--MoyoTwo:after,
 .SNSFFW-AvatarCircle__Design--MoyoThree:after,
 .SNSFFW-AvatarCircle__Design--MoyoFour:after {
+    -webkit-transform: translate(-50%, -50%);
     position: absolute;
-    content: attr(data-snsffw-avatar-initials);
-    font-weight: var(--SNSFFW_Font_Weight_Bold);
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    font-weight: var(--SNSFFW_Font_Weight_Bold);
+    content: attr(data-snsffw-avatar-initials);
 }
 
 .SNSFFW-AvatarCircle,
@@ -6238,8 +6539,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Avatar--XS:after {
-    font-size: 6px;
     top: 54%;
+    font-size: 6px;
 }
 
 .SNSFFW-AvatarSquare__Design--KetaOne,
@@ -6398,38 +6699,38 @@ _________________________________________________________________
 }
 
 .SNSFFW-BadgeText {
+    position: absolute;
     padding: var(--SNSFFW_PaddingMargin_Spacing_Smaller);
     padding-bottom: calc(var(--SNSFFW_PaddingMargin_Spacing_Smaller) - 1px);
-    position: absolute;
     font-size: 12px;
     font-weight: var(--SNSFFW_Font_Weight_Bolder);
 }
 
 .SNSFFW-BadgeText.SNSFFW-BadgeText__Position--LeftTop {
+    -webkit-transform: translate(-50%, -50%);
     top: 0%;
     left: 0%;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
 .SNSFFW-BadgeText.SNSFFW-BadgeText__Position--LeftBottom {
+    -webkit-transform: translate(-50%, 50%);
     bottom: 0%;
     left: 0%;
-    -webkit-transform: translate(-50%, 50%);
     transform: translate(-50%, 50%);
 }
 
 .SNSFFW-BadgeText.SNSFFW-BadgeText__Position--RightTop {
+    -webkit-transform: translate(50%, -50%);
     top: 0%;
     right: 0%;
-    -webkit-transform: translate(50%, -50%);
     transform: translate(50%, -50%);
 }
 
 .SNSFFW-BadgeText.SNSFFW-BadgeText__Position--RightBottom {
-    bottom: 0%;
-    right: 0%;
     -webkit-transform: translate(50%, 50%);
+    right: 0%;
+    bottom: 0%;
     transform: translate(50%, 50%);
 }
 
@@ -6442,22 +6743,22 @@ _________________________________________________________________
 .SNSFFW-Breadcrumb__Design--WeijaTwo,
 .SNSFFW-Breadcrumb__Design--WeijaThree,
 .SNSFFW-Breadcrumb__Design--WeijaFour {
-    padding: 0;
-    clear: both;
     display: flex;
     flex-wrap: wrap;
+    padding: 0;
+    clear: both;
 }
 
 .SNSFFW-BreadcrumbItem {
-    list-style: none;
     display: inline-block;
     margin: 0;
     float: left;
+    list-style: none;
 }
 
 .SNSFFW-BreadcrumbItem a {
-    text-decoration: none;
     color: currentColor;
+    text-decoration: none;
     vertical-align: middle;
 }
 
@@ -6471,9 +6772,9 @@ _________________________________________________________________
 }
 
 .SNSFFW-BreadcrumbItem--Icon {
+    color: currentColor;
     font-size: var(--SNSFFW_Font_Size_Standard);
     vertical-align: middle;
-    color: currentColor;
 }
 
 .SNSFFW-Breadcrumb__Design--BosomtweOne .SNSFFW-BreadcrumbItem--Icon {
@@ -6535,9 +6836,9 @@ _________________________________________________________________
 .SNSFFW-Breadcrumb__Design--TonoTwo .SNSFFW-BreadcrumbItem,
 .SNSFFW-Breadcrumb__Design--TonoThree .SNSFFW-BreadcrumbItem,
 .SNSFFW-Breadcrumb__Design--TonoFour .SNSFFW-BreadcrumbItem {
-    float: none;
     padding: var(--SNSFFW_PaddingMargin_Spacing_Smaller);
     padding-right: 0;
+    float: none;
 }
 
 .SNSFFW-Breadcrumb__Design--TonoOne a:hover,
@@ -6659,9 +6960,9 @@ _________________________________________________________________
 }
 
 .SNSFFW-Card.SNSFFW-CardBorder {
-    border-color: var(--SNSFFW_Grey_2);
     border-width: var(--SNSFFW_Border_Width_Smaller);
     border-style: solid;
+    border-color: var(--SNSFFW_Grey_2);
 }
 
 .SNSFFW-CardHeader,
@@ -6695,20 +6996,20 @@ _________________________________________________________________
 }
 
 .SNSFFW-ModalContainer {
+    display: none;
     position: fixed;
     top: 0%;
-    left: 0%;
     right: 0%;
     bottom: 0%;
-    display: none;
+    left: 0%;
 }
 
 .SNSFFW-ModalBackground {
     position: absolute;
     top: 0%;
-    left: 0%;
     right: 0%;
     bottom: 0%;
+    left: 0%;
 }
 
 .SNSFFW-ModalBackground.SNSFFW-ModalBackground__Black,
@@ -6736,17 +7037,17 @@ _________________________________________________________________
 }
 
 .SNSFFW-ModalContent {
-    background-color: var(--SNSFFW_Default);
+    -webkit-transform: translate(-50%, -50%);
     display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     flex-direction: column;
     width: 90%;
     max-width: 690px;
     max-height: 90%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    background-color: var(--SNSFFW_Default);
     box-shadow: var(--SNSFFW_Box_Shadow_Standard) var(--SNSFFW_DefaultColor_Black);
 }
 
@@ -6759,31 +7060,31 @@ _________________________________________________________________
 }
 
 .SNSFFW-ModalContent.SNSFFW-ModalContentBorder {
-    border-color: var(--SNSFFW_Grey_2);
     border-width: var(--SNSFFW_Border_Width_Smaller);
     border-style: solid;
+    border-color: var(--SNSFFW_Grey_2);
 }
 
 .SNSFFW-ModalHeader {
-    border-bottom-color: var(--SNSFFW_Grey_1);
     border-bottom-width: var(--SNSFFW_Border_Width_Smaller);
     border-bottom-style: solid;
+    border-bottom-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-ModalHeader .SNSFFW-ModalHeaderTitle {
+    display: inline-block;
     width: calc(100% - 64px);
     margin: 0;
     padding-top: calc(var(--SNSFFW_PaddingMargin_Spacing_Standard) + 3px);
-    padding-bottom: calc(var(--SNSFFW_PaddingMargin_Spacing_Standard) + 3px);
     padding-right: var(--SNSFFW_PaddingMargin_Spacing_Standard);
+    padding-bottom: calc(var(--SNSFFW_PaddingMargin_Spacing_Standard) + 3px);
     padding-left: var(--SNSFFW_PaddingMargin_Spacing_Standard);
-    display: inline-block;
-    font-weight: var(--SNSFFW_Font_Weight_Bold);
-    font-size: 20px;
-    vertical-align: middle;
     overflow: hidden;
+    font-size: 20px;
+    font-weight: var(--SNSFFW_Font_Weight_Bold);
     text-overflow: ellipsis;
     white-space: nowrap;
+    vertical-align: middle;
 }
 
 .SNSFFW-ModalHeader button {
@@ -6791,8 +7092,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-ModalBody {
-    padding: var(--SNSFFW_PaddingMargin_Spacing_Standard);
     position: relative;
+    padding: var(--SNSFFW_PaddingMargin_Spacing_Standard);
     overflow-y: auto;
 }
 
@@ -6801,9 +7102,9 @@ _________________________________________________________________
 }
 
 .SNSFFW-ModalFooter {
-    border-top-color: var(--SNSFFW_Grey_1);
     border-top-width: var(--SNSFFW_Border_Width_Smaller);
     border-top-style: solid;
+    border-top-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-ModalFooter .SNSFFW-ButtonGroup__Horizontal {
@@ -6825,19 +7126,18 @@ _________________________________________________________________
 }
 
 .SNSFFW-Menu.SNSFFW-MenuVertical > .SNSFFW-MenuItem {
-    
 }
 
 .SNSFFW-MenuItem > button {
+    width: 100%;
     padding-top: calc(var(--SNSFFW_PaddingMargin_Spacing_Standard) - 4px);
+    padding-right: 0;
     padding-bottom: calc(var(--SNSFFW_PaddingMargin_Spacing_Standard) - 4px);
     padding-left: 0;
-    padding-right: 0;
-    width: 100%;
     clear: both;
 }
 
- .SNSFFW-MenuVertical > .SNSFFW-MenuItem > button {
+.SNSFFW-MenuVertical > .SNSFFW-MenuItem > button {
     text-align: left;
 }
 
@@ -6858,15 +7158,15 @@ _________________________________________________________________
 }
 
 .SNSFFW-MenuItem > button > span {
-    vertical-align: middle;
+    display: inline-block;
+    max-width: 200px;
     padding-right: var(--SNSFFW_PaddingMargin_Spacing_Small);
     padding-left: var(--SNSFFW_PaddingMargin_Spacing_Small);
-    display: inline-block;
-    line-height: 24px;
-    max-width:200px;
     overflow: hidden;
+    line-height: 24px;
     text-overflow: ellipsis;
     white-space: nowrap;
+    vertical-align: middle;
 }
 
 .SNSFFW-MenuItem > button > span:first-child {
@@ -6875,8 +7175,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-MenuItem > button > span:last-child {
-    padding-left: var(--SNSFFW_PaddingMargin_Spacing_Small);
     padding-right: var(--SNSFFW_PaddingMargin_Spacing_Standard);
+    padding-left: var(--SNSFFW_PaddingMargin_Spacing_Small);
 }
 
 .SNSFFW-MenuVertical > .SNSFFW-MenuItem > button > span:last-child {
@@ -6884,18 +7184,18 @@ _________________________________________________________________
 }
 
 .SNSFFW-MenuItemDropdown {
+    display: none;
     position: absolute;
-    max-width: 300px;
-    max-height: 500px;
     top: 0;
     left: 0;
-    display: none;
-    background-color: var(--SNSFFW_Default);
-    padding: 0;
+    max-width: 300px;
+    max-height: 500px;
     margin: 0;
-    list-style-type: none;
-    overflow-y: auto;
+    padding: 0;
     overflow-x: hidden;
+    overflow-y: auto;
+    background-color: var(--SNSFFW_Default);
+    list-style-type: none;
     z-index: 1;
 }
 
@@ -6905,8 +7205,8 @@ _________________________________________________________________
 
 .SNSFFW-MenuItemDropdown li button {
     width: 100%;
-    text-align: left;
     overflow: hidden;
+    text-align: left;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
@@ -6932,9 +7232,9 @@ _________________________________________________________________
 }
 
 .SNSFFW-TabItem {
-    background-color: var(--SNSFFW_Default);
     display: none;
     padding: var(--SNSFFW_PaddingMargin_Spacing_Standard);
+    background-color: var(--SNSFFW_Default);
 }
 
 .SNSFFW-TabItem.SNSFFW-TabItem--Active {
@@ -6946,11 +7246,11 @@ _________________________________________________________________
 }
 
 .SNSFFW-Pagination {
-    list-style: none;
-    padding: 0;
     display: table;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    list-style: none;
 }
 
 .SNSFFW-Pagination.SNSFFW-Pagination--Left {
@@ -6963,19 +7263,19 @@ _________________________________________________________________
 
 .SNSFFW-PaginationButton,
 .SNSFFW-PaginationItem {
-    margin: 0;
     display: table-cell;
+    margin: 0;
+    padding: var(--SNSFFW_PaddingMargin_Spacing_Smaller);
     text-align: center;
     vertical-align: middle;
-    padding: var(--SNSFFW_PaddingMargin_Spacing_Smaller);
 }
 
 .SNSFFW-PaginationButton a,
 .SNSFFW-PaginationItem a {
     display: inline-block;
+    color: var(--SNSFFW_Grey_3);
     text-decoration: none;
     vertical-align: middle;
-    color: var(--SNSFFW_Grey_3);
 }
 
 .SNSFFW-PaginationButton a:hover,
@@ -6984,8 +7284,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-PaginationButton a i {
-    vertical-align: middle;
     font-size: var(--SNSFFW_Font_Size_Standard);
+    vertical-align: middle;
 }
 
 .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
@@ -7173,7 +7473,7 @@ _________________________________________________________________
 }
 
 .SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active {
-    background-color:  var(--SNSFFW_FirstColor_2);
+    background-color: var(--SNSFFW_FirstColor_2);
 }
 
 .SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active a {
@@ -7207,7 +7507,7 @@ _________________________________________________________________
 }
 
 .SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active {
-    background-color:  var(--SNSFFW_SecondColor_2);
+    background-color: var(--SNSFFW_SecondColor_2);
 }
 
 .SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active a {
@@ -7241,7 +7541,7 @@ _________________________________________________________________
 }
 
 .SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active {
-    background-color:  var(--SNSFFW_ThirdColor_2);
+    background-color: var(--SNSFFW_ThirdColor_2);
 }
 
 .SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active a {
@@ -7275,7 +7575,7 @@ _________________________________________________________________
 }
 
 .SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active {
-    background-color:  var(--SNSFFW_Grey_2);
+    background-color: var(--SNSFFW_Grey_2);
 }
 
 .SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Active a {
@@ -7283,29 +7583,29 @@ _________________________________________________________________
 }
 
 .SNSFFW-Step {
-    list-style: none;
     display: table;
-    table-layout: fixed;
     width: 100%;
     padding: 0;
+    list-style: none;
+    table-layout: fixed;
 }
 
 .SNSFFW-StepItem {
     display: table-cell;
-    text-align: center;
     position: relative;
     padding-top: 24px;
+    text-align: center;
 }
 
 .SNSFFW-StepItem:before {
-    content: "";
-    background-color: var(--SNSFFW_Grey_3);
     display: block;
+    position: absolute;
+    top: 11px;
+    left: 50%;
     width: 100%;
     height: 2px;
-    position: absolute;
-    left: 50%;
-    top: 11px;
+    background-color: var(--SNSFFW_Grey_3);
+    content: "";
 }
 
 .SNSFFW-StepItem:last-child:before {
@@ -7313,18 +7613,18 @@ _________________________________________________________________
 }
 
 .SNSFFW-StepItem:after {
-    content: "";
-    background-color: var(--SNSFFW_Grey_3);
     display: block;
+    position: absolute;
+    top: 6px;
+    left: calc(50% - 6px);
     width: 12px;
     height: 12px;
     margin: auto;
-    position: absolute;
-    left: calc(50% - 6px);
-    top: 6px;
-    border-color: var(--SNSFFW_Grey_1);
     border-width: 2px;
     border-style: solid;
+    border-color: var(--SNSFFW_Grey_1);
+    background-color: var(--SNSFFW_Grey_3);
+    content: "";
 }
 
 .SNSFFW-Step__ItemCircle .SNSFFW-StepItem:after {
@@ -7336,8 +7636,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-StepItem--Active:after {
-    background-color: var(--SNSFFW_Grey_1);
     border-color: var(--SNSFFW_Grey_3);
+    background-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-StepItem--Active ~ .SNSFFW-StepItem {
@@ -7357,8 +7657,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Step__Design--KokobraOne .SNSFFW-StepItem--Active:after {
-    background-color: var(--SNSFFW_Grey_1);
     border-color: var(--SNSFFW_FirstColor_3);
+    background-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-Step__Design--KokobraOne .SNSFFW-StepItem--Active ~ .SNSFFW-StepItem:after {
@@ -7370,8 +7670,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Step__Design--KokobraTwo .SNSFFW-StepItem--Active:after {
-    background-color: var(--SNSFFW_Grey_1);
     border-color: var(--SNSFFW_SecondColor_3);
+    background-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-Step__Design--KokobraTwo .SNSFFW-StepItem--Active ~ .SNSFFW-StepItem:after {
@@ -7383,8 +7683,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Step__Design--KokobraThree .SNSFFW-StepItem--Active:after {
-    background-color: var(--SNSFFW_Grey_1);
     border-color: var(--SNSFFW_ThirdColor_3);
+    background-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-Step__Design--KokobraThree .SNSFFW-StepItem--Active ~ .SNSFFW-StepItem:after {
@@ -7396,8 +7696,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Step__Design--KokobraFour .SNSFFW-StepItem--Active:after {
-    background-color: var(--SNSFFW_Grey_1);
     border-color: var(--SNSFFW_Grey_3);
+    background-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-Step__Design--KokobraFour .SNSFFW-StepItem--Active ~ .SNSFFW-StepItem:after {
@@ -7413,8 +7713,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Step__Design--FumesuaOne .SNSFFW-StepItem--Active:after {
-    background-color: var(--SNSFFW_Grey_1);
     border-color: var(--SNSFFW_FirstColor_3);
+    background-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-Step__Design--FumesuaOne .SNSFFW-StepItem--Active ~ .SNSFFW-StepItem:after {
@@ -7434,8 +7734,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Step__Design--FumesuaTwo .SNSFFW-StepItem--Active:after {
-    background-color: var(--SNSFFW_Grey_1);
     border-color: var(--SNSFFW_SecondColor_3);
+    background-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-Step__Design--FumesuaTwo .SNSFFW-StepItem--Active ~ .SNSFFW-StepItem:after {
@@ -7455,8 +7755,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Step__Design--FumesuaThree .SNSFFW-StepItem--Active:after {
-    background-color: var(--SNSFFW_Grey_1);
     border-color: var(--SNSFFW_ThirdColor_3);
+    background-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-Step__Design--FumesuaThree .SNSFFW-StepItem--Active ~ .SNSFFW-StepItem:after {
@@ -7476,8 +7776,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Step__Design--FumesuaFour .SNSFFW-StepItem--Active:after {
-    background-color: var(--SNSFFW_Grey_1);
     border-color: var(--SNSFFW_Grey_3);
+    background-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-Step__Design--FumesuaFour .SNSFFW-StepItem--Active ~ .SNSFFW-StepItem:after {
@@ -7501,8 +7801,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Step__Design--OkyerekromOne .SNSFFW-StepItem--Active:after {
-    background-color: var(--SNSFFW_Grey_1);
     border-color: var(--SNSFFW_FirstColor_3);
+    background-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-Step__Design--OkyerekromOne .SNSFFW-StepItem--Active:before {
@@ -7534,8 +7834,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Step__Design--OkyerekromTwo .SNSFFW-StepItem--Active:after {
-    background-color: var(--SNSFFW_Grey_1);
     border-color: var(--SNSFFW_SecondColor_3);
+    background-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-Step__Design--OkyerekromTwo .SNSFFW-StepItem--Active:before {
@@ -7567,8 +7867,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Step__Design--OkyerekromThree .SNSFFW-StepItem--Active:after {
-    background-color: var(--SNSFFW_Grey_1);
     border-color: var(--SNSFFW_ThirdColor_3);
+    background-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-Step__Design--OkyerekromThree .SNSFFW-StepItem--Active:before {
@@ -7600,8 +7900,8 @@ _________________________________________________________________
 }
 
 .SNSFFW-Step__Design--OkyerekromFour .SNSFFW-StepItem--Active:after {
-    background-color: var(--SNSFFW_Grey_1);
     border-color: var(--SNSFFW_Grey_3);
+    background-color: var(--SNSFFW_Grey_1);
 }
 
 .SNSFFW-Step__Design--OkyerekromFour .SNSFFW-StepItem--Active:before {
@@ -7619,7 +7919,3 @@ _________________________________________________________________
 .SNSFFW-Step__Design--OkyerekromFour .SNSFFW-StepItem--Active ~ .SNSFFW-StepItem {
     color: var(--SNSFFW_Grey_2);
 }
-
-
-
-
