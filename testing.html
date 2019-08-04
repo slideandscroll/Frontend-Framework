@@ -19,7 +19,7 @@ Date: 01.08.2018
         
         <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,400i,700,700i|Libre+Franklin:200,200i,300,300i,400,400i,500,500i,600,600i|Taviraj:200,200i,300,300i,400,400i,500,500i,600,600i&amp;subset=latin-ext" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" media="all" href="SNSFFW/SNSFFW.min.css" />
+        <link rel="stylesheet" media="all" href="SNSFFW/SNSFFW.css" />
         <style>
             code {
                 background-color: var(--SNSFFW_FirstColor_2);
@@ -28,7 +28,7 @@ Date: 01.08.2018
         </style>
 
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="SNSFFW/SNSFFW.min.js"></script>
+        <script src="SNSFFW/SNSFFW.js"></script>
         <script>
             $(document).ready(function () {
                 $('.ChangeColorTheme:contains("Accra light")').click(function(){$('body').removeClass().addClass('SNSFFW-ThemeAccra--Light');});
@@ -69,6 +69,15 @@ Date: 01.08.2018
                 </div>
             </div>
             <p>&nbsp;</p>
+            <h2 class="SNSFFW-Font__FirstColor--3">Utilities</h2>
+            <h3 class="SNSFFW-Font__FirstColor--3">IE & Edge - No Support</h3>
+            <p><b>Can you see the following red paragraph? No!? Your browser is compatible. </b></p>
+            <p class="SNSFFW-NoWindowsBrowser" style="background-color: orangered; color: white; padding: 1em;">
+                Yes!? No support for IE and Edge browser!<br />
+                For full functionality of this website it is necessary to use a compatible browser.<br />
+                Compatible browsers are latest versions of Google Chrome, Mozilla Firefox or Opera Browser.<br />
+            </p>
+            <p>&nbsp;</p>
             <h2 class="SNSFFW-Font__FirstColor--3">Flexbox System</h2>
             <h3 class="SNSFFW-Font__FirstColor--3">3 Columns</h3>
             <p>&nbsp;</p>
@@ -87,10 +96,10 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
                 <div class="SNSFFW-Background__FirstColor--2 SNSFFW-Flex__Item" style="height: 5rem; border: 1px solid var(--SNSFFW_FirstColor_4);">SNSFFW-Flex__Item</div>
             </div>
-            <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem; flex-direction: column;">
+            <!--<div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem; flex-direction: column;">
                 <div class="SNSFFW-Background__FirstColor--2 SNSFFW-Flex__Item1of3" style="height: 5rem; border: 1px solid var(--SNSFFW_FirstColor_4);">SNSFFW-Flex__Item1of3 flex-direction: column;</div>
                 <div class="SNSFFW-Background__FirstColor--2 SNSFFW-Flex__Item2of3" style="height: 5rem; border: 1px solid var(--SNSFFW_FirstColor_4);">SNSFFW-Flex__Item2of3 flex-direction: column;</div>
-            </div>
+            </div>-->
             <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
                 <div class="SNSFFW-Background__FirstColor--2 SNSFFW-Flex__Item1of3" style="height: 5rem; border: 1px solid var(--SNSFFW_FirstColor_4);">SNSFFW-Flex__Item1of3</div>
                 <div class="SNSFFW-Background__FirstColor--2 SNSFFW-Flex__Item2of3" style="height: 5rem; border: 1px solid var(--SNSFFW_FirstColor_4);">SNSFFW-Flex__Item2of3</div>
@@ -121,21 +130,17 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
                 <div class="SNSFFW-Background__SecondColor--2 SNSFFW-Flex__Item" style="height: 5rem; border: 1px solid var(--SNSFFW_SecondColor_4);">SNSFFW-Flex__Item</div>
             </div>
-            <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem; flex-direction: column;">
-                <div class="SNSFFW-Background__SecondColor--2 SNSFFW-Flex__Item1of4" style="height: 5rem; border: 1px solid var(--SNSFFW_SecondColor_4);">SNSFFW-Flex__Item1of4 flex-direction: column;</div>
-                <div class="SNSFFW-Background__SecondColor--2 SNSFFW-Flex__Item3of4" style="height: 5rem; border: 1px solid var(--SNSFFW_SecondColor_4);">SNSFFW-Flex__Item3of4 flex-direction: column;</div>
-            </div>
             <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
                 <div class="SNSFFW-Background__SecondColor--2 SNSFFW-Flex__Item1of4" style="height: 5rem; border: 1px solid var(--SNSFFW_SecondColor_4);">SNSFFW-Flex__Item1of4</div>
                 <div class="SNSFFW-Background__SecondColor--2 SNSFFW-Flex__Item3of4" style="height: 5rem; border: 1px solid var(--SNSFFW_SecondColor_4);">SNSFFW-Flex__Item3of4</div>
             </div>
-            <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem; flex-direction: column;">
-                <div class="SNSFFW-Background__SecondColor--2 SNSFFW-Flex__Item2of4" style="height: 5rem; border: 1px solid var(--SNSFFW_SecondColor_4);">SNSFFW-Flex__Item2of4 flex-direction: column;</div>
-                <div class="SNSFFW-Background__SecondColor--2 SNSFFW-Flex__Item2of4" style="height: 5rem; border: 1px solid var(--SNSFFW_SecondColor_4);">SNSFFW-Flex__Item2of4 flex-direction: column;</div>
-            </div>
             <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
                 <div class="SNSFFW-Background__SecondColor--2 SNSFFW-Flex__Item2of4" style="height: 5rem; border: 1px solid var(--SNSFFW_SecondColor_4);">SNSFFW-Flex__Item2of4</div>
                 <div class="SNSFFW-Background__SecondColor--2 SNSFFW-Flex__Item2of4" style="height: 5rem; border: 1px solid var(--SNSFFW_SecondColor_4);">SNSFFW-Flex__Item2of4</div>
+            </div>
+            <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
+                <div class="SNSFFW-Background__SecondColor--2 SNSFFW-Flex__Item3of4" style="height: 5rem; border: 1px solid var(--SNSFFW_SecondColor_4);">SNSFFW-Flex__Item3of4</div>
+                <div class="SNSFFW-Background__SecondColor--2 SNSFFW-Flex__Item1of4" style="height: 5rem; border: 1px solid var(--SNSFFW_SecondColor_4);">SNSFFW-Flex__Item1of4</div>
             </div>
             <p>&nbsp;</p>
             <h3 class="SNSFFW-Font__FirstColor--3">5 Columns</h3>
@@ -149,35 +154,35 @@ Date: 01.08.2018
                 <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item</div>
             </div>
             <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
-                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item1of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item</div>
+                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item1of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item1of5</div>
             </div>
             <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
-                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item2of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item</div>
+                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item2of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item2of5</div>
             </div>
             <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
-                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item3of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item</div>
+                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item3of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item3of5</div>
             </div>
             <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
-                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item4of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item</div>
+                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item4of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item4of5</div>
             </div>
             <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
                 <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item</div>
             </div>
-            <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem; flex-direction: column;">
-                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item1of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item flex-direction: column;</div>
-                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item4of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item flex-direction: column;</div>
+            <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
+                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item1of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item1of5</div>
+                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item4of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item4of5</div>
             </div>
             <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
-                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item1of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item</div>
-                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item4of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item</div>
-            </div>
-            <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem; flex-direction: column;">
-                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item2of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item flex-direction: column;</div>
-                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item3of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item flex-direction: column;</div>
+                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item2of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item2of5</div>
+                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item3of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item3of5</div>
             </div>
             <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
-                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item2of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item</div>
-                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item3of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item</div>
+                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item3of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item3of5</div>
+                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item2of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item2of5</div>
+            </div>
+            <div class="SNSFFW-Hidden__Small--Flex" style="padding-bottom: 1rem;">
+                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item4of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item4of5</div>
+                <div class="SNSFFW-Background__ThirdColor--2 SNSFFW-Flex__Item1of5" style="height: 5rem; border: 1px solid var(--SNSFFW_ThirdColor_4);">SNSFFW-Flex__Item1of5</div>
             </div>
             <p>&nbsp;</p>
             <h3 class="SNSFFW-Font__FirstColor--3">Horizontal Alignment</h3>
@@ -1006,6 +1011,13 @@ Date: 01.08.2018
                     <del>Deleted</del>
                 </p>
                 <p>&nbsp;</p>
+                <h5 class="SNSFFW-Font__FirstColor--3">Mark</h5>
+                <p><code>&lt;mark&gt;</code></p>
+                <p>
+                    <mark>Mark</mark>
+                </p>
+                <p>Lorem ipsum dolor sit amet: <mark>consetetur sadipscing elitr</mark>, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p>&nbsp;</p>
                 <h5 class="SNSFFW-Font__FirstColor--3">Sample</h5>
                 <p><code>&lt;samp&gt;</code></p>
                 <p>
@@ -1015,6 +1027,9 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
                 <h5 class="SNSFFW-Font__FirstColor--3">Abbreviations</h5>
                 <p><code>&lt;abbr&gt;</code></p>
+                <p>
+                    <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>
+                </p>
                 <p><abbr title="HyperText Markup Language">HTML</abbr> ist eine textbasierte Auszeichnungssprache zur Strukturierung digitaler Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten.<br /> <abbr title="Cascading Style Sheets">CSS</abbr> ist eine Stylesheet-Sprache für elektronische Dokumente und zusammen mit HTML und DOM eine der Kernsprachen des World Wide Webs.</p>
                 <p>&nbsp;</p>
                 <h5 class="SNSFFW-Font__FirstColor--3">Source Code</h5>
@@ -1056,6 +1071,21 @@ Date: 01.08.2018
                 <p class="SNSFFW-FontSerif__LetterSpacing--Wide">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                 <cite>Lorem ipsum</cite>
             </blockquote>
+            <p>&nbsp;</p>
+            <h3 class="SNSFFW-Font__FirstColor--3">Dedails & Summary</h3>
+            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <code>
+                    &lt;details&gt;<br />
+                    &emsp;&lt;summary&gt;...&lt;/summary&gt;<br />
+                    &emsp;...<br />
+                    &lt;/details&gt;<br />
+                </code>
+            </p>
+            <details>
+                <summary>Copyright 2018 - 2019</summary>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                <p>Sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+            </details>
             <p>&nbsp;</p>
             <h3 class="SNSFFW-Font__FirstColor--3">Lists</h3>
             <h4 class="SNSFFW-Font__FirstColor--3">Unordered List</h4>
@@ -1607,6 +1637,127 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h3 class="SNSFFW-Font__FirstColor--3">Figure</h3>
+            <h4 class="SNSFFW-Font__FirstColor--3">Alignment</h4>
+            <h5>without Alignment (Standard Design)</h5>
+            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <code>
+                    &lt;figure&gt;<br />
+                    &emsp;&lt;img src="..." alt="..."&gt;<br />
+                    &emsp;&lt;figcaption&gt;...&lt;/figcaption&gt;<br />
+                    &lt;/figure&gt;<br />
+                    ...<br />
+                    &lt;figure&gt;...&lt;/figure&gt;<br />
+                    &lt;figure&gt;...&lt;/figure&gt;<br />
+                    ...<br />
+                </code>
+            </p>
+            <figure style="width: calc(100% / 3);">
+                <img src="https://snsffw.slideandscroll.com/images/16x9_pic1.png" alt="picture 1" />
+                <figcaption>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <figure style="width: calc(100% / 3);">
+                <img src="https://snsffw.slideandscroll.com/images/16x9_pic1.png" alt="picture 1" />
+                <figcaption>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</figcaption>
+            </figure>
+            <figure style="width: calc(100% / 3);">
+                <img src="https://snsffw.slideandscroll.com/images/16x9_pic1.png" alt="picture 1" />
+                <figcaption>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>&nbsp;</p>
+            <h5>Alignment Left</h5>
+            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <code>
+                    &lt;figure class="SNSFFW-Figure__Alignment--Left"&gt;<br />
+                    &emsp;&lt;img src="..." alt="..."&gt;<br />
+                    &emsp;&lt;figcaption&gt;...&lt;/figcaption&gt;<br />
+                    &lt;/figure&gt;<br />
+                    ...<br />
+                    &lt;figure class="SNSFFW-Figure__Alignment--Left"&gt;...&lt;/figure&gt;<br />
+                    &lt;figure class="SNSFFW-Figure__Alignment--Left"&gt;...&lt;/figure&gt;<br />
+                    ...<br />
+                </code>
+            </p>
+            <figure class="SNSFFW-Figure__Alignment--Left" style="width: calc(100% / 3);">
+                <img src="https://snsffw.slideandscroll.com/images/16x9_pic1.png" alt="picture 1" />
+                <figcaption>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <figure class="SNSFFW-Figure__Alignment--Left" style="width: calc(100% / 3);">
+                <img src="https://snsffw.slideandscroll.com/images/16x9_pic1.png" alt="picture 1" />
+                <figcaption>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</figcaption>
+            </figure>
+            <figure class="SNSFFW-Figure__Alignment--Left" style="width: calc(100% / 3);">
+                <img src="https://snsffw.slideandscroll.com/images/16x9_pic1.png" alt="picture 1" />
+                <figcaption>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>&nbsp;</p>
+            <h5>Alignment Center</h5>
+            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <code>
+                    &lt;figure class="SNSFFW-Figure__Alignment--Center"&gt;<br />
+                    &emsp;&lt;img src="..." alt="..."&gt;<br />
+                    &emsp;&lt;figcaption&gt;...&lt;/figcaption&gt;<br />
+                    &lt;/figure&gt;<br />
+                    ...<br />
+                    &lt;figure class="SNSFFW-Figure__Alignment--Center"&gt;...&lt;/figure&gt;<br />
+                    &lt;figure class="SNSFFW-Figure__Alignment--Center"&gt;...&lt;/figure&gt;<br />
+                    ...<br />
+                </code>
+            </p>
+            <figure class="SNSFFW-Figure__Alignment--Center" style="width: calc(100% / 3);">
+                <img src="https://snsffw.slideandscroll.com/images/16x9_pic1.png" alt="picture 1" />
+                <figcaption>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <figure class="SNSFFW-Figure__Alignment--Center" style="width: calc(100% / 3);">
+                <img src="https://snsffw.slideandscroll.com/images/16x9_pic1.png" alt="picture 1" />
+                <figcaption>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</figcaption>
+            </figure>
+            <figure class="SNSFFW-Figure__Alignment--Center" style="width: calc(100% / 3);">
+                <img src="https://snsffw.slideandscroll.com/images/16x9_pic1.png" alt="picture 1" />
+                <figcaption>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>&nbsp;</p>
+            <h5>Alignment Right</h5>
+            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <code>
+                    &lt;figure class="SNSFFW-Figure__Alignment--Right"&gt;<br />
+                    &emsp;&lt;img src="..." alt="..."&gt;<br />
+                    &emsp;&lt;figcaption&gt;...&lt;/figcaption&gt;<br />
+                    &lt;/figure&gt;<br />
+                    ...<br />
+                    &lt;figure class="SNSFFW-Figure__Alignment--Right"&gt;...&lt;/figure&gt;<br />
+                    &lt;figure class="SNSFFW-Figure__Alignment--Right"&gt;...&lt;/figure&gt;<br />
+                    ...<br />
+                </code>
+            </p>
+            <figure class="SNSFFW-Figure__Alignment--Right" style="width: calc(100% / 3);">
+                <img src="https://snsffw.slideandscroll.com/images/16x9_pic1.png" alt="picture 1" />
+                <figcaption>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <figure class="SNSFFW-Figure__Alignment--Right" style="width: calc(100% / 3);">
+                <img src="https://snsffw.slideandscroll.com/images/16x9_pic1.png" alt="picture 1" />
+                <figcaption>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</figcaption>
+            </figure>
+            <figure class="SNSFFW-Figure__Alignment--Right" style="width: calc(100% / 3);">
+                <img src="https://snsffw.slideandscroll.com/images/16x9_pic1.png" alt="picture 1" />
+                <figcaption>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <p>&nbsp;</p>
             <h4 class="SNSFFW-Font__FirstColor--3">Standard Design</h4>
             <p style="background-color: var(--SNSFFW_FirstColor_2);">
                 <code>

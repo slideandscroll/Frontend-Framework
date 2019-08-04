@@ -18,6 +18,7 @@ TABLE OF CONTENTS
         b.      Reset
         c.      Fonts
         d.      Colors
+        e.      IE & Edge Browser Blocker
     II.     Layout
         a.      Containers
         b.      Responsive Utilities
@@ -44,49 +45,42 @@ _________________________________________________________________
     --SNSFFW_LetterSpacing_Standard: normal;
     --SNSFFW_LetterSpacing_Wide: 0.2em;
     --SNSFFW_LetterSpacing_Wider: 0.4em;
-
     /* line height */
     --SNSFFW_LineHeight_Lower: .86em;
     --SNSFFW_LineHeight_Low: .93em;
     --SNSFFW_LineHeight_Standard: 1em;
     --SNSFFW_LineHeight_High: 1.5em;
     --SNSFFW_LineHeight_Higher: 2em;
-
     /* font weight */
     --SNSFFW_Font_Weight_Lighter: 200;
     --SNSFFW_Font_Weight_Light: 300;
     --SNSFFW_Font_Weight_Standard: 400;
     --SNSFFW_Font_Weight_Bold: 500;
     --SNSFFW_Font_Weight_Bolder: 600;
-
     /* font size */
     --SNSFFW_Font_Size_Smaller: .5em;
     --SNSFFW_Font_Size_Small: .75em;
     --SNSFFW_Font_Size_Standard: 1em;
     --SNSFFW_Font_Size_Large: 1.5em;
     --SNSFFW_Font_Size_Larger: 2em;
-
     /* padding & margin */
     --SNSFFW_PaddingMargin_Spacing_Smaller: .25rem;
     --SNSFFW_PaddingMargin_Spacing_Small: .5rem;
     --SNSFFW_PaddingMargin_Spacing_Standard: 1rem;
     --SNSFFW_PaddingMargin_Spacing_Big: 1.5rem;
     --SNSFFW_PaddingMargin_Spacing_Bigger: 2rem;
-
     /* border width */
     --SNSFFW_Border_Width_Smaller: .0625rem;
     --SNSFFW_Border_Width_Small: .125rem;
     --SNSFFW_Border_Width_Standard: .1875rem;
     --SNSFFW_Border_Width_Big: .25rem;
     --SNSFFW_Border_Width_Bigger: .3125rem;
-
     /* border radius */
     --SNSFFW_Border_Radius_Smaller: .125rem;
     --SNSFFW_Border_Radius_Small: .25rem;
     --SNSFFW_Border_Radius_Standard: .375rem;
     --SNSFFW_Border_Radius_Big: .5rem;
     --SNSFFW_Border_Radius_Bigger: .625rem;
-
     /* box shadow size */
     --SNSFFW_Box_Shadow_Smaller: 0 .2rem .5rem;
     --SNSFFW_Box_Shadow_Small: 0 .3rem .75rem;
@@ -109,7 +103,7 @@ _________________________________________________________________
     box-sizing: border-box;
 }
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -123,7 +117,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     display: none;
 }
 
-address, article, aside, blockquote, body, center, dd, dir, div, dl, dt, figure, figcaption, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, img, legend, listing, menu, nav, ol, p, plaintext, pre, section, summary, ul, xmp {
+address, article, aside, blockquote, body, center, details, dd, dir, div, dl, dt, figure, figcaption, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, img, legend, listing, main, menu, nav, ol, p, plaintext, pre, section, summary, ul, xmp {
     display: block;
     unicode-bidi: embed;
 }
@@ -2657,6 +2651,30 @@ body {
 
 
 
+/*
+_________________________________________________________________
+
+I. Basic
+    3. IE & Edge Browser Blocker
+_________________________________________________________________
+*/
+.SNSFFW-NoWindowsBrowser {
+    display: none;
+}
+
+_:-ms-lang(x),
+.SNSFFW-NoWindowsBrowser {
+    display: block;
+}
+
+_:-ms-lang(x),
+_:-webkit-full-screen,
+.SNSFFW-NoWindowsBrowser {
+    display: block;
+}
+
+
+
 
 
 /*
@@ -3638,11 +3656,15 @@ h6 {
     font-size: 1.125rem;
 }
 
-p, strong, b, em, i, cite, var, s, del, samp, abbr, code, blockquote, ul, ol, dl, table, figcaption, form, legend, label, input, textarea, select, button {
+p, strong, b, em, i, cite, var, s, del, samp, abbr, code, blockquote, ul, ol, dl, table, figcaption, form, legend, label, input, textarea, select, button, details, summary {
     font-size: 1rem;
 }
 
-figcaption {
+figcaption,
+figcaption strong,
+figcaption b,
+figcaption em,
+figcaption i {
     font-size: .8rem;
 }
 
@@ -3672,11 +3694,15 @@ figcaption {
         font-size: 1rem;
     }
 
-    p, strong, b, em, i, cite, var, s, del, samp, abbr, code, blockquote, ul, ol, dl, table, figcaption, form, legend, label, input, textarea, select, button {
+    p, strong, b, em, i, cite, var, s, del, samp, abbr, code, blockquote, ul, ol, dl, table, figcaption, form, legend, label, input, textarea, select, button, details, summary {
         font-size: .875rem;
     }
 
-    figcaption {
+    figcaption,
+    figcaption strong,
+    figcaption b,
+    figcaption em,
+    figcaption i {
         font-size: .7rem;
     }
 }
@@ -3707,11 +3733,15 @@ figcaption {
         font-size: .875rem;
     }
 
-    p, strong, b, em, i, cite, var, s, del, samp, abbr, code, blockquote, ul, ol, dl, table, figcaption, form, legend, label, input, textarea, select, button {
+    p, strong, b, em, i, cite, var, s, del, samp, abbr, code, blockquote, ul, ol, dl, table, figcaption, form, legend, label, input, textarea, select, button, details, summary {
         font-size: .75rem;
     }
 
-    figcaption {
+    figcaption,
+    figcaption strong,
+    figcaption b,
+    figcaption em,
+    figcaption i {
         font-size: .6rem;
     }
 }
@@ -3821,7 +3851,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5em;
 }
 
-p, blockquote, ul, ol, dl, table, form, fieldset, hr {
+p, blockquote, ul, ol, dl, table, form, fieldset, hr, details, summary {
     margin-bottom: var(--SNSFFW_PaddingMargin_Spacing_Big);
 }
 
@@ -3859,6 +3889,10 @@ s, del {
     text-decoration: line-through;
 }
 
+mark {
+    background-color: var(--SNSFFW_DefaultColor_Yellow);
+}
+
 samp {
     font-family: 'Anonymous Pro', monospace;
     font-style: italic;
@@ -3894,6 +3928,11 @@ blockquote {
     padding-left: var(--SNSFFW_PaddingMargin_Spacing_Bigger);
     border-right: var(--SNSFFW_Border_Width_Small) solid currentColor;
     border-left: var(--SNSFFW_Border_Width_Small) solid currentColor;
+}
+
+details summary {
+    outline: none;
+    font-weight: bold;
 }
 
 blockquote p:before {
@@ -4258,12 +4297,25 @@ video {
 }
 
 figure {
-    display: inline-block;
     padding: var(--SNSFFW_PaddingMargin_Spacing_Small);
-    float: left;
     border-width: var(--SNSFFW_Border_Width_Smaller);
     border-style: solid;
     border-color: transparent;
+}
+
+figure.SNSFFW-Figure__Alignment--Left {
+    display: inline-block;
+    float: left;
+}
+
+figure.SNSFFW-Figure__Alignment--Center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+figure.SNSFFW-Figure__Alignment--Right {
+    display: inline-block;
+    float: right;
 }
 
 figure.SNSFFW-Figure__Design--MoleOne {
@@ -6013,7 +6065,6 @@ _________________________________________________________________
 }
 
 .SNSFFW-Accordion_BellowsHeader > i.SNSFFW-Accordion_BellowsHeader--IconUp {
-    -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
     transition-duration: .25s;
 }
@@ -7288,8 +7339,8 @@ _________________________________________________________________
     vertical-align: middle;
 }
 
-.SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
-.SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+.SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled a,
+.SNSFFW-PaginationItem.SNSFFW-PaginationItem--Disabled a {
     color: var(--SNSFFW_Grey_2);
     cursor: not-allowed;
 }
@@ -7310,7 +7361,7 @@ _________________________________________________________________
     color: var(--SNSFFW_FirstColor_4);
 }
 
-.SNSFFW-Pagination__Design--AtimpokuOne .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a {
+.SNSFFW-Pagination__Design--AtimpokuOne .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled a {
     color: var(--SNSFFW_FirstColor_2);
 }
 
@@ -7322,7 +7373,7 @@ _________________________________________________________________
     color: var(--SNSFFW_SecondColor_4);
 }
 
-.SNSFFW-Pagination__Design--AtimpokuTwo .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a {
+.SNSFFW-Pagination__Design--AtimpokuTwo .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled a {
     color: var(--SNSFFW_SecondColor_2);
 }
 
@@ -7334,7 +7385,7 @@ _________________________________________________________________
     color: var(--SNSFFW_ThirdColor_4);
 }
 
-.SNSFFW-Pagination__Design--AtimpokuThree .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a {
+.SNSFFW-Pagination__Design--AtimpokuThree .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled a {
     color: var(--SNSFFW_ThirdColor_2);
 }
 
@@ -7346,7 +7397,7 @@ _________________________________________________________________
     color: var(--SNSFFW_Grey_4);
 }
 
-.SNSFFW-Pagination__Design--AtimpokuFour .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a {
+.SNSFFW-Pagination__Design--AtimpokuFour .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled a {
     color: var(--SNSFFW_Grey_2);
 }
 
@@ -7361,8 +7412,8 @@ _________________________________________________________________
     color: var(--SNSFFW_FirstColor_4);
 }
 
-.SNSFFW-Pagination__Design--KonongoOne .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
-.SNSFFW-Pagination__Design--KonongoOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+.SNSFFW-Pagination__Design--KonongoOne .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled a,
+.SNSFFW-Pagination__Design--KonongoOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Disabled a {
     color: var(--SNSFFW_FirstColor_2);
 }
 
@@ -7385,8 +7436,8 @@ _________________________________________________________________
     color: var(--SNSFFW_SecondColor_4);
 }
 
-.SNSFFW-Pagination__Design--KonongoTwo .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
-.SNSFFW-Pagination__Design--KonongoTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+.SNSFFW-Pagination__Design--KonongoTwo .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled a,
+.SNSFFW-Pagination__Design--KonongoTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Disabled a {
     color: var(--SNSFFW_SecondColor_2);
 }
 
@@ -7409,8 +7460,8 @@ _________________________________________________________________
     color: var(--SNSFFW_ThirdColor_4);
 }
 
-.SNSFFW-Pagination__Design--KonongoThree .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
-.SNSFFW-Pagination__Design--KonongoThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+.SNSFFW-Pagination__Design--KonongoThree .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled a,
+.SNSFFW-Pagination__Design--KonongoThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Disabled a {
     color: var(--SNSFFW_ThirdColor_2);
 }
 
@@ -7433,8 +7484,8 @@ _________________________________________________________________
     color: var(--SNSFFW_Grey_4);
 }
 
-.SNSFFW-Pagination__Design--KonongoFour .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
-.SNSFFW-Pagination__Design--KonongoFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+.SNSFFW-Pagination__Design--KonongoFour .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled a,
+.SNSFFW-Pagination__Design--KonongoFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Disabled a {
     color: var(--SNSFFW_Grey_2);
 }
 
@@ -7462,13 +7513,13 @@ _________________________________________________________________
     color: var(--SNSFFW_FirstColor_3);
 }
 
-.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled,
-.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled {
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled,
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Disabled {
     background-color: var(--SNSFFW_FirstColor_3);
 }
 
-.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
-.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled a,
+.SNSFFW-Pagination__Design--TechimanOne .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Disabled a {
     color: var(--SNSFFW_FirstColor_1);
 }
 
@@ -7496,13 +7547,13 @@ _________________________________________________________________
     color: var(--SNSFFW_SecondColor_3);
 }
 
-.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled,
-.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled {
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled,
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Disabled {
     background-color: var(--SNSFFW_SecondColor_3);
 }
 
-.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
-.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled a,
+.SNSFFW-Pagination__Design--TechimanTwo .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Disabled a {
     color: var(--SNSFFW_SecondColor_1);
 }
 
@@ -7530,13 +7581,13 @@ _________________________________________________________________
     color: var(--SNSFFW_ThirdColor_3);
 }
 
-.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled,
-.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled {
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled,
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Disabled {
     background-color: var(--SNSFFW_ThirdColor_3);
 }
 
-.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
-.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled a,
+.SNSFFW-Pagination__Design--TechimanThree .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Disabled a {
     color: var(--SNSFFW_ThirdColor_1);
 }
 
@@ -7564,13 +7615,13 @@ _________________________________________________________________
     color: var(--SNSFFW_Grey_3);
 }
 
-.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled,
-.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled {
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled,
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Disabled {
     background-color: var(--SNSFFW_Grey_3);
 }
 
-.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Diabled a,
-.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Diabled a {
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationButton.SNSFFW-PaginationButton--Disabled a,
+.SNSFFW-Pagination__Design--TechimanFour .SNSFFW-PaginationItem.SNSFFW-PaginationItem--Disabled a {
     color: var(--SNSFFW_Grey_1);
 }
 
