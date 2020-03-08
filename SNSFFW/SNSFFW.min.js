@@ -1,5 +1,5 @@
 /*
-SLIDE and SCROLL - FFW v1.1.2
+SLIDE and SCROLL - FFW v1.2.0
 https://snsffw.slideandscroll.com
 
 Copyright 2018-2019 SLIDE and SCROLL by Daniel Friedrich
