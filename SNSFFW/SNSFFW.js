@@ -1,5 +1,5 @@
 /*
-SLIDE and SCROLL - FFW v1.2.1
+SLIDE and SCROLL - FFW v1.2.2
 https://snsffw.slideandscroll.com
 
 Copyright 2018-2020 SLIDE and SCROLL by Daniel Friedrich
@@ -114,7 +114,7 @@ $(document).ready(function () {
         var bodyWidthWithScrollbar = $('body').outerWidth();
 
         // ... hide scrollbar.
-        $('body').css("overflow", "hidden");
+        $('body').css({"position": "sticky", "overflow": "hidden"});
         
         // ... take body width without scrollbar and calculate scrollbar width.
         var bodyWidthWithoutScrollbar = $('body').outerWidth();
@@ -123,11 +123,11 @@ $(document).ready(function () {
         // ... if scrollbar width is less than or equal "0", ...
         if (bodyScrollbarWidth <= 0) {
             // ... margin right has "0px", ...
-            $('body').css("margin-right", "0");
+            $('body').css("padding-right", "0");
         }
         else {
             // ... else margin right has scrollbar width.
-            $('body').css("margin-right", bodyScrollbarWidth);
+            $('body').css("padding-right", bodyScrollbarWidth);
         }
         
         // ... the modal (dialog) appears.
@@ -142,8 +142,9 @@ $(document).ready(function () {
         // ... "body" is scrollable again.
         $('body').delay(250).queue(function (next) {
             $(this).css({
-                "overflow": "inherit",
-                "margin-right": "0"
+                "overflow": "",
+                "position": "",
+                "padding-right": ""
             });
             next();
         });     

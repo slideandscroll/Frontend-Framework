@@ -1,5 +1,5 @@
 ﻿/*
-SLIDE and SCROLL - FFW v1.2.1
+SLIDE and SCROLL - FFW v1.2.2
 https://snsffw.slideandscroll.com
 
 Copyright 2018-2020 SLIDE and SCROLL by Daniel Friedrich
@@ -87,6 +87,10 @@ _________________________________________________________________
     --SNSFFW_Box_Shadow_Standard: 0 .4rem 1rem;
     --SNSFFW_Box_Shadow_Big: 0 .5rem 1.25rem;
     --SNSFFW_Box_Shadow_Bigger: 0 .6rem 1.5rem;
+    /* fonts */
+    --SNSFFW_Font_SansSerif: 'Libre Franklin', sans-serif;
+    --SNSFFW_Font_Serif: 'Taviraj', serif;
+    --SNSFFW_Font_Monospace: 'Anonymous Pro', monospace;
     /* END ROOT */
 }
 
@@ -245,6 +249,18 @@ _________________________________________________________________
 /*default font*/
 body {
     font-family: 'Libre Franklin', sans-serif;
+}
+
+.SNSFFW-Font__SansSerif {
+    font-family: 'Libre Franklin', sans-serif;
+}
+    
+.SNSFFW-Font__Serif {
+    font-family: 'Taviraj', serif;
+}
+    
+.SNSFFW-Font__Monospace {
+    font-family: 'Anonymous Pro', monospace;
 }
 
 
@@ -2655,7 +2671,7 @@ body {
 _________________________________________________________________
 
 I. Basic
-    3. IE & Edge Browser Blocker
+    e. IE & Edge Browser Blocker
 _________________________________________________________________
 */
 .SNSFFW-NoWindowsBrowser {
@@ -2678,7 +2694,7 @@ _:-webkit-full-screen,
 /*
 _________________________________________________________________
 
-I. Layout
+II. Layout
     a. Containers
 _________________________________________________________________
 */
@@ -2789,7 +2805,7 @@ _________________________________________________________________
 /*
 _________________________________________________________________
 
-I. Layout
+II. Layout
     b. Responsive Utilities
 _________________________________________________________________
 */
@@ -3293,7 +3309,7 @@ _________________________________________________________________
 /*
 _________________________________________________________________
 
-I. Layout
+II. Layout
     c. Flexbox System
 _________________________________________________________________
 */
@@ -3414,7 +3430,7 @@ _________________________________________________________________
 /*
 _________________________________________________________________
 
-I. Layout
+II. Layout
     d. Grid System
 _________________________________________________________________
 */
@@ -3623,7 +3639,7 @@ _________________________________________________________________
 /*
 _________________________________________________________________
 
-I. Content
+III. Content
     a. Typography
 _________________________________________________________________
 */
@@ -3902,6 +3918,7 @@ abbr {
 code {
     font-family: 'Anonymous Pro', monospace;
     line-height: 1.5em;
+    color: var(--SNSFFW_SecondColor_4);
 }
 
 hr {
@@ -3915,7 +3932,7 @@ hr {
 /*
 _________________________________________________________________
 
-I. Content
+III. Content
     b. Elements
 _________________________________________________________________
 */
@@ -6002,7 +6019,7 @@ input[type="text"]:disabled, input[type="date"]:disabled, input[type="number"]:d
 /*
 _________________________________________________________________
 
-I. Content
+III. Content
     c. Components
 _________________________________________________________________
 */
@@ -7170,9 +7187,6 @@ _________________________________________________________________
 .SNSFFW-Menu.SNSFFW-MenuHorizontal > .SNSFFW-MenuItem {
     display: inline-block;
     margin-right: -4px;
-}
-
-.SNSFFW-Menu.SNSFFW-MenuVertical > .SNSFFW-MenuItem {
 }
 
 .SNSFFW-MenuItem > button {

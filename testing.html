@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <!--
-SLIDE and SCROLL - FFW v1.2.1
+SLIDE and SCROLL - FFW v1.2.2
 https://snsffw.slideandscroll.com
 
 Copyright 2018-2020 SLIDE and SCROLL by Daniel Friedrich
@@ -22,9 +22,11 @@ Date: 01.08.2018
         <link rel="stylesheet" media="all" href="SNSFFW/SNSFFW.min.css" />
         <!-- <link rel="stylesheet" media="all" href="SNSFFW/SNSFFW.css" /> -->
         <style>
-            code {
-                background-color: var(--SNSFFW_FirstColor_2);
-                color: var(--SNSFFW_FirstColor_4);
+            .code-style {
+                border-color: var(--SNSFFW_SecondColor_4);
+                border-width: var(--SNSFFW_Border_Width_Smaller);
+                border-style: dashed;
+                padding: var(--SNSFFW_PaddingMargin_Spacing_Small);
             }
         </style>
 
@@ -529,9 +531,38 @@ Date: 01.08.2018
         <div class="SNSFFW-Container__Centered--Width60">
             <h1 class="SNSFFW-Font__FirstColor--3">Content</h1>
             <h2 class="SNSFFW-Font__FirstColor--3">Typography</h2>
+            <h3 class="SNSFFW-Font__FirstColor--3">Fonts</h3>
+            <h4 class="SNSFFW-Font__FirstColor--3">HTML classes</h4>
+            <p class="code-style">
+                <code>
+                    &lt;p class="SNSFFW-Font__SansSerif"&gt;Lorem ipsum...&lt;/p&gt;<br />
+                    &lt;p class="SNSFFW-Font__Serif"&gt;Lorem ipsum...&lt;/p&gt;<br />
+                    &lt;p class="SNSFFW-Font__Monospace"&gt;Lorem ipsum...&lt;/p&gt;<br />
+                </code>
+            </p>
+            <div>
+                <p class="SNSFFW-Font__SansSerif">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p class="SNSFFW-Font__Serif">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p class="SNSFFW-Font__Monospace">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p>&nbsp;</p>
+            </div>
+            <h4 class="SNSFFW-Font__FirstColor--3">CSS variables</h4>
+            <p class="code-style">
+                <code>
+                    &lt;p style="font-family: var(--SNSFFW_Font_SansSerif);"&gt;Lorem ipsum...&lt;/p&gt;<br />
+                    &lt;p style="font-family: var(--SNSFFW_Font_Serif);"&gt;Lorem ipsum...&lt;/p&gt;<br />
+                    &lt;p style="font-family: var(--SNSFFW_Font_Monospace);"&gt;Lorem ipsum...&lt;/p&gt;<br />
+                </code>
+            </p>
+            <div>
+                <p style="font-family: var(--SNSFFW_Font_SansSerif);">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p style="font-family: var(--SNSFFW_Font_Serif);">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p style="font-family: var(--SNSFFW_Font_Monospace);">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                <p>&nbsp;</p>
+            </div>
             <h3 class="SNSFFW-Font__FirstColor--3">Headings &amp; Paragraphs</h3>
             <h4 class="SNSFFW-Font__FirstColor--3">Font - Sans serif</h4>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--Normal"&gt;<br />
                     &emsp;&lt;h1&gt;...&lt;/h1&gt;<br />
@@ -553,7 +584,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
             </div>
             <h4 class="SNSFFW-Font__FirstColor--3">Font - Serif</h4>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-FontSerif__LetterSpacing--Normal"&gt;<br />
                     &emsp;&lt;h1&gt;...&lt;/h1&gt;<br />
@@ -615,7 +646,7 @@ Date: 01.08.2018
             <h4 class="SNSFFW-Font__FirstColor--3">Font - Sans serif</h4>
             <div class="SNSFFW-FontSansSerif__LetterSpacing--Normal">
                 <h5 class="SNSFFW-Font__FirstColor--3">Lower</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;p class="SNSFFW-Font__LineHeight--Lower"&gt;...&lt;/p&gt;<br />
@@ -625,7 +656,7 @@ Date: 01.08.2018
                 </p>
                 <p class="SNSFFW-Font__LineHeight--Lower">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                 <h5 class="SNSFFW-Font__FirstColor--3">Low</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;p class="SNSFFW-Font__LineHeight--Low"&gt;...&lt;/p&gt;<br />
@@ -635,7 +666,7 @@ Date: 01.08.2018
                 </p>
                 <p class="SNSFFW-Font__LineHeight--Low">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                 <h5 class="SNSFFW-Font__FirstColor--3">Normal</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;p class="SNSFFW-Font__LineHeight--Normal"&gt;...&lt;/p&gt;<br />
@@ -645,7 +676,7 @@ Date: 01.08.2018
                 </p>
                 <p class="SNSFFW-Font__LineHeight--Normal">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                 <h5 class="SNSFFW-Font__FirstColor--3">High</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;p class="SNSFFW-Font__LineHeight--High"&gt;...&lt;/p&gt;<br />
@@ -655,7 +686,7 @@ Date: 01.08.2018
                 </p>
                 <p class="SNSFFW-Font__LineHeight--High">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                 <h5 class="SNSFFW-Font__FirstColor--3">Higher</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;p class="SNSFFW-Font__LineHeight--Higher"&gt;...&lt;/p&gt;<br />
@@ -669,7 +700,7 @@ Date: 01.08.2018
             <h4 class="SNSFFW-Font__FirstColor--3">Font - Serif</h4>
             <div class="SNSFFW-FontSerif__LetterSpacing--Normal">
                 <h5 class="SNSFFW-Font__FirstColor--3">Lower</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;p class="SNSFFW-Font__LineHeight--Lower"&gt;...&lt;/p&gt;<br />
@@ -679,7 +710,7 @@ Date: 01.08.2018
                 </p>
                 <p class="SNSFFW-Font__LineHeight--Lower">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                 <h5 class="SNSFFW-Font__FirstColor--3">Low</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;p class="SNSFFW-Font__LineHeight--Low"&gt;...&lt;/p&gt;<br />
@@ -689,7 +720,7 @@ Date: 01.08.2018
                 </p>
                 <p class="SNSFFW-Font__LineHeight--Low">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                 <h5 class="SNSFFW-Font__FirstColor--3">Normal</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;p class="SNSFFW-Font__LineHeight--Normal"&gt;...&lt;/p&gt;<br />
@@ -699,7 +730,7 @@ Date: 01.08.2018
                 </p>
                 <p class="SNSFFW-Font__LineHeight--Normal">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                 <h5 class="SNSFFW-Font__FirstColor--3">High</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;p class="SNSFFW-Font__LineHeight--High"&gt;...&lt;/p&gt;<br />
@@ -709,7 +740,7 @@ Date: 01.08.2018
                 </p>
                 <p class="SNSFFW-Font__LineHeight--High">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
                 <h5 class="SNSFFW-Font__FirstColor--3">Higher</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;p class="SNSFFW-Font__LineHeight--Higher"&gt;...&lt;/p&gt;<br />
@@ -724,7 +755,7 @@ Date: 01.08.2018
             <h3 class="SNSFFW-Font__FirstColor--3">Heading - Font Weight</h3>
             <h4 class="SNSFFW-Font__FirstColor--3">Font - Sans serif</h4>
             <h5 class="SNSFFW-Font__FirstColor--3">Light</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;h1 class="SNSFFW-Heading__FontWeight--Light"&gt;...&lt;/h1&gt;<br />
@@ -742,7 +773,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
             </div>
             <h5 class="SNSFFW-Font__FirstColor--3">Lighter</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;h1 class="SNSFFW-Heading__FontWeight--Lighter"&gt;...&lt;/h1&gt;<br />
@@ -760,7 +791,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
             </div>
             <h5 class="SNSFFW-Font__FirstColor--3">Thin</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;h1 class="SNSFFW-Heading__FontWeight--Thin"&gt;...&lt;/h1&gt;<br />
@@ -779,7 +810,7 @@ Date: 01.08.2018
             </div>
             <h4 class="SNSFFW-Font__FirstColor--3">Font - Serif</h4>
             <h5 class="SNSFFW-Font__FirstColor--3">Light</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;h1 class="SNSFFW-Heading__FontWeight--Light"&gt;...&lt;/h1&gt;<br />
@@ -797,7 +828,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
             </div>
             <h5 class="SNSFFW-Font__FirstColor--3">Lighter</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;h1 class="SNSFFW-Heading__FontWeight--Lighter"&gt;...&lt;/h1&gt;<br />
@@ -815,7 +846,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
             </div>
             <h5 class="SNSFFW-Font__FirstColor--3">Thin</h5>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;div class="SNSFFW-FontSerif__LetterSpacing--..."&gt;<br />
                         &emsp;&lt;h1 class="SNSFFW-Heading__FontWeight--Thin"&gt;...&lt;/h1&gt;<br />
@@ -836,7 +867,7 @@ Date: 01.08.2018
             <h3 class="SNSFFW-Font__FirstColor--3">Paragraph - Font Weight</h3>
             <h4 class="SNSFFW-Font__FirstColor--3">Font - Sans serif</h4>
             <h5 class="SNSFFW-Font__FirstColor--3">Bolder</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--..."&gt;<br />
                     &emsp;&lt;p class="SNSFFW-Paragraph__FontWeight--Bolder"&gt;...&lt;/p&gt;<br />
@@ -849,7 +880,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
             </div>
             <h5 class="SNSFFW-Font__FirstColor--3">Bold</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--..."&gt;<br />
                     &emsp;&lt;p class="SNSFFW-Paragraph__FontWeight--Bold"&gt;...&lt;/p&gt;<br />
@@ -862,7 +893,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
             </div>
             <h5 class="SNSFFW-Font__FirstColor--3">Normal</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--..."&gt;<br />
                     &emsp;&lt;p&gt;...&lt;/p&gt;<br />
@@ -875,7 +906,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
             </div>
             <h5 class="SNSFFW-Font__FirstColor--3">Light</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--..."&gt;<br />
                     &emsp;&lt;p class="SNSFFW-Paragraph__FontWeight--Light"&gt;...&lt;/p&gt;<br />
@@ -888,7 +919,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
             </div>
             <h5 class="SNSFFW-Font__FirstColor--3">Lighter</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-FontSansSerif__LetterSpacing--..."&gt;<br />
                     &emsp;&lt;p class="SNSFFW-Paragraph__FontWeight--Lighter"&gt;...&lt;/p&gt;<br />
@@ -902,7 +933,7 @@ Date: 01.08.2018
             </div>
             <h4 class="SNSFFW-Font__FirstColor--3">Font - Serif</h4>
             <h5 class="SNSFFW-Font__FirstColor--3">Bolder</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-FontSerif__LetterSpacing--..."&gt;<br />
                     &emsp;&lt;p class="SNSFFW-Paragraph__FontWeight--Bolder"&gt;...&lt;/p&gt;<br />
@@ -915,7 +946,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
             </div>
             <h5 class="SNSFFW-Font__FirstColor--3">Bold</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-FontSerif__LetterSpacing--..."&gt;<br />
                     &emsp;&lt;p class="SNSFFW-Paragraph__FontWeight--Bold"&gt;...&lt;/p&gt;<br />
@@ -928,7 +959,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
             </div>
             <h5 class="SNSFFW-Font__FirstColor--3">Normal</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-FontSerif__LetterSpacing--..."&gt;<br />
                     &emsp;&lt;p&gt;...&lt;/p&gt;<br />
@@ -941,7 +972,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
             </div>
             <h5 class="SNSFFW-Font__FirstColor--3">Light</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-FontSerif__LetterSpacing--..."&gt;<br />
                     &emsp;&lt;p class="SNSFFW-Paragraph__FontWeight--Light"&gt;...&lt;/p&gt;<br />
@@ -954,7 +985,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
             </div>
             <h5 class="SNSFFW-Font__FirstColor--3">Lighter</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-FontSerif__LetterSpacing--..."&gt;<br />
                     &emsp;&lt;p class="SNSFFW-Paragraph__FontWeight--Lighter"&gt;...&lt;/p&gt;<br />
@@ -1031,7 +1062,7 @@ Date: 01.08.2018
                 <p>&nbsp;</p>
                 <h5 class="SNSFFW-Font__FirstColor--3">Source Code</h5>
                 <p><code>&lt;code&gt;</code></p>
-                <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                <p class="code-style">
                     <code>
                         &lt;!doctype html&gt;<br />
                         &lt;html lang="en"&gt;<br />
@@ -1070,7 +1101,7 @@ Date: 01.08.2018
             </blockquote>
             <p>&nbsp;</p>
             <h3 class="SNSFFW-Font__FirstColor--3">Dedails & Summary</h3>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;details&gt;<br />
                     &emsp;&lt;summary&gt;...&lt;/summary&gt;<br />
@@ -1617,7 +1648,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h4 class="SNSFFW-Font__FirstColor--3">Video</h4>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;video controls&gt;<br />
                     &emsp;&lt;source src="..." type="video/mp4" /&gt;<br />
@@ -1636,7 +1667,7 @@ Date: 01.08.2018
             <h3 class="SNSFFW-Font__FirstColor--3">Figure</h3>
             <h4 class="SNSFFW-Font__FirstColor--3">Alignment</h4>
             <h5>without Alignment (Standard Design)</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;figure&gt;<br />
                     &emsp;&lt;img src="..." alt="..."&gt;<br />
@@ -1666,7 +1697,7 @@ Date: 01.08.2018
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
             <p>&nbsp;</p>
             <h5>Alignment Left</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;figure class="SNSFFW-Figure__Alignment--Left"&gt;<br />
                     &emsp;&lt;img src="..." alt="..."&gt;<br />
@@ -1696,7 +1727,7 @@ Date: 01.08.2018
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
             <p>&nbsp;</p>
             <h5>Alignment Center</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;figure class="SNSFFW-Figure__Alignment--Center"&gt;<br />
                     &emsp;&lt;img src="..." alt="..."&gt;<br />
@@ -1726,7 +1757,7 @@ Date: 01.08.2018
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
             <p>&nbsp;</p>
             <h5>Alignment Right</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;figure class="SNSFFW-Figure__Alignment--Right"&gt;<br />
                     &emsp;&lt;img src="..." alt="..."&gt;<br />
@@ -1756,7 +1787,7 @@ Date: 01.08.2018
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
             <p>&nbsp;</p>
             <h4 class="SNSFFW-Font__FirstColor--3">Standard Design</h4>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;figure class="SNSFFW-Figure__Alignment--Left"&gt;<br />
                     &emsp;&lt;img src="..." alt="..."&gt;<br />
@@ -1911,7 +1942,7 @@ Date: 01.08.2018
             <h3 class="SNSFFW-Font__FirstColor--3">Button</h3>
             <h4 class="SNSFFW-Font__FirstColor--3">Standard Design</h4>
             <h5>Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button&gt;<br />
                     &lt;input type="..." /&gt;<br />
@@ -1927,7 +1958,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button disabled&gt;<br />
                     &lt;input type="..." disabled /&gt;<br />
@@ -1944,7 +1975,7 @@ Date: 01.08.2018
             <p>&nbsp;</p>
             <h4 class="SNSFFW-Font__FirstColor--3">Design Afadjato</h4>
             <h5>Afadjato One - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--AfadjatoOne"&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--AfadjatoOne" type="..."&gt;<br />
@@ -1960,7 +1991,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Afadjato One - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--AfadjatoOne" disabled&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--AfadjatoOne" type="..." disabled&gt;<br />
@@ -1976,7 +2007,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Afadjato Two - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--AfadjatoTwo"&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--AfadjatoTwo" type="..."&gt;<br />
@@ -1992,7 +2023,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Afadjato Two - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--AfadjatoTwo" disabled&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--AfadjatoTwo" type="..." disabled&gt;<br />
@@ -2008,7 +2039,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Afadjato Three - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--AfadjatoThree"&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--AfadjatoThree" type="..."&gt;<br />
@@ -2024,7 +2055,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Afadjato Three - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--AfadjatoThree" disabled&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--AfadjatoThree" type="..." disabled&gt;<br />
@@ -2040,7 +2071,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Afadjato Four - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--AfadjatoFour"&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--AfadjatoFour" type="..."&gt;<br />
@@ -2056,7 +2087,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Afadjato Four - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--AfadjatoFour" disabled&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--AfadjatoFour" type="..." disabled&gt;<br />
@@ -2073,7 +2104,7 @@ Date: 01.08.2018
             <p>&nbsp;</p>
             <h4 class="SNSFFW-Font__FirstColor--3">Design Edouka</h4>
             <h5>Edouka One - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--EdoukaOne"&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--EdoukaOne" type="..."&gt;<br />
@@ -2089,7 +2120,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Edouka One - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--EdoukaOne" disabled&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--EdoukaOne" type="..." disabled&gt;<br />
@@ -2105,7 +2136,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Edouka Two - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--EdoukaTwo"&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--EdoukaTwo" type="..."&gt;<br />
@@ -2121,7 +2152,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Edouka Two - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--EdoukaTwo" disabled&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--EdoukaTwo" type="..." disabled&gt;<br />
@@ -2137,7 +2168,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Edouka Three - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--EdoukaThree"&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--EdoukaThree" type="..."&gt;<br />
@@ -2153,7 +2184,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Edouka Three - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--EdoukaThree" disabled&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--EdoukaThree" type="..." disabled&gt;<br />
@@ -2169,7 +2200,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Edouka Four - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--EdoukaFour"&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--EdoukaFour" type="..."&gt;<br />
@@ -2185,7 +2216,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Edouka Four - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--EdoukaFour" disabled&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--EdoukaFour" type="..." disabled&gt;<br />
@@ -2202,7 +2233,7 @@ Date: 01.08.2018
             <p>&nbsp;</p>
             <h4 class="SNSFFW-Font__FirstColor--3">Design Kwamisa</h4>
             <h5>Kwamisa One - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--KwamisaOne"&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--KwamisaOne" type="..."&gt;<br />
@@ -2218,7 +2249,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Kwamisa One - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--KwamisaOne" disabled&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--KwamisaOne" type="..." disabled&gt;<br />
@@ -2234,7 +2265,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Kwamisa Two - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--KwamisaTwo"&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--KwamisaTwo" type="..."&gt;<br />
@@ -2250,7 +2281,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Kwamisa Two - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--KwamisaTwo" disabled&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--KwamisaTwo" type="..." disabled&gt;<br />
@@ -2266,7 +2297,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Kwamisa Three - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--KwamisaThree"&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--KwamisaThree" type="..."&gt;<br />
@@ -2282,7 +2313,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Kwamisa Three - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--KwamisaThree" disabled&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--KwamisaThree" type="..." disabled&gt;<br />
@@ -2298,7 +2329,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Kwamisa Four - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--KwamisaFour"&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--KwamisaFour" type="..."&gt;<br />
@@ -2314,7 +2345,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Kwamisa Four - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;button class="SNSFFW-Button__Design--KwamisaFour" disabled&gt;<br />
                     &lt;input class="SNSFFW-Button__Design--KwamisaFour" type="..." disabled&gt;<br />
@@ -2331,7 +2362,7 @@ Date: 01.08.2018
             <p>&nbsp;</p>
             <h4 class="SNSFFW-Font__FirstColor--3">Button Group</h4>
             <h5>Horizontal - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-ButtonGroup__Horizontal"&gt;<br />
                     &emsp;&lt;button class="SNSFFW-Button__Design--EdoukaOne"&gt;<br />
@@ -2351,7 +2382,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Horizontal - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-ButtonGroup__Horizontal"&gt;<br />
                     &emsp;&lt;button class="SNSFFW-Button__Design--EdoukaOne" disabled&gt;<br />
@@ -2371,7 +2402,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Horizontal - Active and Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-ButtonGroup__Horizontal"&gt;<br />
                     &emsp;&lt;button class="SNSFFW-Button__Design--EdoukaOne"&gt;<br />
@@ -2391,7 +2422,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Vertical - Active</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-ButtonGroup__Vertical"&gt;<br />
                     &emsp;&lt;button class="SNSFFW-Button__Design--EdoukaOne"&gt;<br />
@@ -2412,7 +2443,7 @@ Date: 01.08.2018
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <h5>Vertical - Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-ButtonGroup__Vertical"&gt;<br />
                     &emsp;&lt;button class="SNSFFW-Button__Design--EdoukaOne" disabled&gt;<br />
@@ -2432,7 +2463,7 @@ Date: 01.08.2018
             </p>
             <p>&nbsp;</p>
             <h5>Vertical - Active and Disabled</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-ButtonGroup__Vertical"&gt;<br />
                     &emsp;&lt;button class="SNSFFW-Button__Design--EdoukaOne"&gt;<br />
@@ -2457,7 +2488,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset, but Disabled</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form&gt;<br />
                             &emsp;&lt;div class="SNSFFW-Visible__All--Grid SNSFFW-Grid__4Columns"&gt;<br />
@@ -2537,7 +2568,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -2653,7 +2684,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form&gt;<br />
                             &emsp;&lt;div class="SNSFFW-Visible__All--Flex" style="margin-bottom:...;"&gt;<br />
@@ -2777,7 +2808,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -2926,7 +2957,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset, but Disabled</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--KrokosuaOne"&gt;<br />
                             &emsp;...<br />
@@ -3000,7 +3031,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--KrokosuaOne"&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -3109,7 +3140,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset, but Disabled</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--KrokosuaTwo"&gt;<br />
                             &emsp;...<br />
@@ -3183,7 +3214,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--KrokosuaTwo"&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -3292,7 +3323,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset, but Disabled</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--KrokosuaThree"&gt;<br />
                             &emsp;...<br />
@@ -3366,7 +3397,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--KrokosuaThree"&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -3475,7 +3506,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset, but Disabled</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--KrokosuaFour"&gt;<br />
                             &emsp;...<br />
@@ -3549,7 +3580,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--KrokosuaFour"&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -3659,7 +3690,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset, but Disabled</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--AsubimaOne"&gt;<br />
                             &emsp;...<br />
@@ -3733,7 +3764,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--AsubimaOne"&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -3842,7 +3873,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset, but Disabled</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--AsubimaTwo"&gt;<br />
                             &emsp;...<br />
@@ -3916,7 +3947,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--AsubimaTwo"&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -4025,7 +4056,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset, but Disabled</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--AsubimaThree"&gt;<br />
                             &emsp;...<br />
@@ -4099,7 +4130,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--AsubimaThree"&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -4208,7 +4239,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset, but Disabled</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--AsubimaFour"&gt;<br />
                             &emsp;...<br />
@@ -4282,7 +4313,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--AsubimaFour"&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -4392,7 +4423,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset, but Disabled</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--SuhumaOne"&gt;<br />
                             &emsp;...<br />
@@ -4466,7 +4497,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--SuhumaOne"&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -4575,7 +4606,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset, but Disabled</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--SuhumaTwo"&gt;<br />
                             &emsp;...<br />
@@ -4649,7 +4680,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--SuhumaTwo"&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -4758,7 +4789,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset, but Disabled</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--SuhumaThree"&gt;<br />
                             &emsp;...<br />
@@ -4832,7 +4863,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--SuhumaThree"&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -4941,7 +4972,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>without Fieldset, but Disabled</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--SuhumaFour"&gt;<br />
                             &emsp;...<br />
@@ -5015,7 +5046,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>with Fieldset</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;form class="SNSFFW-Form__Design--SuhumaFour"&gt;<br />
                             &emsp;&lt;fieldset&gt;<br />
@@ -5129,7 +5160,7 @@ Date: 01.08.2018
             <h2 class="SNSFFW-Font__FirstColor--3">Components</h2>
             <h3 class="SNSFFW-Font__FirstColor--3">Accordions</h3>
             <h4 class="SNSFFW-Font__FirstColor--3">Standard Design</h4>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;div class="SNSFFW-Accordion"&gt;<br />
                     &emsp;&lt;div class="SNSFFW-Accordion_Bellows SNSFFW-Accordion_BellowsShow"&gt;<br />
@@ -5456,7 +5487,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Visible__All--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h6>Square</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;span class="SNSFFW-AvatarSquare SNSFFW-Avatar--..." data-snsffw-avatar-initials=""&gt;<br />
                             &emsp;&lt;svg&gt;...&lt;/svg&gt;<br />
@@ -5545,7 +5576,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h6>Circle</h6>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;span class="SNSFFW-AvatarCircle SNSFFW-Avatar--..." data-snsffw-avatar-initials=""&gt;<br />
                             &emsp;&lt;svg&gt;...&lt;/svg&gt;<br />
@@ -6142,7 +6173,7 @@ Date: 01.08.2018
             </div>
             <p>&nbsp;</p>
             <h3 class="SNSFFW-Font__FirstColor--3">Badges</h3>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;span class="SNSFFW-Badge"&gt;Lorem ipsum&lt;span class="SNSFFW-BadgeText SNSFFW-BadgeText__Position--... ..."&gt;New!&lt;/span&gt;&lt;/span&gt;<br />
                     ...<br />
@@ -6357,7 +6388,7 @@ Date: 01.08.2018
             </div>
             <p>&nbsp;</p>
             <h5>Example "Second Theme-Color"</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
             <p><code>class="SNSFFW-BadgeText SNSFFW-BadgeText__Position--... SNSFFW-Background__SecondColor--3 SNSFFW-Font__SecondColor--1"</code></p>
             <div class="SNSFFW-Visible__All--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1">
@@ -6656,7 +6687,7 @@ Date: 01.08.2018
             <p>&nbsp;</p>
             <h3 class="SNSFFW-Font__FirstColor--3">Breadcrumbs</h3>
             <h4 class="SNSFFW-Font__FirstColor--3">Standard Design</h4>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;ul class="SNSFFW-Breadcrumb"&gt;<br />
                     &emsp;&lt;li class="SNSFFW-BreadcrumbItem"&gt;<br />
@@ -6792,7 +6823,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h5>without Border</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Card"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-CardHeader"&gt;...&lt;/div&gt;<br />
@@ -6824,7 +6855,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h5>with Border</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Card SNSFFW-CardBorder"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-CardHeader"&gt;...&lt;/div&gt;<br />
@@ -6959,7 +6990,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h5>without Border</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Modal"&gt;<br />
                             &emsp;&lt;button class="SNSFFW-ModalButton ..."&gt;open modal&lt;/button&gt;<br />
@@ -7019,7 +7050,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h5>with Border</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Modal"&gt;<br />
                             &emsp;&lt;button class="SNSFFW-ModalButton ..."&gt;open modal&lt;/button&gt;<br />
@@ -7083,7 +7114,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h5>Small</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);"><code>&lt;div class="SNSFFW-ModalContent SNSFFW-ModalContent__Small"&gt;</code></p>
+                    <p class="code-style"><code>&lt;div class="SNSFFW-ModalContent SNSFFW-ModalContent__Small"&gt;</code></p>
                 </div>
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row2">
                     <div class="SNSFFW-Modal">
@@ -7119,7 +7150,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h5>Large</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);"><code>&lt;div class="SNSFFW-ModalContent SNSFFW-ModalContent__Large"&gt;</code></p>
+                    <p class="code-style"><code>&lt;div class="SNSFFW-ModalContent SNSFFW-ModalContent__Large"&gt;</code></p>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row2">
                     <div class="SNSFFW-Modal">
@@ -7159,7 +7190,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__3Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1 SNSFFW-Grid__Row1">
                     <h5>Black</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);"><code> &lt;div class="SNSFFW-ModalBackground SNSFFW-ModalBackground__Black"&gt;</code></p>
+                    <p class="code-style"><code> &lt;div class="SNSFFW-ModalBackground SNSFFW-ModalBackground__Black"&gt;</code></p>
                 </div>
                 <div class="SNSFFW-Grid__Column1 SNSFFW-Grid__Row2">
                     <div class="SNSFFW-Modal">
@@ -7195,7 +7226,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column2 SNSFFW-Grid__Row1">
                     <h5>White</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);"><code> &lt;div class="SNSFFW-ModalBackground SNSFFW-ModalBackground__White"&gt;</code></p>
+                    <p class="code-style"><code> &lt;div class="SNSFFW-ModalBackground SNSFFW-ModalBackground__White"&gt;</code></p>
                 </div>
                 <div class="SNSFFW-Grid__Column2 SNSFFW-Grid__Row2">
                     <div class="SNSFFW-Modal">
@@ -7231,7 +7262,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3 SNSFFW-Grid__Row1">
                     <h5>Grey</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);"><code> &lt;div class="SNSFFW-ModalBackground SNSFFW-ModalBackground__Grey"&gt;</code></p>
+                    <p class="code-style"><code> &lt;div class="SNSFFW-ModalBackground SNSFFW-ModalBackground__Grey"&gt;</code></p>
                 </div>
                 <div class="SNSFFW-Grid__Column3 SNSFFW-Grid__Row2">
                     <div class="SNSFFW-Modal">
@@ -7366,7 +7397,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h5>horizontal</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Menu SNSFFW-MenuHorizontal"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-MenuItem"&gt;<br />
@@ -7411,7 +7442,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h5>vertical</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Menu SNSFFW-MenuVertical"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-MenuItem"&gt;<br />
@@ -7460,7 +7491,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h5>horizontal</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Menu SNSFFW-MenuHorizontal"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-MenuItem"&gt;<br />
@@ -7506,7 +7537,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h5>vertical</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Menu SNSFFW-MenuVertical"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-MenuItem"&gt;<br />
@@ -7556,7 +7587,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h5>horizontal</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Menu SNSFFW-MenuHorizontal"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-MenuItem"&gt;<br />
@@ -7602,7 +7633,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h5>vertical</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Menu SNSFFW-MenuVertical"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-MenuItem"&gt;<br />
@@ -7650,7 +7681,7 @@ Date: 01.08.2018
             <p>&nbsp;</p>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Menu SNSFFW-MenuHorizontal"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-MenuItem"&gt;<br />
@@ -7695,7 +7726,7 @@ Date: 01.08.2018
                     </div>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Menu SNSFFW-MenuVertical"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-MenuItem"&gt;<br />
@@ -7745,7 +7776,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h5>horizontal</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Tabs SNSFFW-Tabs--Horizontal"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-TabBar SNSFFW-ButtonGroup__Horizontal"&gt;<br />
@@ -7787,7 +7818,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h5>vertical</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Tabs SNSFFW-Tabs--Vertical"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-TabBar SNSFFW-ButtonGroup__Vertical"&gt;<br />
@@ -7833,7 +7864,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h5>horizontal</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Tabs SNSFFW-Tabs--Horizontal"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-TabBar SNSFFW-ButtonGroup__Horizontal"&gt;<br />
@@ -7873,7 +7904,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h5>vertical</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;div class="SNSFFW-Tabs SNSFFW-Tabs--Vertical"&gt;<br />
                             &emsp;&lt;div class="SNSFFW-TabBar SNSFFW-ButtonGroup__Vertical"&gt;<br />
@@ -7917,7 +7948,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h5>horizontal</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;style&gt;<br />
                             &emsp;.SNSFFW-Button__Design--EdoukaOne.SNSFFW-TabButton--Active {<br />
@@ -7974,7 +8005,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h5>vertical</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;style&gt;<br />
                             &emsp;.SNSFFW-Button__Design--EdoukaOne.SNSFFW-TabButton--Active {<br />
@@ -8026,7 +8057,7 @@ Date: 01.08.2018
             <p>&nbsp;</p>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;style&gt;<br />
                             &emsp;.SNSFFW-Button__Design--KwamisaOne.SNSFFW-TabButton--Active {<br />
@@ -8099,7 +8130,7 @@ Date: 01.08.2018
                     </div>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;style&gt;<br />
                             &emsp;.SNSFFW-Button__Design--KwamisaOne.SNSFFW-TabButton--Active {<br />
@@ -8159,7 +8190,7 @@ Date: 01.08.2018
             <h3 class="SNSFFW-Font__FirstColor--3">Paginations</h3>
             <h4 class="SNSFFW-Font__FirstColor--3">Standard Design</h4>
             <h5>Alignment center</h5>
-            <p style="background-color: var(--SNSFFW_FirstColor_2);">
+            <p class="code-style">
                 <code>
                     &lt;ul class="SNSFFW-Pagination"&gt;<br />
                     &emsp;&lt;li class="SNSFFW-PaginationButton SNSFFW-PaginationButton--Diabled"&gt;&lt;a&gt;&lt;i class="material-icons"&gt;first_page&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;<br />
@@ -8390,7 +8421,7 @@ Date: 01.08.2018
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
                     <h5>Square</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;ul class="SNSFFW-Step SNSFFW-Step__ItemSquare"&gt;<br />
                             &emsp;&lt;li class="SNSFFW-StepItem"&gt;Basket&lt;/li&gt;<br />
@@ -8413,7 +8444,7 @@ Date: 01.08.2018
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
                     <h5>Circle</h5>
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>
                             &lt;ul class="SNSFFW-Step SNSFFW-Step__ItemCircle"&gt;<br />
                             &emsp;&lt;li class="SNSFFW-StepItem"&gt;Basket&lt;/li&gt;<br />
@@ -8439,7 +8470,7 @@ Date: 01.08.2018
             <h5>Kokobra One</h5>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemSquare SNSFFW-Step__Design--KokobraOne"&gt;</code>
                     </p>
                 </div>
@@ -8453,7 +8484,7 @@ Date: 01.08.2018
                     </ul>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemCircle SNSFFW-Step__Design--KokobraOne"&gt;</code>
                     </p>
                 </div>
@@ -8470,7 +8501,7 @@ Date: 01.08.2018
             <h5>Kokobra Two</h5>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemSquare SNSFFW-Step__Design--KokobraTwo"&gt;</code>
                     </p>
                 </div>
@@ -8484,7 +8515,7 @@ Date: 01.08.2018
                     </ul>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemCircle SNSFFW-Step__Design--KokobraTwo"&gt;</code>
                     </p>
                 </div>
@@ -8501,7 +8532,7 @@ Date: 01.08.2018
             <h5>Kokobra Three</h5>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemSquare SNSFFW-Step__Design--KokobraThree"&gt;</code>
                     </p>
                 </div>
@@ -8515,7 +8546,7 @@ Date: 01.08.2018
                     </ul>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemCircle SNSFFW-Step__Design--KokobraThree"&gt;</code>
                     </p>
                 </div>
@@ -8532,7 +8563,7 @@ Date: 01.08.2018
             <h5>Kokobra Four</h5>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemSquare SNSFFW-Step__Design--KokobraFour"&gt;</code>
                     </p>
                 </div>
@@ -8546,7 +8577,7 @@ Date: 01.08.2018
                     </ul>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemCircle SNSFFW-Step__Design--KokobraFour"&gt;</code>
                     </p>
                 </div>
@@ -8564,7 +8595,7 @@ Date: 01.08.2018
             <h5>Fumesua One</h5>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemSquare SNSFFW-Step__Design--FumesuaOne"&gt;</code>
                     </p>
                 </div>
@@ -8578,7 +8609,7 @@ Date: 01.08.2018
                     </ul>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemCircle SNSFFW-Step__Design--FumesuaOne"&gt;</code>
                     </p>
                 </div>
@@ -8595,7 +8626,7 @@ Date: 01.08.2018
             <h5>Fumesua Two</h5>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemSquare SNSFFW-Step__Design--FumesuaTwo"&gt;</code>
                     </p>
                 </div>
@@ -8609,7 +8640,7 @@ Date: 01.08.2018
                     </ul>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemCircle SNSFFW-Step__Design--FumesuaTwo"&gt;</code>
                     </p>
                 </div>
@@ -8626,7 +8657,7 @@ Date: 01.08.2018
             <h5>Fumesua Three</h5>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemSquare SNSFFW-Step__Design--FumesuaThree"&gt;</code>
                     </p>
                 </div>
@@ -8640,7 +8671,7 @@ Date: 01.08.2018
                     </ul>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemCircle SNSFFW-Step__Design--FumesuaThree"&gt;</code>
                     </p>
                 </div>
@@ -8657,7 +8688,7 @@ Date: 01.08.2018
             <h5>Fumesua Four</h5>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemSquare SNSFFW-Step__Design--FumesuaFour"&gt;</code>
                     </p>
                 </div>
@@ -8671,7 +8702,7 @@ Date: 01.08.2018
                     </ul>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemCircle SNSFFW-Step__Design--FumesuaFour"&gt;</code>
                     </p>
                 </div>
@@ -8689,7 +8720,7 @@ Date: 01.08.2018
             <h5>Okyerekrom One</h5>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemSquare SNSFFW-Step__Design--OkyerekromOne"&gt;</code>
                     </p>
                 </div>
@@ -8703,7 +8734,7 @@ Date: 01.08.2018
                     </ul>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemCircle SNSFFW-Step__Design--OkyerekromOne"&gt;</code>
                     </p>
                 </div>
@@ -8720,7 +8751,7 @@ Date: 01.08.2018
             <h5>Okyerekrom Two</h5>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemSquare SNSFFW-Step__Design--OkyerekromTwo"&gt;</code>
                     </p>
                 </div>
@@ -8734,7 +8765,7 @@ Date: 01.08.2018
                     </ul>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemCircle SNSFFW-Step__Design--OkyerekromTwo"&gt;</code>
                     </p>
                 </div>
@@ -8751,7 +8782,7 @@ Date: 01.08.2018
             <h5>Okyerekrom Three</h5>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemSquare SNSFFW-Step__Design--OkyerekromThree"&gt;</code>
                     </p>
                 </div>
@@ -8765,7 +8796,7 @@ Date: 01.08.2018
                     </ul>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemCircle SNSFFW-Step__Design--OkyerekromThree"&gt;</code>
                     </p>
                 </div>
@@ -8782,7 +8813,7 @@ Date: 01.08.2018
             <h5>Okyerekrom Four</h5>
             <div class="SNSFFW-Hidden__Small--Grid SNSFFW-Grid__4Columns" style="grid-gap:var(--SNSFFW_PaddingMargin_Spacing_Standard);">
                 <div class="SNSFFW-Grid__Column1to2 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemSquare SNSFFW-Step__Design--OkyerekromFour"&gt;</code>
                     </p>
                 </div>
@@ -8796,7 +8827,7 @@ Date: 01.08.2018
                     </ul>
                 </div>
                 <div class="SNSFFW-Grid__Column3to4 SNSFFW-Grid__Row1">
-                    <p style="background-color: var(--SNSFFW_FirstColor_2);">
+                    <p class="code-style">
                         <code>&lt;ul class="SNSFFW-Step SNSFFW-Step__ItemCircle SNSFFW-Step__Design--OkyerekromFour"&gt;</code>
                     </p>
                 </div>
