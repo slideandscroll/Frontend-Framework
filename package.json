@@ -1,7 +1,7 @@
 {
   "name": "snsffw",
   "description": "SNSFFW stands for „SLIDE and SCROLL – Frontend-FrameWork“ and is a lightweight responsive framework using HTML, CSS and the JavaScript libary jQuery.",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "author": "SLIDE and SCROLL authors <snsffw.info@slideandscroll.com> (https://snsffw.slideandscroll.com/)",
   "main": "snsffw/snsffw.js",
   "style": "snsffw/snsffw.css",
@@ -9,10 +9,10 @@
   "homepage": "https://snsffw.slideandscroll.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/slideandscroll/Frontend-FrameWork"
+    "url": "https://github.com/slideandscroll/snsffw"
   },
   "bugs": {
-    "url": "https://github.com/slideandscroll/Frontend-FrameWork/issues"
+    "url": "https://github.com/slideandscroll/snsffw/issues"
   },
   "keywords": [
     "framework",
